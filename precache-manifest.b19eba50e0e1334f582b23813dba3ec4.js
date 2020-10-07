@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "325bb7239d59aef49053d20b5f7cf90f",
+    "revision": "a74fd9756c873c040486e754b3cd5797",
     "url": "/bogotarot/index.html"
   },
   {
-    "revision": "26cb8dc39e4b556dce39",
+    "revision": "4314014305c4e86cb35e",
     "url": "/bogotarot/static/css/2.84637b4e.chunk.css"
   },
   {
-    "revision": "012fbc633e9a659a09e5",
-    "url": "/bogotarot/static/css/main.bf9e4ea7.chunk.css"
+    "revision": "71145e7a26f3da4f70ca",
+    "url": "/bogotarot/static/css/main.0a14942c.chunk.css"
   },
   {
-    "revision": "26cb8dc39e4b556dce39",
-    "url": "/bogotarot/static/js/2.65b1a63a.chunk.js"
+    "revision": "4314014305c4e86cb35e",
+    "url": "/bogotarot/static/js/2.67e260cc.chunk.js"
   },
   {
     "revision": "af945f101cccf5f437e55a3044282b78",
-    "url": "/bogotarot/static/js/2.65b1a63a.chunk.js.LICENSE.txt"
+    "url": "/bogotarot/static/js/2.67e260cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "012fbc633e9a659a09e5",
-    "url": "/bogotarot/static/js/main.6728d7b6.chunk.js"
+    "revision": "71145e7a26f3da4f70ca",
+    "url": "/bogotarot/static/js/main.aaa7da95.chunk.js"
   },
   {
     "revision": "cb88a131257a3fcbb313",
@@ -78,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/bogotarot/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "812d233c8a491bb7446ac8da5cf01e51",
+    "url": "/bogotarot/static/media/cartasHorizontalAzul.812d233c.gif"
+  },
+  {
+    "revision": "5b1396a0ef7d509291d1775aca1b1df8",
+    "url": "/bogotarot/static/media/cartasVerticalAzul.5b1396a0.gif"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
