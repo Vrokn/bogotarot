@@ -3,6 +3,8 @@ import { Grid, Button, Image, Modal } from 'semantic-ui-react'
 import instrucciones from '../Graphics/Instrucciones.svg'
 import instruccionesMobile from '../Graphics/Instruccionesmobile.svg'
 import Ojoamarillo from '../Graphics/Ojoamarillo.svg'
+import cartasHorizontalAzul from '../Graphics/cartasHorizontalAzul.gif'
+import cartasVerticalAzul from '../Graphics/cartasVerticalAzul.gif'
 
 function Instructions() {
   const [activeItem, setActiveItem] = useState('A');
@@ -19,6 +21,8 @@ function Instructions() {
         <p>
           Seleccione las tres cartas que prefiera haciendo click o tap sobre ellas. Estas cartas visualizan el presente y lo llevan a su destino.
         </p>
+        <Image className={'cartasHorizontalAzul'} src={cartasHorizontalAzul} />
+        <Image className={'cartasVerticalAzul'} src={cartasVerticalAzul} />
         <div className={'botonesabc'} >
           <Button className={'instrubutton'} content='A' circular size='huge'
             active={activeItem === 'A'}

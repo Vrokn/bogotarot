@@ -10,9 +10,17 @@ import Instructions from './Components/Instructions';
 export default function App() {
   return (
     <Router>
-      <Header />
+
       <div className="App">
+        <Route path="/menu">
+          <div>
+            <h2>menu</h2>
+          </div>
+        </Route>
+        <Header />
+
         <Switch>
+
           <Route path="/tarot" component={CardGrid} />
           <Route path="/causas">
             <div>
@@ -28,11 +36,6 @@ export default function App() {
           <Route path="/archivo">
             <div>
               <h2>archivo</h2>
-            </div>
-          </Route>
-          <Route path="/menu">
-            <div>
-              <h2>menu</h2>
             </div>
           </Route>
         </Switch>
