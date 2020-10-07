@@ -4,8 +4,6 @@ import instrucciones from '../Graphics/Instrucciones.svg'
 import instruccionesMobile from '../Graphics/Instruccionesmobile.svg'
 import Ojoamarillo from '../Graphics/Ojoamarillo.svg'
 
-
-
 function Instructions() {
   const [activeItem, setActiveItem] = useState('A');
 
@@ -31,7 +29,6 @@ function Instructions() {
           <Button className={'instrubutton'} content='C' circular size='huge'
             active={activeItem === 'C'}
             onClick={() => setActiveItem('C')} />
-
         </div>
       </Grid.Column>
     </Grid>
