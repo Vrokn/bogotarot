@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a74fd9756c873c040486e754b3cd5797",
+    "revision": "35fe2b8f5411c85b590135655191b347",
     "url": "/bogotarot/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bogotarot/static/css/2.84637b4e.chunk.css"
   },
   {
-    "revision": "71145e7a26f3da4f70ca",
+    "revision": "da7f37167d389c35023e",
     "url": "/bogotarot/static/css/main.0a14942c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bogotarot/static/js/2.67e260cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71145e7a26f3da4f70ca",
-    "url": "/bogotarot/static/js/main.aaa7da95.chunk.js"
+    "revision": "da7f37167d389c35023e",
+    "url": "/bogotarot/static/js/main.06391563.chunk.js"
   },
   {
     "revision": "cb88a131257a3fcbb313",
