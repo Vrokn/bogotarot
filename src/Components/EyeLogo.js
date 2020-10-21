@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import { useSpring, animated as a, interpolate } from 'react-spring'
 
-export default function Logo() {
+export default function EyeLogo() {
   const [{ st, xy }, set] = useSpring(() => ({ st: 0, xy: [0, 0] }))
   const interpEye = interpolate([st, xy], (o, xy) => `translate(${xy[0] / 30 + 30},${xy[1] / 30 + 15 + o / 2}) scale(0.8)`)
   const interpIris = interpolate([st, xy], (o, xy) => `translate(${xy[0] / 30},${xy[1] / 30 + -10 + o / 8})`)

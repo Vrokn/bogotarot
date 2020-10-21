@@ -1,19 +1,25 @@
-import React, { } from "react";
+import React, { useState } from "react";
 import { Stage, Layer, Rect } from "react-konva";
 import useImage from "use-image";
 import CartaAzul from '../Graphics/CartaAzul.svg'
+import CartaAmarilla from '../Graphics/CartaAmarilla.svg'
+
 const WIDTH = 318;
 const HEIGHT = 452;
 
 export default function CardGrid() {
-    const [image] = useImage(CartaAzul);
+    const [counter, setcounter] = useState(3);
+    const [card, setCard] = useState(CartaAzul);
+    const [image] = useImage(card);
     const [stagePos, setStagePos] = React.useState({ x: 200, y: 200 });
-    const startX = Math.floor((-stagePos.x - window.innerWidth) / WIDTH) * WIDTH;
-    const endX = Math.floor((-stagePos.x + window.innerWidth * 2) / WIDTH) * WIDTH;
-    const startY = Math.floor((-stagePos.y - window.innerHeight) / HEIGHT) * HEIGHT;
-    const endY = Math.floor((-stagePos.y + window.innerHeight * 2) / HEIGHT) * HEIGHT;
+    const startX = Math.floor((-stagePos.x - window.innerWidth) / WIDTH) * 40;
+    const endX = Math.floor((-stagePos.x + window.innerWidth * 2) / WIDTH) * 40;
+    const startY = Math.floor((-stagePos.y - window.innerHeight) / HEIGHT) * 400;
+    const endY = Math.floor((-stagePos.y + window.innerHeight * 2) / HEIGHT) * 400;
     const gridComponents = [];
+    function selectedCard(key) {
 
+    }
     let i = 0;
     for (var x = startX; x < endX; x += WIDTH) {
         for (var y = startY; y < endY; y += HEIGHT) {
@@ -26,9 +32,9 @@ export default function CardGrid() {
                         y={1.2 * y}
                         width={WIDTH}
                         height={HEIGHT}
-                        shadowBlur={20}
                         cornerRadius={10}
                         fillPatternImage={image}
+                        onClick={() => setCard(CartaAmarilla)}
                     />
                     <Rect
                         key={'2' + x + '-' + y}
@@ -36,9 +42,9 @@ export default function CardGrid() {
                         y={1.2 * y + 200}
                         width={WIDTH}
                         height={HEIGHT}
-                        shadowBlur={20}
                         cornerRadius={10}
                         fillPatternImage={image}
+                        onClick={() => setCard(CartaAmarilla)}
                     />
                     <Rect
                         key={'3' + x + '-' + y}
@@ -46,9 +52,9 @@ export default function CardGrid() {
                         y={1.2 * y + 400}
                         width={WIDTH}
                         height={HEIGHT}
-                        shadowBlur={20}
                         cornerRadius={10}
                         fillPatternImage={image}
+                        onClick={() => setCard(CartaAmarilla)}
                     />
                 </React.Fragment>
             );
@@ -59,7 +65,7 @@ export default function CardGrid() {
             x={stagePos.x}
             y={stagePos.y}
             width={window.innerWidth}
-            height={window.innerHeight - 58}
+            height={window.innerHeight - 65}
             draggable
             onDragEnd={(e) => {
                 setStagePos(e.currentTarget.position());

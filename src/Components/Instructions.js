@@ -12,18 +12,18 @@ function Instructions() {
   return (
     <Grid className={'intro'} stackable columns={2}>
       <Grid.Column>
-        <Image className={'instrutitle'} src={instrucciones} fluid />
+        <Image className={'instrutitle'} src={instrucciones} size={'big'}fluid  centered/>
         <Image className={'instrutitlemobile'} src={instruccionesMobile} fluid />
         <Image className={'Ojoamarillomobile'} src={Ojoamarillo} />
 
       </Grid.Column>
       <Grid.Column className={'instrucdescription'} >
         <p>
-          Seleccione las tres cartas que prefiera haciendo click o tap sobre ellas. Estas cartas visualizan el presente y lo llevan a su destino.
+          Ingrese a la sección del Tarot y seleccione las tres cartas que prefiera haciendo click o tap sobre ellas. Estas cartas visualizan el presente y lo llevan a su destino.
         </p>
         <Image className={'cartasHorizontalAzul'} src={cartasHorizontalAzul} />
         <Image className={'cartasVerticalAzul'} src={cartasVerticalAzul} />
-        <div className={'botonesabc'} >
+     {/*    <div className={'botonesabc'} >
           <Button className={'instrubutton'} content='A' circular size='huge'
             active={activeItem === 'A'}
             onClick={() => setActiveItem('A')} />
@@ -33,7 +33,7 @@ function Instructions() {
           <Button className={'instrubutton'} content='C' circular size='huge'
             active={activeItem === 'C'}
             onClick={() => setActiveItem('C')} />
-        </div>
+        </div> */}
       </Grid.Column>
     </Grid>
   )

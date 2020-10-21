@@ -51,9 +51,10 @@ export default function Header() {
                 <Menu.Item className='brand'
                     active={activeItem === 'Archivo'}
                     onClick={() => setActiveItem('Archivo')}
+                    disabled
                 >
-                    <NavLink to="/archivo">Archivo</NavLink>
-                </Menu.Item>
+{/*                     <NavLink to="/archivo">Archivo</NavLink>
+ */}                </Menu.Item>
                 <Menu.Item className='logosidpc' position='right' >
                     <Image src={Logosidpcmdb} size='small' verticalAlign='middle' />
                 </Menu.Item>
