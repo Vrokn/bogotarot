@@ -51,7 +51,7 @@ export default function App() {
             <MenuCausas />
           </Route>
           <Route path="/">
-            <Redirect to="/tarot" />
+            <Redirect to="tarot" />
           </Route>
         </Switch>
       </div>

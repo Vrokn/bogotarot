@@ -40,7 +40,7 @@ export default function Header() {
                     active={activeItem === 'Tarot'}
                     onClick={() => setActiveItem('Tarot')}
                 >
-                    <NavLink to="/tarot">Tarot</NavLink>
+                    <NavLink to="tarot">Tarot</NavLink>
                 </Menu.Item>
                 <Menu.Item className='brand'
                     active={activeItem === 'Causas'}
@@ -53,8 +53,8 @@ export default function Header() {
                     onClick={() => setActiveItem('Archivo')}
                     disabled
                 >
-{/*                     <NavLink to="/archivo">Archivo</NavLink>
- */}                </Menu.Item>
+                    <NavLink to="/archivo">Archivo</NavLink>
+                </Menu.Item>
                 <Menu.Item className='logosidpc' position='right' >
                     <Image src={Logosidpcmdb} size='small' verticalAlign='middle' />
                 </Menu.Item>
