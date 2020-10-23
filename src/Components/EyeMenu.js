@@ -8,14 +8,16 @@ import OrnamentoSI from '../Graphics/OrnamentoSI.svg'
 import OrnamentoSD from '../Graphics/OrnamentoSD.svg'
 import Bogotarot from '../Graphics/Bogotarot.svg'
 import Logosidpcmdb from '../Graphics/Logosidpcmdb.svg'
+import LogosIdcpNaranja from '../Graphics/LogosIdcpNaranja.svg'
+
 
 function EyeMenu() {
     const [activeItem, setActiveItem] = useState('Menu');
-    const [BgColor, setBgColor] = useState('#FFFBEF');
-
+    const [BgDark, setBgColor] = useState(false);
+    const [logoImage, setLogoImage] = useState(Logosidpcmdb);
 
     return (
-        <>
+        <div className={BgDark ? 'backgrounddark' : 'backgroundligth'}>
             <div className={'eyetopmobile'}>
                 <Image src={OrnamentoSI} size='tiny' className={'OrnamentoSIm'} floated='left' />
                 <Image src={OrnamentoSD} size='tiny' className={'OrnamentoSDm'} floated='right' />
@@ -33,36 +35,45 @@ function EyeMenu() {
                     <Image size={'small'} src={Bogotarot} centered />
                 </Grid.Column>
                 <Grid.Column width={9} className={'MenuLinks'} textAlign='left' >
-                    <Menu secondary className='NavMenu' fluid vertical>
+                    <Menu secondary className={BgDark ? 'NavMenuDark' : 'NavMenu'} fluid vertical>
                         <Menu.Item className='brand'
                             active={activeItem === 'Introducción'}
                             onClick={() => setActiveItem('Introducción')}
                         >
-                            <NavLink to="/introducción" onMouseOver={() => setBgColor('Introducción')} >Introducción</NavLink>
+                            <NavLink to="/introducción"
+                                onMouseOver={() => {
+                                    setBgColor(true);
+                                    setLogoImage(LogosIdcpNaranja);
+                                }}
+                                onMouseLeave={() => setBgColor(false)}>Introducción</NavLink>
                         </Menu.Item>
                         <Menu.Item className='brand'
                             active={activeItem === 'Instrucciones'}
                             onClick={() => setActiveItem('Instrucciones')}
                         >
-                            <NavLink to="/instrucciones">Instrucciones</NavLink>
+                            <NavLink to="/instrucciones" onMouseOver={() => setBgColor(true)}
+                                onMouseLeave={() => setBgColor(false)}>Instrucciones</NavLink>
                         </Menu.Item>
                         <Menu.Item className='brand'
                             active={activeItem === 'Tarot'}
                             onClick={() => setActiveItem('Tarot')}
                         >
-                            <NavLink to="/tarot">Tarot</NavLink>
+                            <NavLink to="/tarot" onMouseOver={() => setBgColor(true)}
+                                onMouseLeave={() => setBgColor(false)}>Tarot</NavLink>
                         </Menu.Item>
                         <Menu.Item className='brand'
                             active={activeItem === 'Causas'}
                             onClick={() => setActiveItem('Causas')}
                         >
-                            <NavLink to="/causasmenu">Causas</NavLink>
+                            <NavLink to="/causasmenu" onMouseOver={() => setBgColor(true)}
+                                onMouseLeave={() => setBgColor(false)}>Causas</NavLink>
                         </Menu.Item>
                         <Menu.Item className='brand'
                             active={activeItem === 'Archivo'}
                             onClick={() => setActiveItem('Archivo')}
                         >
-                            <NavLink to="/archivo">Archivo</NavLink>
+                            <NavLink to="/archivo" onMouseOver={() => setBgColor(true)}
+                                onMouseLeave={() => setBgColor(false)}>Archivo</NavLink>
                         </Menu.Item>
                     </Menu>
                 </Grid.Column>
@@ -119,7 +130,7 @@ function EyeMenu() {
                     <Image src={OrnamentoID} size='tiny' className={'OrnamentoIDm'} floated='right' />
                 </Grid.Row>
             </Grid>
-        </>
+        </div>
     )
 }
 

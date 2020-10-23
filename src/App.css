@@ -24,6 +24,7 @@ body, html {
   color: #FFFBEF;
   letter-spacing: 1px;
 }
+
 .footersm a:hover {
   color: #DA8D24;
   letter-spacing: 1px;
@@ -266,6 +267,7 @@ body, html {
 
 .NavMenu {
   align-items: center !important;
+  height: 100% !important;
 }
 
 .NavMenu a {
@@ -278,9 +280,32 @@ body, html {
   color: #15263D !important;
 }
 
+.NavMenuDark a {
+  transition: 0.3s !important;
+  font-family: Rakkas !important;
+  font-size: 5.5rem !important;
+  padding: 0 20px !important;
+  margin: 0% !important;
+  letter-spacing: 0.05em;
+  color: #15263D !important;
+  text-shadow: -1px -1px #DA8D24, -1px 1px #DA8D24, 1px 1px #DA8D24, 1px -1px #DA8D24;
+}
+
 .MenuLinks a:hover {
   color: #DA8D24 !important;
   background: none !important;
+}
+
+.backgrounddark {
+  background-color: #142438 !important;
+  height: 100vh;
+  transition: 0.3s !important;
+}
+
+.backgroundligth {
+  height: 100vh;
+  background-color: #FFFBEF !important;
+  transition: 0.3s !important;
 }
 
 .cartasHorizontalAzul {
