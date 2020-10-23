@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/bogotarot/static/css/main.950fcb33.chunk.css",
-    "main.js": "/bogotarot/static/js/main.3f025a8f.chunk.js",
-    "main.js.map": "/bogotarot/static/js/main.3f025a8f.chunk.js.map",
+    "main.css": "/bogotarot/static/css/main.8c29a3ef.chunk.css",
+    "main.js": "/bogotarot/static/js/main.f0c2e5e9.chunk.js",
+    "main.js.map": "/bogotarot/static/js/main.f0c2e5e9.chunk.js.map",
     "runtime-main.js": "/bogotarot/static/js/runtime-main.52364768.js",
     "runtime-main.js.map": "/bogotarot/static/js/runtime-main.52364768.js.map",
     "static/css/2.84637b4e.chunk.css": "/bogotarot/static/css/2.84637b4e.chunk.css",
-    "static/js/2.ffbdc9f1.chunk.js": "/bogotarot/static/js/2.ffbdc9f1.chunk.js",
-    "static/js/2.ffbdc9f1.chunk.js.map": "/bogotarot/static/js/2.ffbdc9f1.chunk.js.map",
+    "static/js/2.292ab41a.chunk.js": "/bogotarot/static/js/2.292ab41a.chunk.js",
+    "static/js/2.292ab41a.chunk.js.map": "/bogotarot/static/js/2.292ab41a.chunk.js.map",
     "index.html": "/bogotarot/index.html",
-    "precache-manifest.fce3530dd916d14c012de1c97cf6797d.js": "/bogotarot/precache-manifest.fce3530dd916d14c012de1c97cf6797d.js",
+    "precache-manifest.44eb63572750dc3c1d21706341cbd651.js": "/bogotarot/precache-manifest.44eb63572750dc3c1d21706341cbd651.js",
     "service-worker.js": "/bogotarot/service-worker.js",
     "static/css/2.84637b4e.chunk.css.map": "/bogotarot/static/css/2.84637b4e.chunk.css.map",
-    "static/css/main.950fcb33.chunk.css.map": "/bogotarot/static/css/main.950fcb33.chunk.css.map",
-    "static/js/2.ffbdc9f1.chunk.js.LICENSE.txt": "/bogotarot/static/js/2.ffbdc9f1.chunk.js.LICENSE.txt",
+    "static/css/main.8c29a3ef.chunk.css.map": "/bogotarot/static/css/main.8c29a3ef.chunk.css.map",
+    "static/js/2.292ab41a.chunk.js.LICENSE.txt": "/bogotarot/static/js/2.292ab41a.chunk.js.LICENSE.txt",
     "static/media/Bogotarot.svg": "/bogotarot/static/media/Bogotarot.39517457.svg",
     "static/media/CartaAmarilla.svg": "/bogotarot/static/media/CartaAmarilla.533847ae.svg",
     "static/media/CartaAzul.svg": "/bogotarot/static/media/CartaAzul.0e006528.svg",
@@ -23,6 +23,7 @@
     "static/media/Instrucciones.svg": "/bogotarot/static/media/Instrucciones.fa0b5bdf.svg",
     "static/media/Instruccionesmobile.svg": "/bogotarot/static/media/Instruccionesmobile.fa33a900.svg",
     "static/media/LogosBlancos.svg": "/bogotarot/static/media/LogosBlancos.fec07c3a.svg",
+    "static/media/LogosIdcpNaranja.svg": "/bogotarot/static/media/LogosIdcpNaranja.839fd739.svg",
     "static/media/Logosidpcmdb.svg": "/bogotarot/static/media/Logosidpcmdb.0142c6e7.svg",
     "static/media/Ojoamarillo.svg": "/bogotarot/static/media/Ojoamarillo.e710b2ce.svg",
     "static/media/Ojodescription.svg": "/bogotarot/static/media/Ojodescription.e17ca21d.svg",
@@ -33,14 +34,16 @@
     "static/media/Presentación.svg": "/bogotarot/static/media/Presentación.17f55e3c.svg",
     "static/media/semantic.min.css": "/bogotarot/static/media/outline-icons.ef60a4f6.woff",
     "static/media/cartasHorizontalAzul.gif": "/bogotarot/static/media/cartasHorizontalAzul.812d233c.gif",
+    "static/media/cartasHorizontalBlanco.gif": "/bogotarot/static/media/cartasHorizontalBlanco.e219da35.gif",
     "static/media/cartasVerticalAzul.gif": "/bogotarot/static/media/cartasVerticalAzul.5b1396a0.gif",
+    "static/media/cartasVerticalBlanco.gif": "/bogotarot/static/media/cartasVerticalBlanco.601c961d.gif",
     "static/media/ojocounter.svg": "/bogotarot/static/media/ojocounter.457d5bf2.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.52364768.js",
     "static/css/2.84637b4e.chunk.css",
-    "static/js/2.ffbdc9f1.chunk.js",
-    "static/css/main.950fcb33.chunk.css",
-    "static/js/main.3f025a8f.chunk.js"
+    "static/js/2.292ab41a.chunk.js",
+    "static/css/main.8c29a3ef.chunk.css",
+    "static/js/main.f0c2e5e9.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bogotarot/precache-manifest.fce3530dd916d14c012de1c97cf6797d.js"
+  "/bogotarot/precache-manifest.44eb63572750dc3c1d21706341cbd651.js"
 );
 
 self.addEventListener('message', (event) => {
