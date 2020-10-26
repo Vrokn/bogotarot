@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bde98748e0b41e66e00a96d297277182",
+    "revision": "3e00d2e34a9b10bfb4b7c45add32fc17",
     "url": "/index.html"
   },
   {
-    "revision": "34a6201acbae26f8397f",
+    "revision": "7bc0ca10b5d0fa515dbc",
     "url": "/static/css/2.7df41cd5.chunk.css"
   },
   {
-    "revision": "6db2ba1b777abc6b3d9b",
-    "url": "/static/css/main.6eab5ebc.chunk.css"
+    "revision": "dab62d0c0e49535c4e05",
+    "url": "/static/css/main.2d1e2e7a.chunk.css"
   },
   {
-    "revision": "34a6201acbae26f8397f",
-    "url": "/static/js/2.292ab41a.chunk.js"
+    "revision": "7bc0ca10b5d0fa515dbc",
+    "url": "/static/js/2.1ae4706f.chunk.js"
   },
   {
     "revision": "af945f101cccf5f437e55a3044282b78",
-    "url": "/static/js/2.292ab41a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.1ae4706f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6db2ba1b777abc6b3d9b",
-    "url": "/static/js/main.f0810209.chunk.js"
+    "revision": "dab62d0c0e49535c4e05",
+    "url": "/static/js/main.0387e08d.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a59be02572c3ead2dad54212c271fe2d",
     "url": "/static/media/Historias.a59be025.svg"
+  },
+  {
+    "revision": "c90060efea1de86e80a0e15327c81979",
+    "url": "/static/media/HistoriasMobile.c90060ef.svg"
+  },
+  {
+    "revision": "6c5df889b3e24a666545855e1bc141f5",
+    "url": "/static/media/Historiasb.6c5df889.svg"
   },
   {
     "revision": "ddeeebbc57ee4a95b844aedfe052d2ad",
@@ -136,6 +144,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cartasVerticalBlanco.601c961d.gif"
   },
   {
+    "revision": "432a72e562ed4e5a2ec98e9dd8c25665",
+    "url": "/static/media/el-avaro.432a72e5.jpg"
+  },
+  {
+    "revision": "981d826f8305dd051da8508f9e58b932",
+    "url": "/static/media/el-clasificador.981d826f.jpg"
+  },
+  {
+    "revision": "6fb96d3a2d61aeced7d6b05e841cf82f",
+    "url": "/static/media/el-guache.6fb96d3a.jpg"
+  },
+  {
+    "revision": "2d05255b110973b61a4161589c865356",
+    "url": "/static/media/el-guetto.2d05255b.jpg"
+  },
+  {
+    "revision": "1a6a39f29d96503ed4708e6118aabd7f",
+    "url": "/static/media/el-monocultivo.1a6a39f2.jpg"
+  },
+  {
+    "revision": "c20434e0125457791b453b64507dd83e",
+    "url": "/static/media/el-sancocho.c20434e0.jpg"
+  },
+  {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/static/media/flags.9c74e172.png"
   },
@@ -158,6 +190,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "dc714766d9c416df0c82604965d93a40",
+    "url": "/static/media/la-agropolis.dc714766.jpg"
+  },
+  {
+    "revision": "d6f5d4db593ccd2d60048580c20b4d42",
+    "url": "/static/media/la-bayetilla.d6f5d4db.jpg"
+  },
+  {
+    "revision": "16ec150e07fc4e355ffdf319d9ec2359",
+    "url": "/static/media/la-cocina.16ec150e.jpg"
+  },
+  {
+    "revision": "f16eec4531250b80ce2337ab57520a65",
+    "url": "/static/media/la-copetona.f16eec45.jpg"
+  },
+  {
+    "revision": "7269a7f0c0a2371be2e377eb9ef6a109",
+    "url": "/static/media/la-macula.7269a7f0.jpg"
+  },
+  {
+    "revision": "a11b193dc0b3a2e78fd530dae94dbd06",
+    "url": "/static/media/lx-ahogadx.a11b193d.jpg"
   },
   {
     "revision": "457d5bf2c16e8d46ef57d6057072ce0d",
