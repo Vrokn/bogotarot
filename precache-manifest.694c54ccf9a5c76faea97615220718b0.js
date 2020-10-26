@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a5737fa380d26c0df18143bacb75f95",
+    "revision": "56f522c6863aec1415fb12ea58ae3b9d",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.7df41cd5.chunk.css"
   },
   {
-    "revision": "43b802d5d5dcc0907a89",
-    "url": "/static/css/main.2623b7be.chunk.css"
+    "revision": "4ac1e240a32a9f29f0ed",
+    "url": "/static/css/main.5071a114.chunk.css"
   },
   {
     "revision": "348de28f0b32b57fab04",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c9fdb0c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43b802d5d5dcc0907a89",
-    "url": "/static/js/main.91b5caf0.chunk.js"
+    "revision": "4ac1e240a32a9f29f0ed",
+    "url": "/static/js/main.72edb94a.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "14d15483d57b7a7308e8112e23b2ba8c",
     "url": "/static/media/Close.14d15483.svg"
+  },
+  {
+    "revision": "cd2a56ebd4677562a17494f7877d7641",
+    "url": "/static/media/Contadorbg.cd2a56eb.svg"
   },
   {
     "revision": "a59be02572c3ead2dad54212c271fe2d",
@@ -200,8 +204,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/la-bayetilla.d6f5d4db.jpg"
   },
   {
-    "revision": "16ec150e07fc4e355ffdf319d9ec2359",
-    "url": "/static/media/la-cocina.16ec150e.jpg"
+    "revision": "093ead17359800f7f200506039022c8f",
+    "url": "/static/media/la-cocina.093ead17.jpg"
   },
   {
     "revision": "f16eec4531250b80ce2337ab57520a65",
