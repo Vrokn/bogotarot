@@ -5,7 +5,7 @@ import Logosidpcmdb from '../Graphics/Logosidpcmdb.svg'
 import { NavLink, Link } from 'react-router-dom';
 
 export default function Header() {
-    const [activeItem, setActiveItem] = useState('Tarot');
+    const [activeItem, setActiveItem] = useState('');
     return (
         <>
             <Menu secondary className='NavHeadermobil' fluid >
@@ -37,10 +37,10 @@ export default function Header() {
                     <NavLink to="/instrucciones">Instrucciones</NavLink>
                 </Menu.Item>
                 <Menu.Item className='brand'
-                    active={activeItem === 'Tarot'}
-                    onClick={() => setActiveItem('Tarot')}
+                    active={activeItem === ''}
+                    onClick={() => setActiveItem('')}
                 >
-                    <NavLink to="tarot">Tarot</NavLink>
+                    <NavLink to="/">Tarot</NavLink>
                 </Menu.Item>
                 <Menu.Item className='brand'
                     active={activeItem === 'Causas'}
@@ -49,11 +49,11 @@ export default function Header() {
                     <NavLink to="/causas">Causas</NavLink>
                 </Menu.Item>
                 <Menu.Item className='brand'
-                    active={activeItem === 'Archivo'}
-                    onClick={() => setActiveItem('Archivo')}
+                    active={activeItem === 'Historias'}
+                    onClick={() => setActiveItem('Historias')}
                     disabled
                 >
-                    <NavLink to="/archivo">Archivo</NavLink>
+                    <NavLink to="/historias">Historias</NavLink>
                 </Menu.Item>
                 <Menu.Item className='logosidpc' position='right' >
                     <Image src={Logosidpcmdb} size='small' verticalAlign='middle' />

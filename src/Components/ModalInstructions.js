@@ -1,41 +1,49 @@
-import React, { useState } from "react";
-import { Modal, Image, Button} from "semantic-ui-react";
+import React, {} from "react";
+import { Modal, Image } from "semantic-ui-react";
 
 import OrnamentoSI from "../Graphics/OrnamentoSI.svg";
 import OrnamentoSD from "../Graphics/OrnamentoSD.svg";
 import OrnamentoII from "../Graphics/OrnamentoII.svg";
 import OrnamentoID from "../Graphics/OrnamentoID.svg";
-import Ojodescription from "../Graphics/Ojodescription.svg";
+import cartasHorizontalBlanco from "../Graphics/cartasHorizontalBlanco.gif";
+import cartasVerticalBlanco from "../Graphics/cartasVerticalBlanco.gif";
+
 
 function ModalInstructions() {
-  const [firstOpen, setFirstOpen] = React.useState(false);
-  const [secondOpen, setSecondOpen] = React.useState(false);
+  const [firstOpen, setFirstOpen] = React.useState(true);
   return (
     <>
-      <Modal
-        onClose={() => setFirstOpen(false)}
-        onOpen={() => setFirstOpen(true)}
-        open={firstOpen}
-      >
+      <Modal basic dimmer="blurring" open={firstOpen}>
         <Modal.Content>
-          <div className="carddescription">
-            <div className="carddescriptioncontainer">
+          <div className="modalInstructions">
+            <div className="modalInstructionsContainer">
               <div className="carddescriptiontop">
                 <Image src={OrnamentoSI} size="tiny" floated="left" />
                 <Image src={OrnamentoSD} size="tiny" floated="right" />
               </div>
-              <div className={"causadescription"}>
+              <div className={"modalDescription"}>
+                <h1>Instrucciones</h1>
                 <Image
-                  src={Ojodescription}
-                  className={"ojodescription"}
-                  centered
+                  className={"cartasHorizontalAzul"}
+                  src={cartasHorizontalBlanco}
                 />
-                <h1>Descripción de la causa</h1>
+                <Image
+                  className={"cartasVerticalAzul"}
+                  src={cartasVerticalBlanco}
+                />
                 <p>
-                  Ingrese a la sección del Tarot y seleccione las tres cartas
+                  Haga clic y sin soltar arrastre. Luego seleccione las tres cartas
                   que prefiera haciendo click o tap sobre ellas. Estas cartas
                   visualizan el presente y lo llevan a su destino.
                 </p>
+                <button
+                  className="begin"
+                  onClick={() => {
+                    setFirstOpen(false);
+                  }}
+                >
+                  EMPEZAR
+                </button>
               </div>
               <div className="carddescriptionbottom">
                 <Image src={OrnamentoII} size="tiny" floated="left" />
@@ -43,38 +51,7 @@ function ModalInstructions() {
               </div>
             </div>
           </div>
-          <p>
-            Ingrese a la sección del Tarot y seleccione las tres cartas que
-            prefiera haciendo click o tap sobre ellas. Estas cartas visualizan
-            el presente y lo llevan a su destino.
-          </p>
-          <button
-            className="begin"
-            onClick={() => {
-              setFirstOpen(false);
-              setSecondOpen(false);
-            }}
-          >
-            EMPEZAR
-          </button>
         </Modal.Content>
-      </Modal>
-      <Modal
-        onClose={() => setSecondOpen(false)}
-        open={secondOpen}
-        size="small"
-      >
-        <Modal.Header>Modal #2</Modal.Header>
-        <Modal.Content>
-          <p>That's everything!</p>
-        </Modal.Content>
-        <Modal.Actions>
-          <Button
-            icon="check"
-            content="All Done"
-            onClick={() => setSecondOpen(false)}
-          />
-        </Modal.Actions>
       </Modal>
     </>
   );

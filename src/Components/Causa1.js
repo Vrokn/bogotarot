@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Image } from 'semantic-ui-react'
 import ojocounter from '../Graphics/ojocounter.svg'
 
-export default function Causa1() {
+export default function Causa1({fecha}) {
     const calculateTimeLeft = () => {
-        let year = new Date().getFullYear();
-        const difference = +new Date(`${year}-10-27`) - +new Date();
+        const difference = new Date(fecha) - new Date();
         let timeLeft = {};
         if (difference > 0) {
             timeLeft = {
@@ -48,7 +47,7 @@ export default function Causa1() {
         <div className={'contador'}>
             <Image src={ojocounter} className={'ojocounter'} floated='left' />
             {timerComponents.length ? timerComponents : <span>Causa cerrada</span>}
-            <span className='toclose'>Para cerrar <br></br>la causa.</span>
+            <span className='toclose'>Para abrir<br></br>la causa.</span>
         </div>
     );
 }

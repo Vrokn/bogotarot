@@ -1,56 +1,55 @@
-import React, { useState } from "react";
-import { Modal, Image, Button } from "semantic-ui-react";
-
+import React from "react";
+import { Modal, Image } from "semantic-ui-react";
 import OrnamentoSI from "../Graphics/OrnamentoSI.svg";
 import OrnamentoSD from "../Graphics/OrnamentoSD.svg";
 import OrnamentoII from "../Graphics/OrnamentoII.svg";
 import OrnamentoID from "../Graphics/OrnamentoID.svg";
-import cartasHorizontalBlanco from "../Graphics/cartasHorizontalBlanco.gif";
-import cartasVerticalBlanco from "../Graphics/cartasVerticalBlanco.gif";
+import { Link } from "react-router-dom";
+import data from "./Cards";
 
-function ModalInstructions() {
-  const [firstOpen, setFirstOpen] = useState(true);
-  const [secondOpen, setSecondOpen] = useState(false);
+const ModalConfirmation = ({ random }) => {
   return (
     <>
-      <Modal
-        basic
-        dimmer="blurring"
-        onClose={() => setFirstOpen(false)}
-        onOpen={() => setFirstOpen(true)}
-        open={firstOpen}
-      >
+      <Modal open={true} dimmer="blurring" basic>
         <Modal.Content>
-          <div className="modalInstructions">
-            <div className="modalInstructionsContainer">
+          <div className="modalConfirmations">
+            <div className="modalContainer">
               <div className="carddescriptiontop">
                 <Image src={OrnamentoSI} size="tiny" floated="left" />
                 <Image src={OrnamentoSD} size="tiny" floated="right" />
               </div>
               <div className={"modalDescription"}>
-                <h1>Instrucciones</h1>
-                <Image
-                  className={"cartasHorizontalAzul"}
-                  src={cartasHorizontalBlanco}
-                />
-                <Image
-                  className={"cartasVerticalAzul"}
-                  src={cartasVerticalBlanco}
-                />
-                <p>
-                  Ingrese a la sección del Tarot y seleccione las tres cartas
-                  que prefiera haciendo click o tap sobre ellas. Estas cartas
-                  visualizan el presente y lo llevan a su destino.
-                </p>
-                <button
-                  className="begin"
-                  onClick={() => {
-                    setFirstOpen(false);
-                    setSecondOpen(false);
-                  }}
-                >
-                  EMPEZAR
-                </button>
+                <div className={"modalcards"}>
+                  <Image
+                    className={"card"}
+                    size="medium"
+                    src={data[random[0]].image}
+                  />
+                  <Image
+                    className={"card"}
+                    size="medium"
+                    src={data[random[1]].image}
+                  />
+                  <Image
+                    className={"card"}
+                    size="medium"
+                    src={data[random[2]].image}
+                  />
+                </div>
+                <h2>¿Está seguro de estas cartas?</h2>
+                <div>
+                  <Link to="/cartas">
+                    <button className="sibtn">SÍ</button>
+                  </Link>
+                  <button
+                    className="nobtn"
+                    onClick={() => {
+                      window.location.reload();
+                    }}
+                  >
+                    NO
+                  </button>
+                </div>
               </div>
               <div className="carddescriptionbottom">
                 <Image src={OrnamentoII} size="tiny" floated="left" />
@@ -60,28 +59,8 @@ function ModalInstructions() {
           </div>
         </Modal.Content>
       </Modal>
-      <Modal
-        onClose={() => setSecondOpen(false)}
-        open={secondOpen}
-        size="small"
-      >
-        <Modal.Header>Modal #2</Modal.Header>
-        <Modal.Content>
-          <p>That's everything!</p>
-        </Modal.Content>
-        <Modal.Actions>
-          <Button
-            icon="check"
-            content="All Done"
-            onClick={() => {
-              setFirstOpen(false);
-              setSecondOpen(false);
-            }}
-          />
-        </Modal.Actions>
-      </Modal>
     </>
   );
-}
+};
 
-export default ModalInstructions;
+export default ModalConfirmation;

@@ -1,14 +1,290 @@
 body {
   background-color: #fffbef !important;
 }
-
 body,
 html {
   width: 100% !important;
   height: 100% !important;
-  cursor: pointer !important;
+}
+.cardactivities {
+  padding: 1em;
+  border-radius: 2em !important;
+  z-index: 2 !important;
+  border: #d6d5d0 solid 1px;
+  box-shadow: #d6d5d0 0px 2px 4px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.actividad h5 {
+  color: #da8d24;
+  font-weight: normal;
+  font-family: rakkas;
+  font-size: 2vw;
+}
+.actividad {
+  padding: 2em;
+  border-radius: 2em;
+  outline: #142438;
+  border: #da8d24 2px solid;
+  margin: 1em;
+  max-width: 20vw;
+}
+.cardactivities h1 {
+  left: 80px;
+  position: relative;
+  margin-top: 80px;
+  font-family: rakkas;
+  font-size: 3em;
+  color: #da8d24;
+  font-weight: normal;
+}
+.cardactivities p {
+  font-family: oxygen;
+}
+.activitiescontainer {
+  display: flex;
+  justify-content: center;
+}
+.causaOrnamentoSI {
+  align-self: flex-start;
 }
 
+.video {
+  align-self: flex-end;
+  max-height: 90vh;
+  margin: 2em;
+  border-radius: 2em;
+  border: #da8d24 2px solid;
+  outline: none;
+}
+.cardtitlecontainer {
+  align-items: center;
+  display: flex;
+}
+.konvaStage {
+  cursor: move !important;
+}
+.cardName {
+  color: #aeaeae;
+  font-family: oxygen;
+  z-index: 3;
+  position: relative;
+  font-size: 1.5em;
+  bottom: -50%;
+}
+.options:hover {
+  color: #f8dd74;
+}
+.options {
+  font-family: rakkas;
+  font-size: 18px;
+  font-weight: normal;
+  background: none;
+  color: #da8d24;
+  border: none;
+  outline: none;
+}
+.hidden {
+  display: none;
+}
+.rightSide p {
+  font-family: oxygen !important;
+  color: #fffef5;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.rightSide h1 {
+  font-size: 5em;
+  font-family: rakkas;
+  font-weight: lighter;
+  color: #da8d24;
+}
+.rightSide h2 {
+  font-size: 3em;
+  font-family: rakkas;
+  font-weight: lighter;
+  color: #da8d24;
+}
+
+.rightSide {
+  min-height: 70vh;
+  min-width: 50%;
+  padding: 0 80px;
+  background-color: #142438;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 55%;
+  z-index: 2;
+  box-shadow: -10px 0px 4px #3a3a3a48;
+}
+.leftSide {
+  margin: 0 -3em;
+  display: flex;
+  width: 55%;
+  overflow: hidden;
+  background-color: #f8dd74;
+}
+.choosedCard {
+  background-color: #ff5500;
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  max-height: 70vh;
+  overflow: hidden;
+  background-color: #ff5500;
+  border-radius: 2em;
+}
+.cardbutton {
+  border: none;
+  outline: none;
+  border-radius: 1em;
+  font-family: rakkas;
+  background-color: #fffef5;
+  color: #ff5500;
+  padding: 0.5em 2em;
+  position: relative;
+  align-self: flex-end;
+  left: 75%;
+}
+.scroll {
+  margin-left: 20px !important;
+}
+.counterpad h1 {
+  font-family: rakkas;
+  font-size: 3em;
+  color: #ffffff;
+  font-weight: normal;
+}
+.counterpad {
+  mix-blend-mode: difference;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  width: 71px;
+  height: 71px;
+  background: url("./Graphics/Contadorbg.svg") no-repeat;
+}
+.scrollbtn {
+  outline: none;
+  display: flex;
+  background-color: #ff5500;
+  color: #ffffff;
+  padding: 0.5em 1.5em;
+  font-family: rakkas;
+  border: none;
+  border-radius: 0.5em;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  mix-blend-mode: difference;
+  position: absolute;
+  bottom: 50px;
+  left: 42%;
+  align-self: center;
+  font-weight: normal;
+  z-index: 2;
+}
+.sibtn:hover,
+.nobtn:hover {
+  background-color: hsla(20, 100%, 50%, 0.836);
+}
+.sibtn {
+  background-color: #ff5500;
+  font-family: rakkas;
+  border-radius: 3em;
+  margin: 0 1em;
+  border: none;
+  font-size: 30px;
+  color: #fffef5;
+  font-weight: normal;
+  padding: 12px 16px;
+  outline: none;
+}
+.nobtn {
+  background-color: #da8d24;
+  font-family: rakkas;
+  border-radius: 3em;
+  margin: 0 1em;
+  border: none;
+  font-size: 30px;
+  color: #fffef5;
+  font-weight: normal;
+  padding: 12px 8px;
+  outline: none;
+}
+.carddescriptiontop {
+  display: inline;
+}
+.modalDescription h2 {
+  position: relative;
+  font-family: rakkas !important;
+  font-weight: normal;
+  color: #15263d;
+  font-size: 3em;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px #da8d24, -1px 1px #da8d24, 1px 1px #da8d24,
+    1px -1px #da8d24;
+}
+.card {
+  margin: 1em !important;
+  left: -42px;
+}
+.modalcards {
+  position: relative;
+  top: 50px;
+  display: flex !important;
+  padding: 30px;
+  width: 31%;
+}
+.begin {
+  top: 30px;
+  position: relative;
+  font-size: 20px;
+  color: #fffbef;
+  background-color: #da8d24;
+  border: none;
+  padding: 15px 3em;
+  border-radius: 1em;
+  font-family: rakkas;
+  outline: none;
+}
+.modalInstructionsContainer,
+.modalContainer {
+  border-radius: 1em;
+  border: #da8d24 2px solid;
+}
+.modalInstructions,
+.modalConfirmations {
+  padding: 1em;
+  border-radius: 2em !important;
+  background-color: #fffbef !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modalDescription h1 {
+  font-size: 3em !important;
+  font-weight: normal;
+  position: relative;
+  top: 30px;
+  font-family: rakkas !important;
+}
+.modalDescription p {
+  align-self: center;
+  color: #142438;
+  font-size: 16px;
+  font-family: oxygen;
+  padding: 0 40px;
+}
+
+/* footer */
 .submitbtn {
   background: none;
   border: none;
@@ -83,7 +359,7 @@ html {
   font-family: Oxygen;
   font-style: normal;
   font-weight: normal;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 35px;
   max-width: 75%;
   margin-bottom: 80px !important;
@@ -99,18 +375,14 @@ html {
 }
 
 .carddescription {
+  margin-bottom: 1em;
+
   display: flex;
   padding: 1em;
   border-radius: 2em !important;
   z-index: 3 !important;
   border: #d6d5d0 solid 1px;
   box-shadow: #d6d5d0 0px 2px 4px;
-}
-
-.videocausa {
-  position: relative;
-  left: 60%;
-  width: 35%;
 }
 
 .ojocounter {
@@ -143,7 +415,11 @@ html {
   color: #fffef5;
   font-weight: normal;
 }
-
+.suscribebtn a,
+.suscribebtn a:hover,
+.suscribebtn a:active {
+  color: #15263d;
+}
 .suscribebtn {
   background-color: #fffef5;
   border-radius: 1em;
@@ -151,7 +427,7 @@ html {
   color: #15263d;
   font-family: rakkas;
   font-size: 2em;
-  padding: 8px 165px;
+  padding: 8px 2vw;
   text-decoration: none;
   outline: none;
   transition: 0.3s;
@@ -167,16 +443,11 @@ html {
   border: 2px solid #da8d24;
 }
 
-.causatitle {
-  width: 45%;
-  margin: 0 64px !important;
-}
-
 .causatitle h1 {
   font-weight: normal;
   letter-spacing: 1px;
   font-family: Rakkas;
-  font-size: 4em;
+  font-size: 4vw;
   color: #ffffff;
   text-shadow: -1px -1px #da8d24, -1px 1px #da8d24, 1px 1px #da8d24,
     1px -1px #da8d24;
@@ -185,18 +456,23 @@ html {
 .cardtitlecontainer,
 .carddescriptioncontainer {
   height: 100%;
+  width: 100%;
   border-radius: 1em;
   border: #da8d24 solid 2px;
 }
 
 .cardtitle {
+  margin-bottom: 1em;
   display: flex;
   padding: 1em;
   border-radius: 2em !important;
   z-index: 4 !important;
   background-color: #15263d !important;
 }
-
+.causacard {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 .causascards {
   margin: 1em;
 }
@@ -424,10 +700,6 @@ html {
   background: none !important;
 }
 
-.active {
-  color: #ff5500 !important;
-}
-
 .NavHeadermobil,
 .Ojoamarillomobile,
 .introtitlemobile,
@@ -502,6 +774,11 @@ html {
   }
   .brandmobile {
     padding: 0% !important;
+  }
+  .choosedCard{
+    flex-direction: column;
+    max-height: 100%;
+
   }
 }
 
