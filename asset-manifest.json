@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.baf6d1b2.chunk.css",
-    "main.js": "/static/js/main.99e586d6.chunk.js",
-    "main.js.map": "/static/js/main.99e586d6.chunk.js.map",
+    "main.css": "/static/css/main.6c11e3f4.chunk.css",
+    "main.js": "/static/js/main.9cbcfaf5.chunk.js",
+    "main.js.map": "/static/js/main.9cbcfaf5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6cb3ab8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.6cb3ab8e.js.map",
     "static/css/2.7df41cd5.chunk.css": "/static/css/2.7df41cd5.chunk.css",
     "static/js/2.f0085b83.chunk.js": "/static/js/2.f0085b83.chunk.js",
     "static/js/2.f0085b83.chunk.js.map": "/static/js/2.f0085b83.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e30182a2caa401c2e95d1849d07232bd.js": "/precache-manifest.e30182a2caa401c2e95d1849d07232bd.js",
+    "precache-manifest.e866401891707f80d82efa970e9ab8a5.js": "/precache-manifest.e866401891707f80d82efa970e9ab8a5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7df41cd5.chunk.css.map": "/static/css/2.7df41cd5.chunk.css.map",
-    "static/css/main.baf6d1b2.chunk.css.map": "/static/css/main.baf6d1b2.chunk.css.map",
+    "static/css/main.6c11e3f4.chunk.css.map": "/static/css/main.6c11e3f4.chunk.css.map",
     "static/js/2.f0085b83.chunk.js.LICENSE.txt": "/static/js/2.f0085b83.chunk.js.LICENSE.txt",
     "static/media/Bogotarot.svg": "/static/media/Bogotarot.39517457.svg",
     "static/media/CartaAmarilla.svg": "/static/media/CartaAmarilla.533847ae.svg",
@@ -37,10 +37,10 @@
     "static/media/Presentación.svg": "/static/media/Presentación.17f55e3c.svg",
     "static/media/biodiversidad.mp4": "/static/media/biodiversidad.f48e9262.mp4",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/cartasHorizontalAzul.gif": "/static/media/cartasHorizontalAzul.812d233c.gif",
-    "static/media/cartasHorizontalBlanco.gif": "/static/media/cartasHorizontalBlanco.e219da35.gif",
-    "static/media/cartasVerticalAzul.gif": "/static/media/cartasVerticalAzul.5b1396a0.gif",
-    "static/media/cartasVerticalBlanco.gif": "/static/media/cartasVerticalBlanco.601c961d.gif",
+    "static/media/cartasHorizontalAzul.gif": "/static/media/cartasHorizontalAzul.2ad44955.gif",
+    "static/media/cartasHorizontalBlanco.gif": "/static/media/cartasHorizontalBlanco.d455f974.gif",
+    "static/media/cartasVerticalAzul.gif": "/static/media/cartasVerticalAzul.3cd4b83c.gif",
+    "static/media/cartasVerticalBlanco.gif": "/static/media/cartasVerticalBlanco.6b78aa37.gif",
     "static/media/el-avaro.jpg": "/static/media/el-avaro.432a72e5.jpg",
     "static/media/el-clasificador.jpg": "/static/media/el-clasificador.981d826f.jpg",
     "static/media/el-guache.jpg": "/static/media/el-guache.6fb96d3a.jpg",
@@ -62,7 +62,7 @@
     "static/js/runtime-main.6cb3ab8e.js",
     "static/css/2.7df41cd5.chunk.css",
     "static/js/2.f0085b83.chunk.js",
-    "static/css/main.baf6d1b2.chunk.css",
-    "static/js/main.99e586d6.chunk.js"
+    "static/css/main.6c11e3f4.chunk.css",
+    "static/js/main.9cbcfaf5.chunk.js"
   ]
 }
