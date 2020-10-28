@@ -2,6 +2,20 @@ import biodiversidad from "../Videos/biodiversidad.mp4";
 import redes from "../Videos/redes.mp4";
 import simbiosis from "../Videos/simbiosis.mp4";
 import solidaridad from "../Videos/solidaridad.mp4";
+import C1A1 from '../actividadescausas/causapromover/Reconociendo el entorno.jpg'
+import C1A2 from '../actividadescausas/causapromover/Taller de podcast.jpg'
+import C1A3 from '../actividadescausas/causapromover/Retratando a mis vecinos.jpg'
+import C2A1 from '../actividadescausas/causadiversificarelcuidado/infografías-ilustradas-.jpg'
+import C2A2 from '../actividadescausas/causadiversificarelcuidado/saberes tradicionales.jpg'
+import C2A3 from '../actividadescausas/causadiversificarelcuidado/La comida y el cuidado.jpg'
+import C2A4 from '../actividadescausas/causadiversificarelcuidado/¿Quién presta la olla_.jpg'
+import C3A1 from '../actividadescausas/causasimbiosis/Gota tras gota.jpg'
+import C3A2 from '../actividadescausas/causasimbiosis/Huerteando en la ciudad.jpg'
+import C3A3 from '../actividadescausas/causasimbiosis/ún se puede usar.jpg'
+import C4A1 from '../actividadescausas/causasolidaridad/feria_virtual.jpg'
+import C4A2 from '../actividadescausas/causasolidaridad/recorrido_ciudadbolivar.PNG'
+import C4A3 from '../actividadescausas/causasolidaridad/fotografía_documental.jpg'
+import C4A4 from '../actividadescausas/causasolidaridad/taller_creativo.jpg'
 
 const datos = [];
 
@@ -25,19 +39,19 @@ new Causa(
   "2020-11-07",
   [
     {
-      image: "",
+      image: C1A1,
       title: "Reconociendo el entorno: ",
       actividad:
         "    Recorrido guiado por uno de los ecosistemas de la ciudad, en el que los participantes identificarán y plasmarán de manera gráfica qué tanto conocen su entorno y las relaciones entre las especies.",
     },
     {
-      image: "",
+      image: C1A2,
       title: "¿Cómo cambió nuestro entorno durante la pandemia?: ",
       actividad:
         "Taller de podcast, en el que se indagará sobre los cambios que se vivieron y observaron en la ciudad durante los primeros 6 meses de la pandemia por COVID-19.",
     },
     {
-      image: "",
+      image: C1A3,
       title: "Retratando a mis vecinos: ",
       actividad:
         "Taller de animación, en el que se cuestionará y reflexionará sobre la forma en la que vemos y compartimos nuestro entorno con vecinos humanos y no humanos.",
@@ -53,25 +67,25 @@ new Causa(
   "2021-01-15",
   [
     {
-      image: "",
+      image: C2A1,
       title: "Taller de infografías ilustradas: ",
       actividad:
         "A través está técnica de representación gráfica, se abordarán las formas en las que la pandemia de COVID-19 afectó las nociones de cuidado y los efectos que ha tenido sobre quienes lo ejercen.",
     },
     {
-      image: "",
+      image: C2A2,
       title: "Conversación sobre saberes tradicionales:",
       actividad:
         " Se visitará una plaza de mercado de la ciudad en donde se conversará sobre el papel de las plantas como seres de sanación y curación. Se busca plasmar de manera gráfica recetas y experiencias en torno al cuidado y las plantas.",
     },
     {
-      image: "",
+      image: C2A3,
       title: "La comida y el cuidado: ",
       actividad:
         "De manera virtual cocinaremos y conversaremos sobre el papel de la comida en el cuidado, y como las prácticas alimentarias se transformaron durante la pandemia de COVID-19.",
     },
     {
-      image: "",
+      image: C2A4,
       title: "¿Quién presta la olla?: ",
       actividad:
         "Cocinar y comer son formas de construir redes de afecto. Esta actividad plantea realizar un plato para compartir con conocidos y extraños.",
@@ -87,19 +101,19 @@ new Causa(
   "2021-01-29",
   [
     {
-      image: "",
+      image: C3A1,
       title: "Gota tras gota: ",
       actividad:
         "Recorrido por el nacimiento de uno de los cuerpos de agua de la ciudad, abordando el papel del agua en la relación entre lo rural y lo urbano.",
     },
     {
-      image: "",
+      image: C3A2,
       title: "Huerteando en la ciudad: ",
       actividad:
         "Encuentro con colectivos de huertas urbanas en la ciudad, en dónde haremos un acercamiento a la importancia de reconocer el origen de lo que comemos, así como, la forma en la que disponemos nuestros desechos.",
     },
     {
-      image: "",
+      image: C3A3,
       title: "¡Aún se puede usar!: ",
       actividad:
         "Taller de elaboración de objetos a partir de elementos reutilizables, en donde se reflexionará acerca de pautas de consumo y cambios necesarios en torno al impacto de los residuos.",
@@ -115,25 +129,25 @@ new Causa(
   "2021-02-09",
   [
     {
-      image: "",
+      image: C4A1,
       title: "Feria solidaria virtual: ",
       actividad:
         "Espacio de encuentro con colectivos e iniciativas solidarias que nacieron durante la pandemia para intercambiar experiencias y aprendizajes.",
     },
     {
-      image: "",
+      image: C4A2,
       title: "Recorrido por Ciudad Bolívar",
       actividad:
         "Se conocerán de primera mano las experiencias de las comunidades para afrontar los cambios generados por la pandemia de COVID-19.",
     },
     {
-      image: "",
+      image: C4A3,
       title: "Taller de fotografía documental:",
       actividad:
         "Se explorará la fotografía documental como forma de cuestionar prejuicios y estigmas, activar redes de cuidado y el rol de las imágenes.",
     },
     {
-      image: "",
+      image: C4A4,
       title: "Taller creativo: ",
       actividad:
         "Espacio para generar piezas de construcción colectiva en torno a las redes de solidaridad y el futuro de la ciudad.",

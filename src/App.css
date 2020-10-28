@@ -6,6 +6,27 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+.nopopup {
+  opacity: 0 !important;
+  transition: 0.3s !important;
+}
+.popup {
+  transition: 0.3s;
+  z-index: 2;
+  opacity: 1 !important;
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.imagenactividad {
+  align-items: center;
+  justify-content: center;
+  max-height: 151px;
+  overflow: hidden;
+}
 .cardactivities {
   padding: 1em;
   border-radius: 2em !important;
@@ -22,8 +43,12 @@ html {
   font-weight: normal;
   font-family: rakkas;
   font-size: 2vw;
+  text-align: center;
 }
 .actividad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 2em;
   border-radius: 2em;
   outline: #142438;
@@ -350,9 +375,8 @@ html {
 .causadescription h1 {
   font-family: rakkas;
   color: #da8d24;
-  font-size: 3em;
+  font-size: 4vw;
   font-weight: normal;
-  line-height: 104px;
 }
 
 .causadescription p {
@@ -390,7 +414,7 @@ html {
 }
 
 .contador {
-  width: 450px;
+  width: 35vw;
   display: flex;
   background-color: #da8d24;
   height: 80px;
@@ -403,7 +427,7 @@ html {
   position: relative;
   right: -10%;
   font-family: oxygen;
-  font-size: 1em;
+  font-size: 1.5vw;
   color: #fffef5;
   font-weight: normal;
 }
@@ -411,7 +435,7 @@ html {
 .timeleft {
   padding-left: 20px;
   font-family: rakkas;
-  font-size: 3em;
+  font-size: 3vw;
   color: #fffef5;
   font-weight: normal;
 }
@@ -427,7 +451,7 @@ html {
   color: #15263d;
   font-family: rakkas;
   font-size: 2em;
-  padding: 8px 2vw;
+  padding: 8px 8vw;
   text-decoration: none;
   outline: none;
   transition: 0.3s;
@@ -775,10 +799,83 @@ html {
   .brandmobile {
     padding: 0% !important;
   }
-  .choosedCard{
+  .choosedCard {
     flex-direction: column;
     max-height: 100%;
+  }
+  .scrollbtn {
+    left: 30vw;
+    font-size: 12px;
+  }
+  .modalcards {
+    top: -2em;
+    margin: 2em;
+    flex-direction: column;
+    width: 100%;
+  }
+  .choosedCard {
+    background-color: #142438;
+  }
+  .leftSide {
+    display: flex;
+    overflow: hidden;
+    width: 110%;
+    top: -25px;
+    position: relative;
+  }
+  .cardbutton {
+    top: 10vh;
+    left: 0;
+  }
+  .rightSide p {
+    top: 5vh;
+    position: relative;
+  }
+  .rightSide {
+    top: -100px;
 
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+  }
+  .cardtitlecontainer,
+  .activitiescontainer {
+    flex-direction: column;
+  }
+  .actividad {
+    max-width: 100%;
+  }
+  .causatitle {
+    margin: 2em;
+  }
+  .carddescriptioncontainer {
+    width: 100%;
+    padding: 0;
+  }
+  .causadescription p {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4vw;
+    line-height: 35px;
+    max-width: 100%;
+    margin-bottom: 80px !important;
+  }
+  .timeleft {
+    font-size: 2em;
+  }
+  .toclose {
+    font-size: 1em;
+  }
+  .contador {
+    width: 100%;
+  }
+  .ojocounter {
+    margin-left: 10px !important;
+    max-width: 60px !important;
+  }
+  .cardtitle{
+    width: 100%;
   }
 }
 

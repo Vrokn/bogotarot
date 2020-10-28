@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Image, Modal } from 'semantic-ui-react'
+import { Grid, Image } from 'semantic-ui-react'
 import historias from '../Graphics/Historias.svg'
 import historiasmobil from '../Graphics/Historiasmobil.svg'
 import Ojoamarillo from '../Graphics/Ojoamarillo.svg'

@@ -2,17 +2,38 @@ import React, { useState } from "react";
 import { Image } from "semantic-ui-react";
 import data from "./Cards";
 import { HashLink } from "react-router-hash-link";
+import correcto from "../Graphics/Correcto.svg";
+import incorrecto from "../Graphics/Incorrecto.svg";
 
 const Carta = ({ num }) => {
   const [showIntro, setShshowIntro] = useState(true);
   const [showQuestion, setShowQuestion] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [popup, setpopup] = useState(false);
+  const [popupc, setpopupc] = useState(false);
+
+  const showpopup = () => {
+    setpopup(true);
+    setTimeout(() => {
+      setpopup(false);
+    }, 1000);
+  };
+  const showpopupc = () => {
+    setpopupc(true);
+    setTimeout(() => {
+      setpopup(false);
+      setShowQuestion(false);
+      setShowAnswer(true);
+    }, 1000);
+  };
+
   return (
     <>
       <div className="cartasTarot">
         <div className="choosedCard">
           <div className="leftSide">
             <Image
+            fluid
               size="massive"
               src={data[num].image}
               verticalAlign="middle"
@@ -43,14 +64,25 @@ const Carta = ({ num }) => {
                   className="options"
                   onClick={() => {
                     if (data[num].opcionValida === opcion) {
-                      setShowQuestion(false);
-                      setShowAnswer(true);
+                      showpopupc();
+                    } else {
+                      showpopup();
                     }
                   }}
                 >
                   {opcion}
                 </button>
               ))}
+              <Image
+                src={incorrecto}
+                size="tiny"
+                className={popup ? "popup" : "hidden"}
+              />
+              <Image
+                src={correcto}
+                size="tiny"
+                className={popupc ? "popup" : "hidden"}
+              />
             </div>
             <div className={showAnswer ? "cardAnwser" : "hidden"}>
               <h2>{data[num].name}</h2>

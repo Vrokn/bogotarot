@@ -6,11 +6,10 @@ import OrnamentoII from "../Graphics/OrnamentoII.svg";
 import OrnamentoID from "../Graphics/OrnamentoID.svg";
 import Ojodescription from "../Graphics/Ojodescription.svg";
 import datos from "./Causes";
-import Causa1 from "./Causa1";
+import Timer from "./Timer";
 
 const Causas = () => {
   const video = useRef();
-
   return (
     <div className={"causascards"}>
       {datos.map((causa, index) => (
@@ -32,7 +31,7 @@ const Causas = () => {
                   >
                     <button className="suscribebtn">Suscribirse</button>
                   </a>
-                  <Causa1 fecha={causa.fecha} />
+                  <Timer fecha={causa.fecha} />
                 </div>
               </div>
               <div className="causarightSide">
@@ -81,7 +80,9 @@ const Causas = () => {
               <div className="activitiescontainer">
                 {causa.actividades.map((item) => (
                   <div className="actividad">
-                    <Image src={item.image} size="tiny" floated="left" />
+                    <div className="imagenactividad">
+                      <Image src={item.image} fluid />
+                    </div>
                     <h5>{item.title}</h5>
                     <p>{item.actividad}</p>
                   </div>
