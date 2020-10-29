@@ -7,16 +7,17 @@ html {
   height: 100% !important;
 }
 .nopopup {
-  opacity: 0 !important;
-  transition: 0.3s !important;
+  position: fixed;
+  display: none !important;
+  opacity: 1 !important;
 }
 .popup {
-  transition: 0.3s;
-  z-index: 2;
-  opacity: 1 !important;
-  position: absolute;
-  left: 25%;
-  top: 50%;
+  max-width: 70px !important;
+  display: block;
+  z-index: 5;
+  position: fixed !important;
+  left: 30%;
+  top: 70px !important;
   background: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -44,6 +45,7 @@ html {
   font-family: rakkas;
   font-size: 2vw;
   text-align: center;
+  line-height: 1em;
 }
 .actividad {
   display: flex;
@@ -86,6 +88,7 @@ html {
 }
 .cardtitlecontainer {
   align-items: center;
+  justify-content: space-between;
   display: flex;
 }
 .konvaStage {
@@ -314,9 +317,13 @@ html {
   background: none;
   border: none;
 }
-
+.countries {
+  color: #fffef5 !important;
+}
 .ui.input > input,
 .coutries {
+  color: #fffef5 !important;
+
   margin: 0 30px;
   font-family: oxygen !important;
   background: none !important;
@@ -358,7 +365,6 @@ html {
 }
 
 .footer h2 {
-  max-width: 210px;
   font-family: rakkas;
   color: #da8d24;
   font-weight: normal;
@@ -409,23 +415,19 @@ html {
   box-shadow: #d6d5d0 0px 2px 4px;
 }
 
-.ojocounter {
-  padding-left: 20px;
-}
-
 .contador {
+  justify-content: space-around;
+  flex-direction: row;
   width: 35vw;
   display: flex;
   background-color: #da8d24;
   height: 80px;
   border-radius: 1em;
   align-items: center;
-  margin-bottom: 2em;
 }
 
 .toclose {
   position: relative;
-  right: -10%;
   font-family: oxygen;
   font-size: 1.5vw;
   color: #fffef5;
@@ -433,7 +435,6 @@ html {
 }
 
 .timeleft {
-  padding-left: 20px;
   font-family: rakkas;
   font-size: 3vw;
   color: #fffef5;
@@ -517,14 +518,17 @@ html {
 }
 
 .MenuCausasLinks {
+  top: 18vh;
   position: relative;
   display: flex !important;
-  top: 16vh !important;
+  justify-content: center;
 }
 
 .causaslink {
+  top: 18vh;
+  display: flex !important ;
+  align-self: center !important;
   position: relative !important;
-  top: 16vh !important;
 }
 
 .causaslink a {
@@ -827,13 +831,14 @@ html {
     top: 10vh;
     left: 0;
   }
+  .rightSide h1 {
+    font-size: 4em;
+  }
   .rightSide p {
-    top: 5vh;
     position: relative;
   }
   .rightSide {
     top: -100px;
-
     position: relative;
     width: 100%;
     min-height: 70vh;
@@ -856,26 +861,51 @@ html {
     font-family: Oxygen;
     font-style: normal;
     font-weight: normal;
+    line-height: 1.5em;
     font-size: 4vw;
-    line-height: 35px;
     max-width: 100%;
     margin-bottom: 80px !important;
   }
   .timeleft {
+    margin: 0;
+    padding: 0;
     font-size: 2em;
   }
   .toclose {
+    margin: 0;
+    padding: 0;
     font-size: 1em;
   }
   .contador {
+    display: flex;
     width: 100%;
   }
   .ojocounter {
-    margin-left: 10px !important;
+    margin-left: 0 !important;
     max-width: 60px !important;
   }
-  .cardtitle{
+  .cardtitle {
     width: 100%;
+  }
+  .causatitle h1 {
+    font-size: 3em;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footereye {
+    top: -230px;
+  }
+  .footerl {
+    width: 100%;
+  }
+  .ui.input > input,
+  .coutries {
+    color: #fffef5 !important;
+    margin: 0;
+    background: none !important;
+    border-bottom: #d6d5d0 1px solid !important;
+    border-radius: 0% !important;
   }
 }
 

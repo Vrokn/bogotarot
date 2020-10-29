@@ -46,7 +46,7 @@ export default function Header() {
                     active={activeItem === 'Causas'}
                     onClick={() => setActiveItem('Causas')}
                 >
-                    <NavLink to="/causas">Causas</NavLink>
+                    <NavLink to="/causasmenu">Causas</NavLink>
                 </Menu.Item>
                 <Menu.Item className='brand'
                     active={activeItem === 'Historias'}

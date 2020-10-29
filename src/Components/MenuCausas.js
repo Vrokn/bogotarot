@@ -19,7 +19,7 @@ function MenuCausas() {
           <Image src={OrnamentoSI} size="tiny" className={"OrnamentoSI"} />
         </Grid.Column>
         <Grid.Column>
-          <Link to="/menu">
+          <Link to="/">
             <Image
               src={Close}
               className={"close"}

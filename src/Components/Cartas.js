@@ -21,7 +21,7 @@ const Carta = ({ num }) => {
   const showpopupc = () => {
     setpopupc(true);
     setTimeout(() => {
-      setpopup(false);
+      setpopupc(false);
       setShowQuestion(false);
       setShowAnswer(true);
     }, 1000);
@@ -33,7 +33,7 @@ const Carta = ({ num }) => {
         <div className="choosedCard">
           <div className="leftSide">
             <Image
-            fluid
+              fluid
               size="massive"
               src={data[num].image}
               verticalAlign="middle"
@@ -73,16 +73,6 @@ const Carta = ({ num }) => {
                   {opcion}
                 </button>
               ))}
-              <Image
-                src={incorrecto}
-                size="tiny"
-                className={popup ? "popup" : "hidden"}
-              />
-              <Image
-                src={correcto}
-                size="tiny"
-                className={popupc ? "popup" : "hidden"}
-              />
             </div>
             <div className={showAnswer ? "cardAnwser" : "hidden"}>
               <h2>{data[num].name}</h2>
@@ -95,6 +85,8 @@ const Carta = ({ num }) => {
           </div>
         </div>
       </div>
+      <Image src={incorrecto} size='tiny' className={popup ? "popup" : "nopopup"} />
+      <Image src={correcto} size='tiny' className={popupc ? "popup" : "nopopup"} />
     </>
   );
 };
