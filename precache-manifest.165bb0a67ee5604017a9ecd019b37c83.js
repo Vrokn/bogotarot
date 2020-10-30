@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6457cc5942e1114f4e7d547e9bf55b75",
+    "revision": "e4ade24bf209675114ee38a1aa3517fd",
     "url": "/index.html"
   },
   {
-    "revision": "6ea89920338b0eb1c6d9",
+    "revision": "cb6d498fbd8ece5e2b4b",
     "url": "/static/css/2.7df41cd5.chunk.css"
   },
   {
-    "revision": "63bc0070daa14dfa8cc6",
-    "url": "/static/css/main.29806eb2.chunk.css"
+    "revision": "203bc1cf4ab811c9637a",
+    "url": "/static/css/main.b4601623.chunk.css"
   },
   {
-    "revision": "6ea89920338b0eb1c6d9",
-    "url": "/static/js/2.1e8a8ea7.chunk.js"
+    "revision": "cb6d498fbd8ece5e2b4b",
+    "url": "/static/js/2.b2fbcaec.chunk.js"
   },
   {
     "revision": "af945f101cccf5f437e55a3044282b78",
-    "url": "/static/js/2.1e8a8ea7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b2fbcaec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63bc0070daa14dfa8cc6",
-    "url": "/static/js/main.7905d4e3.chunk.js"
+    "revision": "203bc1cf4ab811c9637a",
+    "url": "/static/js/main.8f0aa1a6.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -166,6 +166,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "f1fe3590154e23a5fa4b0edfd48ab8d8",
+    "url": "/static/media/cartaAmarillaMovil.f1fe3590.svg"
+  },
+  {
+    "revision": "db0cdb136481fe6107e549c946052769",
+    "url": "/static/media/cartaAzulMovil.db0cdb13.svg"
   },
   {
     "revision": "2ad44955e0d90a5f8895dc2a9d115593",
