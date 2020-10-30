@@ -19,36 +19,36 @@ export default function Header() {
                 </Menu.Item>
             </Menu>
             <Menu secondary className='NavHeader' fluid >
-                <Menu.Item className='brand'>
+                <Menu.Item className='brandnav'>
                     <Link to="/menu">
                         <Image src={Ojoamarillo} verticalAlign='middle' />
                     </Link>
                 </Menu.Item>
-                <Menu.Item className='brand'
+                <Menu.Item className='brandnav'
                     active={activeItem === 'Introducción'}
                     onClick={() => setActiveItem('Introducción')}
                 >
                     <NavLink to="/introducción">Introducción</NavLink>
                 </Menu.Item>
-                <Menu.Item className='brand'
+                <Menu.Item className='brandnav'
                     active={activeItem === 'Instrucciones'}
                     onClick={() => setActiveItem('Instrucciones')}
                 >
                     <NavLink to="/instrucciones">Instrucciones</NavLink>
                 </Menu.Item>
-                <Menu.Item className='brand'
+                <Menu.Item className='brandnav'
                     active={activeItem === ''}
                     onClick={() => setActiveItem('')}
                 >
                     <NavLink to="/">Tarot</NavLink>
                 </Menu.Item>
-                <Menu.Item className='brand'
+                <Menu.Item className='brandnav'
                     active={activeItem === 'Causas'}
                     onClick={() => setActiveItem('Causas')}
                 >
                     <NavLink to="/causasmenu">Causas</NavLink>
                 </Menu.Item>
-                <Menu.Item className='brand'
+                <Menu.Item className='brandnav'
                     active={activeItem === 'Historias'}
                     onClick={() => setActiveItem('Historias')}
                     disabled

@@ -13,9 +13,10 @@ function Instructions() {
         <Image
           className={"instrutitle"}
           src={instrucciones}
-          size={"big"}
+          size="massive"
           fluid
           centered
+          verticalAlign="middle"
         />
         <Image
           className={"instrutitlemobile"}

@@ -9,11 +9,12 @@ function Historias() {
     <Grid className={"intro"} stackable columns={2}>
       <Grid.Column>
         <Image
+          size="massive"
           className={"instrutitle"}
           src={Historiasb}
-          size={"big"}
           fluid
           centered
+          verticalAlign="middle"
         />
         <Image className={"instrutitlemobile"} src={HistoriasMobile} fluid />
         <Image className={"Ojoamarillomobile"} src={Ojoamarillo} />

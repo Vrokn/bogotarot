@@ -78,7 +78,7 @@ const Carta = ({ num }) => {
               <h2>{data[num].name}</h2>
               <p>{data[num].respuesta}</p>
               <p>Las cartas elegidas han señalado su presente.</p>
-              <HashLink to={`/causas#${data[num].causa}`}>
+              <HashLink to={`/${data[num].causa}`}>
                 <button className="cardbutton">Ir a mi destino</button>
               </HashLink>
             </div>

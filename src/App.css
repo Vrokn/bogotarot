@@ -6,18 +6,24 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+.closemenu {
+  top: 20px;
+  right: 40px;
+}
+.modalDescription h1 {
+  z-index: 4 !important;
+  color: #da8d24 !important    ;
+}
 .nopopup {
   position: fixed;
   display: none !important;
-  opacity: 1 !important;
 }
 .popup {
-  max-width: 70px !important;
-  display: block;
+  display: flex;
   z-index: 5;
   position: fixed !important;
   left: 30%;
-  top: 70px !important;
+  top: 10vh !important;
   background: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -95,19 +101,20 @@ html {
   cursor: move !important;
 }
 .cardName {
+  display: inline;
   color: #aeaeae;
   font-family: oxygen;
-  z-index: 3;
+  z-index: 10;
   position: relative;
   font-size: 1.5em;
-  bottom: -50%;
+  top: -50vh;
 }
 .options:hover {
   color: #f8dd74;
 }
 .options {
   font-family: rakkas;
-  font-size: 18px;
+  font-size: 2em;
   font-weight: normal;
   background: none;
   color: #da8d24;
@@ -119,24 +126,26 @@ html {
 }
 .rightSide p {
   font-family: oxygen !important;
-  color: #fffef5;
-  font-size: 16px;
+  color: #fffbef;
+  font-size: 1.3em;
   letter-spacing: 1px;
+  max-width: 80%;
 }
 .rightSide h1 {
-  font-size: 5em;
+  font-size: 6vw;
   font-family: rakkas;
   font-weight: lighter;
   color: #da8d24;
 }
 .rightSide h2 {
-  font-size: 3em;
+  font-size: 5vw;
   font-family: rakkas;
   font-weight: lighter;
   color: #da8d24;
 }
 
 .rightSide {
+  justify-content: center !important;
   min-height: 70vh;
   min-width: 50%;
   padding: 0 80px;
@@ -169,14 +178,16 @@ html {
 .cardbutton {
   border: none;
   outline: none;
+  font-size: 1.6em;
   border-radius: 1em;
   font-family: rakkas;
-  background-color: #fffef5;
+  background-color: #fffbef;
   color: #ff5500;
   padding: 0.5em 2em;
   position: relative;
   align-self: flex-end;
-  left: 75%;
+  left: 60%;
+  top: 30px
 }
 .scroll {
   margin-left: 20px !important;
@@ -193,11 +204,13 @@ html {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 100px;
-  right: 40px;
-  width: 71px;
-  height: 71px;
-  background: url("./Graphics/Contadorbg.svg") no-repeat;
+  top: 110px;
+  right: 50px;
+  width: 110px;
+  height: 110px;
+  background-image: url("./Graphics/Contadorbg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .scrollbtn {
   outline: none;
@@ -229,7 +242,7 @@ html {
   margin: 0 1em;
   border: none;
   font-size: 30px;
-  color: #fffef5;
+  color: #fffbef;
   font-weight: normal;
   padding: 12px 16px;
   outline: none;
@@ -241,7 +254,7 @@ html {
   margin: 0 1em;
   border: none;
   font-size: 30px;
-  color: #fffef5;
+  color: #fffbef;
   font-weight: normal;
   padding: 12px 8px;
   outline: none;
@@ -271,13 +284,13 @@ html {
   width: 31%;
 }
 .begin {
-  top: 30px;
+  top: 20px;
   position: relative;
   font-size: 20px;
   color: #fffbef;
   background-color: #da8d24;
   border: none;
-  padding: 15px 3em;
+  padding: 15px 2em;
   border-radius: 1em;
   font-family: rakkas;
   outline: none;
@@ -298,6 +311,7 @@ html {
   text-align: center;
 }
 .modalDescription h1 {
+  text-align: center !important;
   font-size: 3em !important;
   font-weight: normal;
   position: relative;
@@ -318,11 +332,11 @@ html {
   border: none;
 }
 .countries {
-  color: #fffef5 !important;
+  color: #fffbef !important;
 }
 .ui.input > input,
 .coutries {
-  color: #fffef5 !important;
+  color: #fffbef !important;
 
   margin: 0 30px;
   font-family: oxygen !important;
@@ -356,7 +370,7 @@ html {
 .footereye {
   position: relative;
   z-index: 2;
-  bottom: 105px;
+  bottom: 100px;
   left: -2%;
 }
 
@@ -430,14 +444,14 @@ html {
   position: relative;
   font-family: oxygen;
   font-size: 1.5vw;
-  color: #fffef5;
+  color: #fffbef;
   font-weight: normal;
 }
 
 .timeleft {
   font-family: rakkas;
   font-size: 3vw;
-  color: #fffef5;
+  color: #fffbef;
   font-weight: normal;
 }
 .suscribebtn a,
@@ -446,7 +460,7 @@ html {
   color: #15263d;
 }
 .suscribebtn {
-  background-color: #fffef5;
+  background-color: #fffbef;
   border-radius: 1em;
   border: 2px solid #da8d24;
   color: #15263d;
@@ -461,7 +475,7 @@ html {
 
 .suscribebtn:hover {
   background-color: #da8d24;
-  border: 2px solid #fffef5;
+  border: 2px solid #fffbef;
 }
 
 .suscribebtn:active {
@@ -506,7 +520,7 @@ html {
   top: 50px;
 }
 
-.brand {
+.brandnav {
   margin: 0% !important;
   padding: 1em 1.5em !important;
 }
@@ -516,24 +530,22 @@ html {
   top: 30px;
   position: relative;
 }
-
-.MenuCausasLinks {
-  top: 18vh;
-  position: relative;
-  display: flex !important;
-  justify-content: center;
+.brand {
+  margin: 0% !important;
+  padding: 1em 4em !important;
 }
 
 .causaslink {
-  top: 18vh;
+  left: 8vw;
+  top: 6vh;
   display: flex !important ;
   align-self: center !important;
   position: relative !important;
 }
 
-.causaslink a {
-  transition: 0.3s !important;
-  font-size: 3rem;
+.causaslink h1 {
+  font-size: 4rem;
+  font-weight: normal;
   font-family: Rakkas !important;
   margin: 32px !important;
   color: #da8d24 !important;
@@ -646,26 +658,16 @@ html {
   background-color: #f8dd74 !important;
 }
 
-.introicon {
-  position: absolute;
-  left: 33.19%;
-  right: 59.72%;
-  top: 37.7%;
-  bottom: 52.34%;
-  mix-blend-mode: exclusion;
+.instrucdescription {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
 }
-
 .introtitle,
 .instrutitle {
-  max-height: 92vh;
-  padding: 50px 90px;
+  padding: 14vh 9vw;
   align-content: center;
   align-items: center;
-}
-
-.presentation {
-  display: flex;
-  position: relative;
 }
 
 .introdescription,
@@ -686,9 +688,9 @@ html {
 .introdescription p,
 .instrucdescription p {
   align-content: center !important;
-  padding: 4em 6em !important;
+  padding: 6em 8em !important;
   font-family: Oxygen;
-  font-size: 1em !important;
+  font-size: 1.3em !important;
   line-height: 187% !important;
   text-align: left;
   letter-spacing: 0.05em !important;
@@ -696,6 +698,10 @@ html {
 }
 
 .NavHeader {
+  background-color: #fffbef !important;
+  z-index: 99;
+  position: sticky ;
+  top: 0%;
   margin: 0% !important;
   font-size: 16px !important;
   font-family: Rakkas !important;
@@ -703,7 +709,6 @@ html {
   letter-spacing: 0.2em;
   border-bottom: 1px solid #ff5500 !important;
 }
-
 .NavHeader a {
   background-color: #fffbef;
   color: #15263d;
@@ -894,18 +899,35 @@ html {
     flex-direction: column;
   }
   .footereye {
-    top: -230px;
+    top: -210px;
   }
   .footerl {
     width: 100%;
   }
   .ui.input > input,
   .coutries {
-    color: #fffef5 !important;
+    color: #fffbef !important;
     margin: 0;
     background: none !important;
     border-bottom: #d6d5d0 1px solid !important;
     border-radius: 0% !important;
+  }
+  .counterpad {
+    top: 80px;
+    right: 50px;
+    width: 71px;
+    height: 71px;
+    background-image: url("./Graphics/Contadorbg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .modalDescription h1 {
+    z-index: 4 !important;
+    color: #da8d24 !important    ;
+    left: 40px;
+  }
+  .brand {
+    padding: 20px 1em  !important;
   }
 }
 

@@ -3,14 +3,23 @@ import { Stage, Layer, Rect } from "react-konva";
 import useImage from "use-image";
 import CartaAzul from "../Graphics/CartaAzul.svg";
 import CartaAmarilla from "../Graphics/CartaAmarilla.svg";
+import CartaAzulMovil from "../Graphics/cartaAzulMovil.svg";
+import CartaAmarillaMovil from "../Graphics/cartaAmarillaMovil.svg";
 import ModalConfirmation from "./ModalConfirmation";
 import ModalInstructions from "./ModalInstructions";
 import { Icon } from "semantic-ui-react";
 
-const WIDTH = 318;
-const HEIGHT = 452;
-
 export default function CardGrid({ random }) {
+  let WIDTH = 318;
+  let HEIGHT = 452;
+  function getcard() {
+    if (window.innerWidth < 767) {
+      WIDTH = 170;
+      HEIGHT = 242;
+    }
+  }
+  getcard();
+
   const [counter, setCounter] = useState(3);
   const [gridComponents, setGridComponents] = useState([]);
   const startX = Math.floor(-window.innerWidth / WIDTH) * WIDTH;
@@ -19,6 +28,8 @@ export default function CardGrid({ random }) {
   const endY = Math.floor((window.innerHeight * 2) / HEIGHT) * 6 * HEIGHT;
   const [sideA] = useImage(CartaAzul);
   const [sideB] = useImage(CartaAmarilla);
+  const [sideAm] = useImage(CartaAzulMovil);
+  const [sideBm] = useImage(CartaAmarillaMovil);
 
   useEffect(() => {
     for (let x = startX; x < endX; x += WIDTH) {
@@ -29,12 +40,16 @@ export default function CardGrid({ random }) {
   }, [setGridComponents, endX, endY, startX, startY]);
 
   return (
-    <div className='konvaStage'>
+    <div className="konvaStage">
       <Stage
         x={200}
         y={200}
         width={window.innerWidth}
-        height={window.innerHeight - 65}
+        height={
+          window.innerWidth < 767
+            ? window.innerHeight - 42
+            : window.innerHeight - 65
+        }
         draggable
       >
         <Layer>
@@ -42,12 +57,20 @@ export default function CardGrid({ random }) {
             <>
               {[{}, {}, {}].map((card, index) => (
                 <Card
-                  x={3.8 * x + 405 * index}
-                  y={1.2 * y + 200 * index}
+                  x={
+                    window.innerWidth < 767
+                      ? (3.7 * x + 210 * index)
+                      : (3.8 * x + 405 * index)
+                  }
+                  y={
+                    window.innerWidth < 767
+                      ? (1.2 * y + 100 * index)
+                      : (1.2 * y + 200 * index)
+                  }
                   width={WIDTH}
                   height={HEIGHT}
-                  sideA={sideA}
-                  sideB={sideB}
+                  sideA={window.innerWidth < 767 ? sideAm : sideA}
+                  sideB={window.innerWidth < 767 ? sideBm : sideB}
                   onClick={() => {
                     setCounter((counter) => counter - 1);
                   }}
@@ -58,9 +81,11 @@ export default function CardGrid({ random }) {
         </Layer>
       </Stage>
       <button className="scrollbtn">
-        Clic y arrastrar <Icon className='scroll' name="arrows alternate" />
+        Clic y arrastrar <Icon className="scroll" name="arrows alternate" />
       </button>
-     <div className='counterpad'><h1>{counter}</h1></div>
+      <div className="counterpad">
+        <h1>{counter}</h1>
+      </div>
       {counter === 3 && <ModalInstructions />}
       {counter <= 0 && <ModalConfirmation random={random} />}
     </div>
@@ -77,6 +102,8 @@ const Card = ({ width, x, y, height, sideA, sideB, onClick }) => {
       width={width}
       height={height}
       cornerRadius={10}
+      shadowBlur={flipped ? 50 : 0}
+
       fillPatternImage={flipped ? sideB : sideA}
       onTap={() => {
         setFlipped(true);

@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import Header from "./Components/Header";
 import "./App.css";
 import CardGrid from "./Components/CardGrid";
@@ -7,10 +8,17 @@ import Intro from "./Components/Intro";
 import Instructions from "./Components/Instructions";
 import EyeMenu from "./Components/EyeMenu";
 import MenuCausas from "./Components/MenuCausas";
-import Causas from "./Components/Causas";
+import Causas from "./Components/Biodiversidad";
 import Footer from "./Components/Footer";
 import Cartas from "./Components/Cartas";
 import Historias from "./Components/Historias";
+
+import { createBrowserHistory } from "history";
+import Biodiversidad from "./Components/Biodiversidad";
+import Redes from "./Components/Redes";
+import Solidaridad from "./Components/Solidaridad";
+import Simbiosis from "./Components/Simbiosis";
+const customHistory = createBrowserHistory();
 
 export default function App() {
   let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
@@ -26,16 +34,27 @@ export default function App() {
   let random = shuffleArray(numbers);
   console.log("texto");
   return (
-    <Router>
+    <Router history={customHistory}>
       <div className="App">
         <Switch>
-          {/* <Route path="/tarot">
+          <Route path="/biodiversidad">
             <Header />
-            <CardGrid random={random} />
-          </Route> */}
-          <Route path="/causas">
+            <Biodiversidad />
+            <Footer />
+          </Route>
+          <Route path="/redes">
             <Header />
-            <Causas />
+            <Redes />
+            <Footer />
+          </Route>
+          <Route path="/solidaridad">
+            <Header />
+            <Solidaridad />
+            <Footer />
+          </Route>
+          <Route path="/simbiosis">
+            <Header />
+            <Simbiosis />
             <Footer />
           </Route>
           <Route path="/instrucciones">
@@ -61,7 +80,7 @@ export default function App() {
             <EyeMenu />
           </Route>
           <Route path="/causasmenu">
-            <MenuCausas />
+            <MenuCausas customHistory={customHistory} />
           </Route>
           <Route path="/" exact>
             <Header />

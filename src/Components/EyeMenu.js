@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import Close from "../Graphics/Close.svg";
 
 import { Grid, Image, Menu } from "semantic-ui-react";
 import OrnamentoID from "../Graphics/OrnamentoID.svg";
@@ -24,12 +25,14 @@ function EyeMenu() {
           className={"OrnamentoSIm"}
           floated="left"
         />
-        <Image
-          src={OrnamentoSD}
-          size="tiny"
-          className={"OrnamentoSDm"}
-          floated="right"
-        />
+        <Link to="/">
+          <Image
+            src={Close}
+            className={"close"}
+            size={"mini"}
+            floated="right"
+          />
+        </Link>
       </div>
       <Grid className={"EyeMenu"} stackable columns={2} verticalAlign="middle">
         <Grid.Row columns={2} className={"eyetop"}>
@@ -42,12 +45,15 @@ function EyeMenu() {
             />
           </Grid.Column>
           <Grid.Column>
-            <Image
-              src={OrnamentoSD}
-              size="tiny"
-              className={"OrnamentoSD"}
-              floated="right"
-            />
+            <Link to="/">
+              <Image
+                verticalAlign="middle"
+                src={Close}
+                className={"closemenu"}
+                size={"mini"}
+                floated="right"
+              />
+            </Link>
           </Grid.Column>
         </Grid.Row>
         <Grid.Column width={7} className={"Bogotarot"}>
@@ -71,7 +77,10 @@ function EyeMenu() {
                   setBgColor(true);
                   setLogoImage(LogosIdcpNaranja);
                 }}
-                onMouseLeave={() => setBgColor(false)}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
               >
                 Introducción
               </NavLink>
@@ -83,8 +92,14 @@ function EyeMenu() {
             >
               <NavLink
                 to="/instrucciones"
-                onMouseOver={() => setBgColor(true)}
-                onMouseLeave={() => setBgColor(false)}
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
               >
                 Instrucciones
               </NavLink>
@@ -96,8 +111,14 @@ function EyeMenu() {
             >
               <NavLink
                 to="/"
-                onMouseOver={() => setBgColor(true)}
-                onMouseLeave={() => setBgColor(false)}
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
               >
                 Tarot
               </NavLink>
@@ -109,8 +130,14 @@ function EyeMenu() {
             >
               <NavLink
                 to="/causasmenu"
-                onMouseOver={() => setBgColor(true)}
-                onMouseLeave={() => setBgColor(false)}
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
               >
                 Causas
               </NavLink>
@@ -122,8 +149,14 @@ function EyeMenu() {
             >
               <NavLink
                 to="/historias"
-                onMouseOver={() => setBgColor(true)}
-                onMouseLeave={() => setBgColor(false)}
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
               >
                 Historias
               </NavLink>
@@ -146,7 +179,14 @@ function EyeMenu() {
             >
               <NavLink
                 to="/introducción"
-                onMouseOver={() => setBgColor("Introducción")}
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
               >
                 Introducción
               </NavLink>
@@ -156,7 +196,19 @@ function EyeMenu() {
               active={activeItem === "Instrucciones"}
               onClick={() => setActiveItem("Instrucciones")}
             >
-              <NavLink to="/instrucciones">Instrucciones</NavLink>
+              <NavLink
+                to="/instrucciones"
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
+              >
+                Instrucciones
+              </NavLink>
             </Menu.Item>
             <Menu.Item
               className="brandmobile"
@@ -170,14 +222,38 @@ function EyeMenu() {
               active={activeItem === "Causas"}
               onClick={() => setActiveItem("Causas")}
             >
-              <NavLink to="/causasmenu">Causas</NavLink>
+              <NavLink
+                to="/causasmenu"
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
+              >
+                Causas
+              </NavLink>
             </Menu.Item>
             <Menu.Item
               className="brandmobile"
               active={activeItem === "Historias"}
               onClick={() => setActiveItem("Historias")}
             >
-              <NavLink to="/historias">Historias</NavLink>
+              <NavLink
+                to="/historias"
+                onMouseOver={() => {
+                  setBgColor(true);
+                  setLogoImage(LogosIdcpNaranja);
+                }}
+                onMouseLeave={() => {
+                  setBgColor(false);
+                  setLogoImage(Logosidpcmdb);
+                }}
+              >
+                Historias
+              </NavLink>
             </Menu.Item>
           </Menu>
         </Grid.Column>
@@ -193,7 +269,7 @@ function EyeMenu() {
           <Grid.Column floated>
             <Image
               className={"logosmenu"}
-              src={Logosidpcmdb}
+              src={logoImage}
               size="medium"
               centered
             />
