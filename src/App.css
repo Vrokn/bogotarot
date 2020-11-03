@@ -967,8 +967,11 @@ html {
   .ojodescription {
     max-width: 75px !important;
   }
-  .actividad h5{
+  .actividad h5 {
     font-size: 2em;
+  }
+  .modalDescription h1 {
+    padding: 0 60px !important;
   }
 }
 
