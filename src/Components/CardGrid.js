@@ -37,7 +37,7 @@ export default function CardGrid({ random }) {
         setGridComponents((gridComponents) => [...gridComponents, { x, y }]);
       }
     }
-  }, [setGridComponents, endX, endY, startX, startY]);
+  }, [setGridComponents, endX, endY, startX, startY, WIDTH, HEIGHT]);
 
   return (
     <div className="konvaStage">
@@ -59,13 +59,13 @@ export default function CardGrid({ random }) {
                 <Card
                   x={
                     window.innerWidth < 767
-                      ? (3.7 * x + 210 * index)
-                      : (3.8 * x + 405 * index)
+                      ? 3.7 * x + 210 * index
+                      : 3.8 * x + 405 * index
                   }
                   y={
                     window.innerWidth < 767
-                      ? (1.2 * y + 100 * index)
-                      : (1.2 * y + 200 * index)
+                      ? 1.2 * y + 100 * index
+                      : 1.2 * y + 200 * index
                   }
                   width={WIDTH}
                   height={HEIGHT}
@@ -102,8 +102,7 @@ const Card = ({ width, x, y, height, sideA, sideB, onClick }) => {
       width={width}
       height={height}
       cornerRadius={10}
-      shadowBlur={flipped ? 50 : 0}
-
+      shadowBlur={flipped ? 35 : 0}
       fillPatternImage={flipped ? sideB : sideA}
       onTap={() => {
         setFlipped(true);

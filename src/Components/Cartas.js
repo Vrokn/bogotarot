@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Image } from "semantic-ui-react";
+import { Image, Modal } from "semantic-ui-react";
 import data from "./Cards";
 import { HashLink } from "react-router-hash-link";
 import correcto from "../Graphics/Correcto.svg";
@@ -11,6 +11,7 @@ const Carta = ({ num }) => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [popup, setpopup] = useState(false);
   const [popupc, setpopupc] = useState(false);
+  const [fullCard, setFullCard] = useState(false);
 
   const showpopup = () => {
     setpopup(true);
@@ -32,12 +33,27 @@ const Carta = ({ num }) => {
       <div className="cartasTarot">
         <div className="choosedCard">
           <div className="leftSide">
-            <Image
-              fluid
-              size="massive"
-              src={data[num].image}
-              verticalAlign="middle"
-            />
+            <Modal
+              basic
+              onClose={() => setFullCard(false)}
+              onOpen={() => setFullCard(true)}
+              open={fullCard}
+              dimmer='blurring'
+              size="tiny"
+              trigger={
+                <Image
+                  fluid
+                  size="massive"
+                  src={data[num].image}
+                  verticalAlign="middle"
+                />
+              }
+            >
+              <Modal.Content>
+                <Image fluid size="large" src={data[num].image} />
+              </Modal.Content>
+            </Modal>
+
             <div className="cardName">
               <p>{data[num].name}</p>
             </div>
@@ -53,7 +69,7 @@ const Carta = ({ num }) => {
                   setShowQuestion(true);
                 }}
               >
-                Pregunta -----
+                Pregunta
               </button>
             </div>
             <div className={showQuestion ? "cardQuestion" : "hidden"}>
@@ -71,6 +87,7 @@ const Carta = ({ num }) => {
                   }}
                 >
                   {opcion}
+                  <br></br>
                 </button>
               ))}
             </div>
@@ -85,8 +102,16 @@ const Carta = ({ num }) => {
           </div>
         </div>
       </div>
-      <Image src={incorrecto} size='tiny' className={popup ? "popup" : "nopopup"} />
-      <Image src={correcto} size='tiny' className={popupc ? "popup" : "nopopup"} />
+      <Image
+        src={incorrecto}
+        size="tiny"
+        className={popup ? "popup" : "nopopup"}
+      />
+      <Image
+        src={correcto}
+        size="tiny"
+        className={popupc ? "popup" : "nopopup"}
+      />
     </>
   );
 };

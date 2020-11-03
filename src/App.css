@@ -6,6 +6,9 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+.Bogotarotm {
+  margin-bottom: 30px;
+}
 .closemenu {
   top: 20px;
   right: 40px;
@@ -175,7 +178,12 @@ html {
   background-color: #ff5500;
   border-radius: 2em;
 }
+.cardbutton:hover {
+  background-color: #ff5500 !important;
+  color: #fffbef;
+}
 .cardbutton {
+  cursor: pointer;
   border: none;
   outline: none;
   font-size: 1.6em;
@@ -187,7 +195,7 @@ html {
   position: relative;
   align-self: flex-end;
   left: 60%;
-  top: 30px
+  top: 30px;
 }
 .scroll {
   margin-left: 20px !important;
@@ -236,6 +244,7 @@ html {
   background-color: hsla(20, 100%, 50%, 0.836);
 }
 .sibtn {
+  cursor: pointer;
   background-color: #ff5500;
   font-family: rakkas;
   border-radius: 3em;
@@ -248,6 +257,7 @@ html {
   outline: none;
 }
 .nobtn {
+  cursor: pointer;
   background-color: #da8d24;
   font-family: rakkas;
   border-radius: 3em;
@@ -284,6 +294,7 @@ html {
   width: 31%;
 }
 .begin {
+  cursor: pointer !important;
   top: 20px;
   position: relative;
   font-size: 20px;
@@ -310,8 +321,11 @@ html {
   align-items: center;
   text-align: center;
 }
+.modalDescription {
+  justify-content: center;
+  align-items: center;
+}
 .modalDescription h1 {
-  text-align: center !important;
   font-size: 3em !important;
   font-weight: normal;
   position: relative;
@@ -319,7 +333,6 @@ html {
   font-family: rakkas !important;
 }
 .modalDescription p {
-  align-self: center;
   color: #142438;
   font-size: 16px;
   font-family: oxygen;
@@ -700,7 +713,7 @@ html {
 .NavHeader {
   background-color: #fffbef !important;
   z-index: 99;
-  position: sticky ;
+  position: sticky;
   top: 0%;
   margin: 0% !important;
   font-size: 16px !important;
@@ -804,6 +817,7 @@ html {
   .NavMenumobile {
     position: relative;
     top: 80px;
+    left: -25px;
   }
   .brandmobile {
     padding: 0% !important;
@@ -833,16 +847,20 @@ html {
     position: relative;
   }
   .cardbutton {
+    cursor: pointer !important;
     top: 10vh;
     left: 0;
   }
   .rightSide h1 {
     font-size: 4em;
+    margin-top: 20px !important;
   }
   .rightSide p {
     position: relative;
+    max-width: 100%;
   }
   .rightSide {
+    padding: 4em;
     top: -100px;
     position: relative;
     width: 100%;
@@ -899,7 +917,7 @@ html {
     flex-direction: column;
   }
   .footereye {
-    top: -210px;
+    top: -180px;
   }
   .footerl {
     width: 100%;
@@ -921,13 +939,36 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .modalDescription h1 {
-    z-index: 4 !important;
-    color: #da8d24 !important    ;
-    left: 40px;
-  }
   .brand {
-    padding: 20px 1em  !important;
+    padding: 20px 1em !important;
+  }
+  .menucausas {
+    position: relative;
+    left: -30px;
+  }
+  .eyebottomm {
+    display: flex;
+    width: 100%;
+  }
+  .popup {
+    width: 50% !important;
+    left: -18%;
+  }
+  .rightSide h2 {
+    font-size: 3em;
+    margin-top: 20px !important;
+  }
+  .causadescription h1 {
+    font-family: rakkas;
+    color: #da8d24;
+    font-size: 2.5em;
+    font-weight: normal;
+  }
+  .ojodescription {
+    max-width: 75px !important;
+  }
+  .actividad h5{
+    font-size: 2em;
   }
 }
 

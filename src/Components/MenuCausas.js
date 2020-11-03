@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 import { Grid, Image, Menu } from "semantic-ui-react";
@@ -118,6 +118,26 @@ function MenuCausas() {
           </Grid.Column>
         </Grid.Row>
       </Grid>
+      <div className={"eyebottomm"}>
+        <Image
+          src={OrnamentoII}
+          size="tiny"
+          className={"OrnamentoIIm"}
+          floated="left"
+        />
+        <Image
+          src={Logosidpcmdb}
+          size="small"
+          className={"logosMenumb"}
+          centered
+        />
+        <Image
+          src={OrnamentoID}
+          size="tiny"
+          className={"OrnamentoIDm"}
+          floated="right"
+        />
+      </div>
     </div>
   );
 }

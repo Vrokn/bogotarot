@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Grid, Button, Image, Modal } from "semantic-ui-react";
+import React from "react";
+import { Grid, Image } from "semantic-ui-react";
 import instrucciones from "../Graphics/Instrucciones.svg";
 import instruccionesMobile from "../Graphics/Instruccionesmobile.svg";
 import Ojoamarillo from "../Graphics/Ojoamarillo.svg";

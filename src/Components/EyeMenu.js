@@ -6,7 +6,6 @@ import { Grid, Image, Menu } from "semantic-ui-react";
 import OrnamentoID from "../Graphics/OrnamentoID.svg";
 import OrnamentoII from "../Graphics/OrnamentoII.svg";
 import OrnamentoSI from "../Graphics/OrnamentoSI.svg";
-import OrnamentoSD from "../Graphics/OrnamentoSD.svg";
 import Bogotarot from "../Graphics/Bogotarot.svg";
 import Logosidpcmdb from "../Graphics/Logosidpcmdb.svg";
 import LogosIdcpNaranja from "../Graphics/LogosIdcpNaranja.svg";

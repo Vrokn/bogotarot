@@ -135,7 +135,7 @@ new Card(
     "C) Por sexo u orientación sexual y discapacidad",
     "D) Todas las anteriores y demás razones de discriminación",
   ],
-  "D. Todas las anteriores y demás razones de discriminación",
+  "D) Todas las anteriores y demás razones de discriminación",
   "Las diferencias intra e interespecies garantizan la supervivencia de nuestro planeta. Lo mismo que ocurre en las sociedades humanas, sin embargo, algunas personas no ven la riqueza existente en la diversidad, olvidando que todos los seres humanos somos sujetos de derechos."
 );
 new Card(
