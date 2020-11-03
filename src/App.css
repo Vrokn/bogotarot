@@ -162,6 +162,7 @@ html {
   box-shadow: -10px 0px 4px #3a3a3a48;
 }
 .leftSide {
+  cursor: pointer !important;
   margin: 0 -3em;
   display: flex;
   width: 55%;
