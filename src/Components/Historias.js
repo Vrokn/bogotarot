@@ -4,10 +4,21 @@ import Historiasb from "../Graphics/Historiasb.svg";
 import HistoriasMobile from "../Graphics/HistoriasMobile.svg";
 import Ojoamarillo from "../Graphics/Ojoamarillo.svg";
 
+import { Link } from "react-router-dom";
+import Close from "../Graphics/Close.svg";
+
 function Historias() {
   return (
     <Grid className={"intro"} stackable columns={2}>
       <Grid.Column>
+        <Link to="/">
+          <Image
+            src={Close}
+            className={"closereturn"}
+            size={"mini"}
+            floated="right"
+          />
+        </Link>
         <Image
           size="massive"
           className={"instrutitle"}

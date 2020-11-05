@@ -4,12 +4,22 @@ import historias from "../Graphics/Historias.svg";
 import historiasmobil from "../Graphics/Historiasmobil.svg";
 import Ojoamarillo from "../Graphics/Ojoamarillo.svg";
 import presentación from "../Graphics/Presentación.svg";
+import { Link } from "react-router-dom";
+import Close from "../Graphics/Close.svg";
 
 function Intro() {
   return (
     <Grid className={"intro"} stackable columns={2}>
       <Grid.Column>
-        <Image className={"introtitle"} size='massive' src={historias} fluid />
+        <Link to="/">
+          <Image
+            src={Close}
+            className={"closereturn"}
+            size={"mini"}
+            floated="right"
+          />
+        </Link>
+        <Image className={"introtitle"} size="massive" src={historias} fluid />
         <Image className={"introtitlemobile"} src={historiasmobil} fluid />
         <Image className={"Ojoamarillomobile"} src={Ojoamarillo} />
       </Grid.Column>

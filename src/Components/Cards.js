@@ -130,12 +130,12 @@ new Card(
   "Formando un gran mosaico vivimos en la ciudad, el encanto de la diferencia miedo no nos dará.",
   "En Colombia la discriminación es un delito que se sanciona penalmente (Ley 1752/2015). ¿Cuál de las siguientes causas de discriminación son sancionables por dicha Ley?",
   [
-    "A) Por raza y etnia",
-    "B) Por religión, nacionalidad e ideología política o filosófica",
-    "C) Por sexo u orientación sexual y discapacidad",
-    "D) Todas las anteriores y demás razones de discriminación",
+    "A) Por raza, etnia, nacionalidad y religión",
+    "B) Por ideología política o filosófica",
+    "C) Por sexo, orientación sexual y discapacidad",
+    "D) Las anteriores y otras razones de discriminación",
   ],
-  "D) Todas las anteriores y demás razones de discriminación",
+  "D) Las anteriores y otras razones de discriminación",
   "Las diferencias intra e interespecies garantizan la supervivencia de nuestro planeta. Lo mismo que ocurre en las sociedades humanas, sin embargo, algunas personas no ven la riqueza existente en la diversidad, olvidando que todos los seres humanos somos sujetos de derechos."
 );
 new Card(

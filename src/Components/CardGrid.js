@@ -42,8 +42,8 @@ export default function CardGrid({ random }) {
   return (
     <div className="konvaStage">
       <Stage
-        x={200}
-        y={200}
+        x={window.innerWidth < 767 ? 100 : 200}
+        y={window.innerWidth < 767 ? 100 : 200}
         width={window.innerWidth}
         height={
           window.innerWidth < 767

@@ -6,10 +6,21 @@ import Ojoamarillo from "../Graphics/Ojoamarillo.svg";
 import cartasHorizontalAzul from "../Graphics/cartasHorizontalAzul.gif";
 import cartasVerticalAzul from "../Graphics/cartasVerticalAzul.gif";
 
+import { Link } from "react-router-dom";
+import Close from "../Graphics/Close.svg";
+
 function Instructions() {
   return (
     <Grid className={"intro"} stackable columns={2}>
       <Grid.Column>
+        <Link to="/">
+          <Image
+            src={Close}
+            className={"closereturn"}
+            size={"mini"}
+            floated="right"
+          />
+        </Link>
         <Image
           className={"instrutitle"}
           src={instrucciones}

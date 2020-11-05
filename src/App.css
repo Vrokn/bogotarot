@@ -6,6 +6,23 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+.cartasTarot {
+  position: relative;
+  overflow: auto !important;
+  max-height: 91.1vh;
+}
+.choosedCard {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 2.65em;
+  box-shadow: 0 0 10px #aeaeae;
+}
+.LogosBlancos {
+  max-width: 70% !important;
+}
+.closereturn {
+  display: none !important;
+}
 .Bogotarotm {
   margin-bottom: 30px;
 }
@@ -25,8 +42,8 @@ html {
   display: flex;
   z-index: 5;
   position: fixed !important;
-  left: 30%;
-  top: 10vh !important;
+  left: 38%;
+  top: 33vh !important;
   background: none !important;
   border: none !important;
   box-shadow: none !important;
@@ -68,8 +85,7 @@ html {
   max-width: 20vw;
 }
 .cardactivities h1 {
-  left: 80px;
-  position: relative;
+  text-align: center;
   margin-top: 80px;
   font-family: rakkas;
   font-size: 3em;
@@ -90,6 +106,7 @@ html {
 .video {
   align-self: flex-end;
   max-height: 90vh;
+  max-width: 80vw;
   margin: 2em;
   border-radius: 2em;
   border: #da8d24 2px solid;
@@ -116,6 +133,7 @@ html {
   color: #f8dd74;
 }
 .options {
+  text-align: left;
   font-family: rakkas;
   font-size: 2em;
   font-weight: normal;
@@ -149,7 +167,7 @@ html {
 
 .rightSide {
   justify-content: center !important;
-  min-height: 70vh;
+  min-height: 84vh;
   min-width: 50%;
   padding: 0 80px;
   background-color: #142438;
@@ -173,8 +191,8 @@ html {
   background-color: #ff5500;
   display: flex;
   align-items: center;
-  margin: 1em;
-  max-height: 70vh;
+  margin: 2em 2.6em;
+  max-height: 82vh;
   overflow: hidden;
   background-color: #ff5500;
   border-radius: 2em;
@@ -325,6 +343,7 @@ html {
 .modalDescription {
   justify-content: center;
   align-items: center;
+  width: 100% !important;
 }
 .modalDescription h1 {
   font-size: 3em !important;
@@ -424,17 +443,19 @@ html {
 }
 
 .causadescription {
+  padding: 0 2.5em;
+  width: 100%;
+  justify-content: center;
   text-align: center;
   align-items: center;
   position: relative;
   display: flex;
   flex-direction: column;
-  top: 80px;
+  top: 30px;
 }
 
 .carddescription {
   margin-bottom: 1em;
-
   display: flex;
   padding: 1em;
   border-radius: 2em !important;
@@ -761,6 +782,18 @@ html {
   display: none !important;
 }
 
+@media (max-width: 375px) {
+  .rightSide h1 {
+    font-size: 2.5em !important;
+  }
+  .rightSide p {
+    font-size: 1em !important;
+  }
+  .options {
+    font-size: 1.4em !important;
+  }
+  
+}
 @media (max-width: 460px) {
   .NavMenu a {
     font-size: 3rem !important;
@@ -823,9 +856,14 @@ html {
   .brandmobile {
     padding: 0% !important;
   }
+
   .choosedCard {
+    margin: 8px;
+    max-height: 92vh;
+    background-color: #da8d24;
     flex-direction: column;
-    max-height: 100%;
+    position: sticky;
+    top: 8px;
   }
   .scrollbtn {
     left: 30vw;
@@ -837,35 +875,51 @@ html {
     flex-direction: column;
     width: 100%;
   }
-  .choosedCard {
-    background-color: #142438;
+  .options {
+    font-size: 1.7em;
+    position: relative;
+  }
+  .cartasTarot {
+    overflow: auto !important;
+    max-height: 94vh;
   }
   .leftSide {
-    display: flex;
-    overflow: hidden;
+    top: -20vh;
     width: 110%;
-    top: -25px;
+    min-height: 78vh;
+    overflow: hidden;
     position: relative;
   }
   .cardbutton {
-    cursor: pointer !important;
-    top: 10vh;
-    left: 0;
+    font-size: 1.3em;
+    padding: 0.5em 2em;
+    position: relative;
+    align-self: flex-end;
+    left: 40%;
+    top: 10px;
   }
   .rightSide h1 {
-    font-size: 4em;
-    margin-top: 20px !important;
+    position: relative;
+    font-size: 3em;
+    margin: 0;
   }
   .rightSide p {
+    font-size: 1.1em;
+    margin: 0;
     position: relative;
     max-width: 100%;
   }
   .rightSide {
-    padding: 4em;
-    top: -100px;
+    min-height: 64vh;
+    flex-direction: column;
+    display: flex;
+    align-content: flex-start;
+    align-items: center !important;
+    justify-content: center !important;
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    padding: 2em;
+    top: -50vh;
   }
   .cardtitlecontainer,
   .activitiescontainer {
@@ -877,10 +931,7 @@ html {
   .causatitle {
     margin: 2em;
   }
-  .carddescriptioncontainer {
-    width: 100%;
-    padding: 0;
-  }
+
   .causadescription p {
     font-family: Oxygen;
     font-style: normal;
@@ -952,8 +1003,7 @@ html {
     width: 100%;
   }
   .popup {
-    width: 50% !important;
-    left: -18%;
+    left: 14%;
   }
   .rightSide h2 {
     font-size: 3em;
@@ -971,14 +1021,22 @@ html {
   .actividad h5 {
     font-size: 2em;
   }
-  .modalDescription h1 {
-    padding: 0 60px !important;
+  .modalDescription h1{
+    padding: 0 30px;
+  }
+  .closereturn {
+    display: flex !important;
+    padding: 5px;
+  }
+  .LogosBlancos {
+    max-width: 60% !important;
   }
 }
 
 @media (max-width: 928px) {
-  .logosidpc {
-    display: none !important;
+  .footereye {
+    left: 5% !important;
+    transition: 0.3s;
   }
   .NavMenu a {
     font-size: 4.5rem !important;
@@ -988,9 +1046,20 @@ html {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 974px) {
   .MenuCausasLinks a {
     font-size: 2.5rem;
+  }
+  .LogosBlancos {
+    max-width: 60% !important;
+  }
+  .logosidpc {
+    display: none !important;
+  }
+  .footereye {
+    position: relative;
+    left: 2%;
+    transition: 0.3s;
   }
 }
 
