@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bff2fc8b17717c187c979cdb922e822b",
+    "revision": "93d8d797191ca450cc11535cbb8754fe",
     "url": "/index.html"
   },
   {
-    "revision": "c829b64640be149d2142",
+    "revision": "40773a8d1a887452e2f0",
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "868c7244cb0e06806a51",
-    "url": "/static/css/main.b74ac651.chunk.css"
+    "revision": "1606acab9b0de1dd11ad",
+    "url": "/static/css/main.5fefcc60.chunk.css"
   },
   {
-    "revision": "c829b64640be149d2142",
-    "url": "/static/js/2.f3e76664.chunk.js"
+    "revision": "40773a8d1a887452e2f0",
+    "url": "/static/js/2.dd798cdd.chunk.js"
   },
   {
     "revision": "af945f101cccf5f437e55a3044282b78",
-    "url": "/static/js/2.f3e76664.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.dd798cdd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "868c7244cb0e06806a51",
-    "url": "/static/js/main.bcd0c4a9.chunk.js"
+    "revision": "1606acab9b0de1dd11ad",
+    "url": "/static/js/main.befd061f.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -48,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Contadorbg.cd2a56eb.svg"
   },
   {
-    "revision": "6a001bf8918db051c359aee7a8191604",
-    "url": "/static/media/Correcto.6a001bf8.svg"
-  },
-  {
     "revision": "e12c4862833e5781b9519e9761fa6e37",
     "url": "/static/media/Gota tras gota.e12c4862.jpg"
   },
@@ -74,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "34f614952dff8ec0530345779e1ce497",
     "url": "/static/media/Huerteando en la ciudad.34f61495.jpg"
-  },
-  {
-    "revision": "a14e347f5f22118253caada22989525e",
-    "url": "/static/media/Incorrecto.a14e347f.svg"
   },
   {
     "revision": "fa0b5bdf9f7bbd4a16e24cad24d01868",
@@ -192,6 +184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/cartasVerticalBlanco.6b78aa37.gif"
   },
   {
+    "revision": "f85d5b92202853d77ba3b6fa511ebac5",
+    "url": "/static/media/correcto.f85d5b92.svg"
+  },
+  {
     "revision": "432a72e562ed4e5a2ec98e9dd8c25665",
     "url": "/static/media/el-avaro.432a72e5.jpg"
   },
@@ -246,6 +242,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "858977b2bf78c0bbed3d176520b515f9",
+    "url": "/static/media/incorrecto.858977b2.svg"
   },
   {
     "revision": "92a43c47c63a6342389a4a8210ef53c7",
