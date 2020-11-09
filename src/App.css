@@ -6,10 +6,18 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
-.cartasTarot {
+.cartasTarot,
+.causacard {
   position: relative;
   overflow: auto !important;
   max-height: 91.1vh;
+}
+.cardtitle,
+.carddescription,
+.cardactivities {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
 }
 .choosedCard {
   position: -webkit-sticky !important;
@@ -48,19 +56,28 @@ html {
   border: none !important;
   box-shadow: none !important;
 }
+.cardactivitiescontainer{
+  border: #da8d24 2px solid;
+  border-radius: 2em;
+
+}
 .imagenactividad {
   align-items: center;
   justify-content: center;
-  max-height: 151px;
+  min-width: 20%;
+  max-height: 190px;
   overflow: hidden;
+  background-color: #142438;
+  border: #da8d24 4px solid;
+  padding: 0.5em;
+  border-radius: 1em;
 }
 .cardactivities {
+  background-color: #fffbef !important;
   padding: 1em;
   border-radius: 2em !important;
-  z-index: 2 !important;
   border: #d6d5d0 solid 1px;
   box-shadow: #d6d5d0 0px 2px 4px;
-  justify-content: center;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -69,20 +86,18 @@ html {
   color: #da8d24;
   font-weight: normal;
   font-family: rakkas;
-  font-size: 2vw;
-  text-align: center;
+  font-size: 1.8vw;
   line-height: 1em;
 }
 .actividad {
+  max-width: 25%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2em;
+  justify-content: space-between;
+  padding: 1em;
   border-radius: 2em;
   outline: #142438;
-  border: #da8d24 2px solid;
   margin: 1em;
-  max-width: 20vw;
 }
 .cardactivities h1 {
   text-align: center;
@@ -98,16 +113,16 @@ html {
 .activitiescontainer {
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 .causaOrnamentoSI {
   align-self: flex-start;
 }
-
 .video {
   align-self: flex-end;
-  max-height: 90vh;
+  max-height: 78vh;
   max-width: 80vw;
-  margin: 2em;
+  margin: 1em;
   border-radius: 2em;
   border: #da8d24 2px solid;
   outline: none;
@@ -116,6 +131,10 @@ html {
   align-items: center;
   justify-content: space-between;
   display: flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 1em;
+  border: #da8d24 solid 2px;
 }
 .konvaStage {
   cursor: move !important;
@@ -124,7 +143,6 @@ html {
   display: inline;
   color: #aeaeae;
   font-family: oxygen;
-  z-index: 10;
   position: relative;
   font-size: 1.5em;
   top: -50vh;
@@ -164,7 +182,6 @@ html {
   font-weight: lighter;
   color: #da8d24;
 }
-
 .rightSide {
   justify-content: center !important;
   min-height: 84vh;
@@ -288,9 +305,6 @@ html {
   padding: 12px 8px;
   outline: none;
 }
-.carddescriptiontop {
-  display: inline;
-}
 .modalDescription h2 {
   position: relative;
   font-family: rakkas !important;
@@ -358,7 +372,6 @@ html {
   font-family: oxygen;
   padding: 0 40px;
 }
-
 /* footer */
 .submitbtn {
   background: none;
@@ -377,46 +390,38 @@ html {
   border-bottom: #d6d5d0 1px solid !important;
   border-radius: 0% !important;
 }
-
 .footersm a {
   color: #fffbef;
   letter-spacing: 1px;
 }
-
 .footersm a:hover {
   color: #da8d24;
   letter-spacing: 1px;
 }
-
 .footersm {
   margin-right: 50px;
   font-family: oxygen !important;
   display: flex;
   flex-direction: column;
 }
-
 .footerr {
   justify-content: space-between;
   display: flex;
 }
-
 .footereye {
   position: relative;
   z-index: 2;
   bottom: 100px;
   left: -2%;
 }
-
 .footerl {
   width: 50%;
 }
-
 .footer h2 {
   font-family: rakkas;
   color: #da8d24;
   font-weight: normal;
 }
-
 .footer {
   align-items: center;
   display: flex;
@@ -424,14 +429,12 @@ html {
   border-top: #da8d24 8px solid;
   padding: 3em;
 }
-
 .causadescription h1 {
   font-family: rakkas;
   color: #da8d24;
   font-size: 4vw;
   font-weight: normal;
 }
-
 .causadescription p {
   font-family: Oxygen;
   font-style: normal;
@@ -441,10 +444,10 @@ html {
   max-width: 75%;
   margin-bottom: 80px !important;
 }
-
 .causadescription {
   padding: 0 2.5em;
   width: 100%;
+  height: 100%;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -453,17 +456,14 @@ html {
   flex-direction: column;
   top: 30px;
 }
-
 .carddescription {
-  margin-bottom: 1em;
   display: flex;
   padding: 1em;
   border-radius: 2em !important;
-  z-index: 3 !important;
   border: #d6d5d0 solid 1px;
   box-shadow: #d6d5d0 0px 2px 4px;
+  background-color: #fffbef !important;
 }
-
 .contador {
   justify-content: space-around;
   flex-direction: row;
@@ -474,7 +474,6 @@ html {
   border-radius: 1em;
   align-items: center;
 }
-
 .toclose {
   position: relative;
   font-family: oxygen;
@@ -482,7 +481,6 @@ html {
   color: #fffbef;
   font-weight: normal;
 }
-
 .timeleft {
   font-family: rakkas;
   font-size: 3vw;
@@ -507,16 +505,13 @@ html {
   transition: 0.3s;
   margin-bottom: 1em;
 }
-
 .suscribebtn:hover {
   background-color: #da8d24;
   border: 2px solid #fffbef;
 }
-
 .suscribebtn:active {
   border: 2px solid #da8d24;
 }
-
 .causatitle h1 {
   font-weight: normal;
   letter-spacing: 1px;
@@ -526,40 +521,28 @@ html {
   text-shadow: -1px -1px #da8d24, -1px 1px #da8d24, 1px 1px #da8d24,
     1px -1px #da8d24;
 }
-
-.cardtitlecontainer,
 .carddescriptioncontainer {
-  height: 100%;
+  height: 100% !important;
   width: 100%;
   border-radius: 1em;
   border: #da8d24 solid 2px;
 }
-
 .cardtitle {
-  margin-bottom: 1em;
   display: flex;
   padding: 1em;
   border-radius: 2em !important;
-  z-index: 4 !important;
   background-color: #15263d !important;
-}
-.causacard {
-  margin-top: 1em;
-  margin-bottom: 1em;
 }
 .causascards {
   margin: 1em;
 }
-
 .Bogotarot {
   top: 50px;
 }
-
 .brandnav {
   margin: 0% !important;
   padding: 1em 1.5em !important;
 }
-
 .close {
   right: 30px;
   top: 30px;
@@ -569,7 +552,6 @@ html {
   margin: 0% !important;
   padding: 1em 4em !important;
 }
-
 .causaslink {
   left: 8vw;
   top: 6vh;
@@ -577,7 +559,6 @@ html {
   align-self: center !important;
   position: relative !important;
 }
-
 .causaslink h1 {
   font-size: 4rem;
   font-weight: normal;
@@ -585,16 +566,13 @@ html {
   margin: 32px !important;
   color: #da8d24 !important;
 }
-
 .MenuCausasLinks a:active {
   color: #da8d24 !important;
 }
-
 .MenuCausasLinks a:hover {
   color: #da8d24 !important;
   background: none !important;
 }
-
 .MenuCausasLinks a {
   font-weight: normal;
   font-style: normal;
@@ -602,31 +580,26 @@ html {
   font-family: Rakkas !important;
   color: #15263d !important;
 }
-
 .MenuLinks {
   position: relative;
   display: flex !important;
   top: 12vh !important;
 }
-
 .eyetop {
   position: fixed !important;
   top: 0% !important;
   margin: 0% !important;
 }
-
 .eyebottom,
 .eyebottomMobile {
   position: absolute !important;
   bottom: 0% !important;
   left: 0;
 }
-
 .NavMenu {
   align-items: center !important;
   height: 100% !important;
 }
-
 .NavMenu a {
   transition: 0.3s !important;
   font-family: Rakkas !important;
@@ -636,7 +609,6 @@ html {
   letter-spacing: 0.05em;
   color: #15263d !important;
 }
-
 .NavMenuDark a {
   transition: 0.3s !important;
   font-family: Rakkas !important;
@@ -648,33 +620,27 @@ html {
   text-shadow: -1px -1px #da8d24, -1px 1px #da8d24, 1px 1px #da8d24,
     1px -1px #da8d24;
 }
-
 .MenuLinks a:hover {
   color: #da8d24 !important;
   background: none !important;
 }
-
 .backgrounddark {
   background-color: #142438 !important;
   height: 100vh;
   transition: 0.3s !important;
 }
-
 .backgroundligth {
   height: 100vh;
   background-color: #fffbef !important;
   transition: 0.3s !important;
 }
-
 .cartasHorizontalAzul {
   padding: -30px !important;
   border-radius: 4em !important;
 }
-
 .botonesabc {
   justify-content: center !important;
 }
-
 .instrubutton {
   color: #f8dd74 !important;
   background: none !important;
@@ -684,7 +650,6 @@ html {
   border-color: #f8dd74 !important;
   border-style: solid !important;
 }
-
 .instrubutton.active {
   color: black !important;
   font-family: rakkas !important;
@@ -692,7 +657,6 @@ html {
   margin: 20px 30px !important;
   background-color: #f8dd74 !important;
 }
-
 .instrucdescription {
   display: flex !important;
   flex-direction: column;
@@ -704,7 +668,6 @@ html {
   align-content: center;
   align-items: center;
 }
-
 .introdescription,
 .instrucdescription {
   justify-content: center !important;
@@ -713,13 +676,11 @@ html {
   align-content: center !important;
   min-height: 92vh;
 }
-
 .column,
 .row {
   margin: 0% !important;
   padding: 0% !important;
 }
-
 .introdescription p,
 .instrucdescription p {
   align-content: center !important;
@@ -731,7 +692,6 @@ html {
   letter-spacing: 0.05em !important;
   color: #ffffff;
 }
-
 .NavHeader {
   background-color: #fffbef !important;
   z-index: 99;
@@ -748,26 +708,21 @@ html {
   background-color: #fffbef;
   color: #15263d;
 }
-
 .ui.secondary.menu .active.item {
   background: none !important;
 }
-
 .ui.floated.image,
 .ui.floated.images,
 .ui.secondary.menu {
   margin: 0% !important;
 }
-
 .NavHeader a:active {
   color: #ff5500 !important;
 }
-
 .NavHeader a:hover {
   color: #ff5500;
   background: none !important;
 }
-
 .NavHeadermobil,
 .Ojoamarillomobile,
 .introtitlemobile,
@@ -792,8 +747,8 @@ html {
   .options {
     font-size: 1.4em !important;
   }
-  
 }
+
 @media (max-width: 460px) {
   .NavMenu a {
     font-size: 3rem !important;
@@ -856,7 +811,6 @@ html {
   .brandmobile {
     padding: 0% !important;
   }
-
   .choosedCard {
     margin: 8px;
     max-height: 92vh;
@@ -925,13 +879,10 @@ html {
   .activitiescontainer {
     flex-direction: column;
   }
-  .actividad {
-    max-width: 100%;
-  }
   .causatitle {
-    margin: 2em;
+    padding: 2em;
+    overflow: auto;
   }
-
   .causadescription p {
     font-family: Oxygen;
     font-style: normal;
@@ -958,9 +909,6 @@ html {
   .ojocounter {
     margin-left: 0 !important;
     max-width: 60px !important;
-  }
-  .cardtitle {
-    width: 100%;
   }
   .causatitle h1 {
     font-size: 3em;
@@ -1021,7 +969,7 @@ html {
   .actividad h5 {
     font-size: 2em;
   }
-  .modalDescription h1{
+  .modalDescription h1 {
     padding: 0 30px;
   }
   .closereturn {

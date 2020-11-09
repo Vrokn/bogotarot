@@ -3,7 +3,6 @@ import { Grid, Image } from "semantic-ui-react";
 import historias from "../Graphics/Historias.svg";
 import historiasmobil from "../Graphics/Historiasmobil.svg";
 import Ojoamarillo from "../Graphics/Ojoamarillo.svg";
-import presentación from "../Graphics/Presentación.svg";
 import { Link } from "react-router-dom";
 import Close from "../Graphics/Close.svg";
 

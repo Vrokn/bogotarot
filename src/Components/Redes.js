@@ -45,7 +45,7 @@ const Redes = () => {
           </div>
         </div>
         <div className="carddescription">
-          <div className="carddescriptioncontainer">
+          <div className="cardactivitiescontainer">
             <div className="carddescriptiontop">
               <Image src={OrnamentoSI} size="tiny" floated="left" />
               <Image src={OrnamentoSD} size="tiny" floated="right" />
