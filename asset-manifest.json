@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8c9bfa8.chunk.css",
-    "main.js": "/static/js/main.4a0e4a95.chunk.js",
-    "main.js.map": "/static/js/main.4a0e4a95.chunk.js.map",
+    "main.css": "/static/css/main.c6e6bce8.chunk.css",
+    "main.js": "/static/js/main.669558d6.chunk.js",
+    "main.js.map": "/static/js/main.669558d6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6cb3ab8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.6cb3ab8e.js.map",
     "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
-    "static/js/2.dd798cdd.chunk.js": "/static/js/2.dd798cdd.chunk.js",
-    "static/js/2.dd798cdd.chunk.js.map": "/static/js/2.dd798cdd.chunk.js.map",
+    "static/js/2.0a02606b.chunk.js": "/static/js/2.0a02606b.chunk.js",
+    "static/js/2.0a02606b.chunk.js.map": "/static/js/2.0a02606b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.19f4304aabfc99f3da74eb702a4add34.js": "/precache-manifest.19f4304aabfc99f3da74eb702a4add34.js",
+    "precache-manifest.da8aabb33e49d4a26d7c915f628369ba.js": "/precache-manifest.da8aabb33e49d4a26d7c915f628369ba.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
-    "static/css/main.a8c9bfa8.chunk.css.map": "/static/css/main.a8c9bfa8.chunk.css.map",
-    "static/js/2.dd798cdd.chunk.js.LICENSE.txt": "/static/js/2.dd798cdd.chunk.js.LICENSE.txt",
+    "static/css/main.c6e6bce8.chunk.css.map": "/static/css/main.c6e6bce8.chunk.css.map",
+    "static/js/2.0a02606b.chunk.js.LICENSE.txt": "/static/js/2.0a02606b.chunk.js.LICENSE.txt",
     "static/media/Bogotarot.svg": "/static/media/Bogotarot.39517457.svg",
     "static/media/CartaAmarilla.svg": "/static/media/CartaAmarilla.533847ae.svg",
     "static/media/CartaAzul.svg": "/static/media/CartaAzul.0e006528.svg",
@@ -37,7 +37,6 @@
     "static/media/OrnamentoII.svg": "/static/media/OrnamentoII.c4cade57.svg",
     "static/media/OrnamentoSD.svg": "/static/media/OrnamentoSD.441a6d8d.svg",
     "static/media/OrnamentoSI.svg": "/static/media/OrnamentoSI.cda2c54f.svg",
-    "static/media/Presentación.svg": "/static/media/Presentación.17f55e3c.svg",
     "static/media/Reconociendo el entorno.jpg": "/static/media/Reconociendo el entorno.ee2817ea.jpg",
     "static/media/Retratando a mis vecinos.jpg": "/static/media/Retratando a mis vecinos.52f0b46d.jpg",
     "static/media/Taller de podcast.jpg": "/static/media/Taller de podcast.305e5890.jpg",
@@ -79,8 +78,8 @@
   "entrypoints": [
     "static/js/runtime-main.6cb3ab8e.js",
     "static/css/2.5f1adba5.chunk.css",
-    "static/js/2.dd798cdd.chunk.js",
-    "static/css/main.a8c9bfa8.chunk.css",
-    "static/js/main.4a0e4a95.chunk.js"
+    "static/js/2.0a02606b.chunk.js",
+    "static/css/main.c6e6bce8.chunk.css",
+    "static/js/main.669558d6.chunk.js"
   ]
 }
