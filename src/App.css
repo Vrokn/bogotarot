@@ -56,10 +56,9 @@ html {
   border: none !important;
   box-shadow: none !important;
 }
-.cardactivitiescontainer{
+.cardactivitiescontainer {
   border: #da8d24 2px solid;
   border-radius: 2em;
-
 }
 .imagenactividad {
   align-items: center;
@@ -978,6 +977,19 @@ html {
   }
   .LogosBlancos {
     max-width: 60% !important;
+  }
+  .cardtitlecontainer,
+  .carddescriptioncontainer,
+  .cardactivitiescontainer {
+    max-height: 86vh;
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .actividad {
+    max-width: 100%;
+  }
+  .cardactivitiescontainer h1 {
+    padding: 0 1em;
   }
 }
 
