@@ -590,7 +590,8 @@ html {
   margin: 0% !important;
 }
 .eyebottom,
-.eyebottomMobile {
+.eyebottomMobile,
+.eyebottomm {
   position: absolute !important;
   bottom: 0% !important;
   left: 0;
@@ -732,7 +733,8 @@ html {
 .logosMenumb,
 .NavMenumobile,
 .eyebottomMobile,
-.eyetopmobile {
+.eyetopmobile,
+.eyebottomm {
   display: none !important;
 }
 
