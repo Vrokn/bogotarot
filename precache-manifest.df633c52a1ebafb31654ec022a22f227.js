@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c31f89650324558fcccab041c6402dec",
+    "revision": "e6823c0e710879d8c354a8e37055b69c",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "bc1842f1a9eac0627960",
-    "url": "/static/css/main.8e4a144d.chunk.css"
+    "revision": "ed5b52753e2513d0e090",
+    "url": "/static/css/main.0d4fa533.chunk.css"
   },
   {
     "revision": "fcbdc4dc5d64ce4ac4ab",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0a02606b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc1842f1a9eac0627960",
-    "url": "/static/js/main.669558d6.chunk.js"
+    "revision": "ed5b52753e2513d0e090",
+    "url": "/static/js/main.424bf4dc.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -30,14 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "39517457253e61044a6558874b8147e1",
     "url": "/static/media/Bogotarot.39517457.svg"
-  },
-  {
-    "revision": "533847ae797c17c2d193d094e7aa7f96",
-    "url": "/static/media/CartaAmarilla.533847ae.svg"
-  },
-  {
-    "revision": "0e00652849f7703bb37841ba7c3d41b4",
-    "url": "/static/media/CartaAzul.0e006528.svg"
   },
   {
     "revision": "14d15483d57b7a7308e8112e23b2ba8c",
@@ -50,6 +42,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e12c4862833e5781b9519e9761fa6e37",
     "url": "/static/media/Gota tras gota.e12c4862.jpg"
+  },
+  {
+    "revision": "f6db11a79c251c54ab40f3671a48b903",
+    "url": "/static/media/GroupA.f6db11a7.png"
+  },
+  {
+    "revision": "22ed35f1fccf995d337a5a1871d0f297",
+    "url": "/static/media/GroupB.22ed35f1.png"
+  },
+  {
+    "revision": "f77b3c457d86dbaec8fc6566b381ad91",
+    "url": "/static/media/GroupD.f77b3c45.png"
   },
   {
     "revision": "a59be02572c3ead2dad54212c271fe2d",
@@ -154,14 +158,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/static/media/brand-icons.e8c322de.woff2"
-  },
-  {
-    "revision": "f1fe3590154e23a5fa4b0edfd48ab8d8",
-    "url": "/static/media/cartaAmarillaMovil.f1fe3590.svg"
-  },
-  {
-    "revision": "db0cdb136481fe6107e549c946052769",
-    "url": "/static/media/cartaAzulMovil.db0cdb13.svg"
   },
   {
     "revision": "2ad44955e0d90a5f8895dc2a9d115593",
