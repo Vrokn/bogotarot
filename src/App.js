@@ -15,6 +15,7 @@ import Biodiversidad from "./Components/Biodiversidad";
 import Redes from "./Components/Redes";
 import Solidaridad from "./Components/Solidaridad";
 import Simbiosis from "./Components/Simbiosis";
+import EyeMenu2 from "./Components/EyeMenu2";
 const customHistory = createBrowserHistory();
 
 export default function App() {
@@ -73,7 +74,7 @@ export default function App() {
             <Footer />
           </Route>
           <Route path="/menu">
-            <EyeMenu />
+            <EyeMenu2 />
           </Route>
           <Route path="/causasmenu">
             <MenuCausas customHistory={customHistory} />

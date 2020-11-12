@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Stage, Layer, Rect } from "react-konva";
 import useImage from "use-image";
-import CartaAzul from "../Graphics/CartaAzul.svg";
-import CartaAmarilla from "../Graphics/CartaAmarilla.svg";
-import CartaAzulMovil from "../Graphics/cartaAzulMovil.svg";
-import CartaAmarillaMovil from "../Graphics/cartaAmarillaMovil.svg";
+import CartaAzul from "../Graphics/GroupA.png";
+import CartaAmarilla from "../Graphics/GroupB.png";
+import CartaAzulMovil from "../Graphics/GroupC.png";
+import CartaAmarillaMovil from "../Graphics/GroupD.png";
 import ModalConfirmation from "./ModalConfirmation";
 import ModalInstructions from "./ModalInstructions";
 import { Icon } from "semantic-ui-react";
@@ -102,7 +102,7 @@ const Card = ({ width, x, y, height, sideA, sideB, onClick }) => {
       width={width}
       height={height}
       cornerRadius={10}
-      shadowBlur={flipped ? 35 : 0}
+      shadowBlur={flipped ? 40 : 0}
       fillPatternImage={flipped ? sideB : sideA}
       onTap={() => {
         setFlipped(true);

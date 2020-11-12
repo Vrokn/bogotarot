@@ -6,6 +6,78 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+
+/* EYEMENU */
+
+.Bogotarot2 {
+  margin: 1em;
+}
+.return {
+  position: relative;
+  right: 30px;
+  top: 30px;
+}
+.eyeMenucontainer a:hover {
+  color: #da8d24 !important;
+  background: none !important;
+}
+.NavMenu2 a {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  font-family: Rakkas;
+  font-size: 5vw;
+  letter-spacing: 0.05em;
+  color: #15263d;
+}
+.NavMenuDark2 a {
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  font-family: Rakkas;
+  font-size: 5vw;
+  letter-spacing: 0.05em;
+  color: #15263d;
+  text-shadow: -1px -1px #da8d24, -1px 1px #da8d24, 1px 1px #da8d24,
+    1px -1px #da8d24;
+}
+.bgligth {
+  transition: 0.3s;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.bgdark {
+  background-color: #142438;
+  transition: 0.3s;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.eyemenutop2 {
+  display: flex;
+  justify-content: space-between;
+}
+.eyeMenucontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  position: relative;
+  top: -40px;
+}
+.eyemenuBottom2 {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .cartasTarot,
 .causacard {
   position: relative;
@@ -992,6 +1064,24 @@ html {
   }
   .cardactivitiescontainer h1 {
     padding: 0 1em;
+  }
+
+  /* EYEMENU */
+  .eyeMenucontainer {
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    position: relative;
+    top:-50px
+  }
+  .eyeMenucontainer a {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 10vw;
+  }
+  .logosMenu2 {
+    max-width: 48% !important;
   }
 }
 
