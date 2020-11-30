@@ -13,9 +13,12 @@ html {
   margin: 1em;
 }
 .return {
+  width: 80px;
+  height: 80px;
   position: relative;
   right: 30px;
   top: 30px;
+  margin: 10px;
 }
 .eyeMenucontainer a:hover {
   color: #da8d24 !important;
