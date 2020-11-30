@@ -1,3 +1,6 @@
+Versión 1.0 Noviembre 2020
+Los cambios se pueden explorar en https://github.com/Vrokn/bogotarot/commits/master
+
 # Tecnologías usadas
 
 Este repositorio ha sido creado con Create React App.
@@ -7,14 +10,16 @@ En diseño web hace referencia a la visualización del usuario navegante por un 
 El back end es la parte que procesa la entrada desde el front end, que además contiene la información del servidor que el administrador del sitio con sus respectivos sistemas por el otro lado maneja. Acá encontraremos el uso de la base de datos MongoDB y de conexión a ella por medio de Express y Node.js.
 
 Las tecnologías a usar para la optimización de rendimiento y despliegue del sitio estan a definir estudiando las posibilidades ofrecidas por el servidor del IDPC y su capacidad o la libertad de usar herramientas de compilación y despliegue como Vercel.
+
+Estado actual de desarrollo: En desarrollo
 *En este momento el ambiente esta en github-pages hasta que se migre su totalidad a los servidores del IDPC.
 
-## Rutas
-Para realizar cambios debes realizar los siguientes pasos:
+## Ejecución de copia
+Para realizar cambios del proyecto debe realizar los siguientes pasos:
 
-1. Haz un fork de este repo.
-2. Clónalo en tu máquina.
-3. Ejecuta yarn para instalar las dependencias necesarias para la modificación del programa. (las dependencias necesarias se encuentran listadas en el package.json)
+1. Haga un fork de este repositorio.
+2. Clone una copia en su dispositivo.
+3. Ejecute yarn para instalar las dependencias necesarias para la modificación del programa. (las dependencias necesarias se encuentran listadas en el package.json)
 * los componentes editables se encuentran en la carpeta Components dentro de la carpeta src, son archivos .js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
