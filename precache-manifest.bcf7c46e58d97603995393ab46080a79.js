@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f28f26f3ec1c2acbcb23dad0fa008a6",
+    "revision": "069f93c1f11587a3765e91f605d09700",
     "url": "/index.html"
   },
   {
-    "revision": "ec10082f183c959487d2",
+    "revision": "13562e241472d307c382",
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "b7883377e76266f64f55",
-    "url": "/static/css/main.507ff2fb.chunk.css"
+    "revision": "e3cb3226922014e4bbaf",
+    "url": "/static/css/main.6206d8c5.chunk.css"
   },
   {
-    "revision": "ec10082f183c959487d2",
-    "url": "/static/js/2.bb246d38.chunk.js"
+    "revision": "13562e241472d307c382",
+    "url": "/static/js/2.0ae845b7.chunk.js"
   },
   {
     "revision": "af945f101cccf5f437e55a3044282b78",
-    "url": "/static/js/2.bb246d38.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0ae845b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b7883377e76266f64f55",
-    "url": "/static/js/main.deaa2048.chunk.js"
+    "revision": "e3cb3226922014e4bbaf",
+    "url": "/static/js/main.d8f22963.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -180,12 +180,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/correcto.f85d5b92.svg"
   },
   {
+    "revision": "119a668bef4724d570cc08e0e6034f62",
+    "url": "/static/media/el-avaro.119a668b.mp4"
+  },
+  {
     "revision": "432a72e562ed4e5a2ec98e9dd8c25665",
     "url": "/static/media/el-avaro.432a72e5.jpg"
   },
   {
+    "revision": "8427966cbb22b7acdf92459d6769d5c2",
+    "url": "/static/media/el-clasificador.8427966c.mp4"
+  },
+  {
     "revision": "981d826f8305dd051da8508f9e58b932",
     "url": "/static/media/el-clasificador.981d826f.jpg"
+  },
+  {
+    "revision": "66bcad568bbafa5d9a8a0ef3fdfe7d16",
+    "url": "/static/media/el-guache.66bcad56.mp4"
   },
   {
     "revision": "6fb96d3a2d61aeced7d6b05e841cf82f",
@@ -196,8 +208,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/el-guetto.2d05255b.jpg"
   },
   {
+    "revision": "d496fb7b623ecdfd67a8cebe26adc259",
+    "url": "/static/media/el-guetto.d496fb7b.mp4"
+  },
+  {
     "revision": "1a6a39f29d96503ed4708e6118aabd7f",
     "url": "/static/media/el-monocultivo.1a6a39f2.jpg"
+  },
+  {
+    "revision": "b4b78d2c1dc8d8173d4b414e746efb47",
+    "url": "/static/media/el-monocultivo.b4b78d2c.mp4"
+  },
+  {
+    "revision": "75e7905e8bd91cd71bd007b89e3fa261",
+    "url": "/static/media/el-sancocho.75e7905e.mp4"
   },
   {
     "revision": "c20434e0125457791b453b64507dd83e",
@@ -244,8 +268,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/infografías-ilustradas-.92a43c47.jpg"
   },
   {
+    "revision": "caca7eaebef74e6243c3080d1a5b9403",
+    "url": "/static/media/la-agropolis.caca7eae.mp4"
+  },
+  {
     "revision": "dc714766d9c416df0c82604965d93a40",
     "url": "/static/media/la-agropolis.dc714766.jpg"
+  },
+  {
+    "revision": "a2fb10e9d4626ea3c2bf6ef617ea45e8",
+    "url": "/static/media/la-bayetilla.a2fb10e9.mp4"
   },
   {
     "revision": "d6f5d4db593ccd2d60048580c20b4d42",
@@ -256,8 +288,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/la-cocina.093ead17.jpg"
   },
   {
+    "revision": "e70023c863a811f43ad197aff63107b2",
+    "url": "/static/media/la-cocina.e70023c8.mp4"
+  },
+  {
+    "revision": "5fb6b412bde1060600275ac13f9c2101",
+    "url": "/static/media/la-copetona.5fb6b412.mp4"
+  },
+  {
     "revision": "f16eec4531250b80ce2337ab57520a65",
     "url": "/static/media/la-copetona.f16eec45.jpg"
+  },
+  {
+    "revision": "3115b6802dce115a21fe7bd784671ffe",
+    "url": "/static/media/la-macula.3115b680.mp4"
   },
   {
     "revision": "7269a7f0c0a2371be2e377eb9ef6a109",
@@ -266,6 +310,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a11b193dc0b3a2e78fd530dae94dbd06",
     "url": "/static/media/lx-ahogadx.a11b193d.jpg"
+  },
+  {
+    "revision": "ae9b682c23970534b3ea862184133a55",
+    "url": "/static/media/lx-ahogadx.ae9b682c.mp4"
   },
   {
     "revision": "457d5bf2c16e8d46ef57d6057072ce0d",
