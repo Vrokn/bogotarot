@@ -393,12 +393,19 @@ html {
   margin: 1em !important;
   left: -42px;
 }
+.carddescriptiontop {
+  display: flex;
+  justify-content: space-between;
+}
 .modalcards {
+  display: flex;
   position: relative;
-  top: 50px;
-  display: flex !important;
-  padding: 30px;
-  width: 31%;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em;
+}
+.videomodal {
+  max-width: 30%;
 }
 .begin {
   cursor: pointer !important;
@@ -431,7 +438,7 @@ html {
 .modalDescription {
   justify-content: center;
   align-items: center;
-  width: 100% !important;
+  width: 100%;
 }
 .modalDescription h1 {
   font-size: 3em !important;
@@ -900,10 +907,11 @@ html {
     font-size: 12px;
   }
   .modalcards {
-    top: -2em;
-    margin: 2em;
     flex-direction: column;
-    width: 100%;
+  }
+  .videomodal {
+    max-width: 100%;
+    padding: 1em;
   }
   .options {
     font-size: 1.7em;
@@ -1075,7 +1083,7 @@ html {
     justify-content: center;
     flex: 1;
     position: relative;
-    top:-50px
+    top: -50px;
   }
   .eyeMenucontainer a {
     justify-content: center;

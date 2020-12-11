@@ -48,7 +48,17 @@ const Carta = ({ num }) => {
           }
         >
           <Modal.Content>
-            <Image fluid size="large" src={data[num].image} />
+            <video
+              width="100%"
+              loop
+              autoPlay
+              muted
+              className="videocarta"
+              id={`video${data[num].hashlink}`}
+            >
+              <source src={data[num].video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </Modal.Content>
         </Modal>
 

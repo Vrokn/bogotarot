@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Modal, Image } from "semantic-ui-react";
 import OrnamentoSI from "../Graphics/OrnamentoSI.svg";
 import OrnamentoSD from "../Graphics/OrnamentoSD.svg";
@@ -8,6 +8,10 @@ import { Link } from "react-router-dom";
 import data from "./Cards";
 
 const ModalConfirmation = ({ random }) => {
+  const video = useRef();
+  const video1 = useRef();
+  const video2 = useRef();
+
   return (
     <>
       <Modal open={true} dimmer="blurring" basic>
@@ -20,21 +24,39 @@ const ModalConfirmation = ({ random }) => {
               </div>
               <div className={"modalDescription"}>
                 <div className={"modalcards"}>
-                  <Image
-                    className={"card"}
-                    size="medium"
-                    src={data[random[0]].image}
-                  />
-                  <Image
-                    className={"card"}
-                    size="medium"
-                    src={data[random[1]].image}
-                  />
-                  <Image
-                    className={"card"}
-                    size="medium"
-                    src={data[random[2]].image}
-                  />
+                  <video
+                    loop
+                    autoPlay
+                    muted
+                    ref={video}
+                    className="videomodal"
+                    id={`video${data[random[0]].hashlink}`}
+                  >
+                    <source src={data[random[0]].video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <video
+                    loop
+                    autoPlay
+                    muted
+                    ref={video1}
+                    className="videomodal"
+                    id={`video${data[random[1]].hashlink}`}
+                  >
+                    <source src={data[random[1]].video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                  <video
+                    loop
+                    autoPlay
+                    muted
+                    ref={video2}
+                    className="videomodal"
+                    id={`video${data[random[2]].hashlink}`}
+                  >
+                    <source src={data[random[2]].video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
                 <h2>¿Está seguro de estas cartas?</h2>
                 <div>
