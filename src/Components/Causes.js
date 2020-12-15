@@ -68,7 +68,7 @@ new Causa(
   [
     {
       image: C2A1,
-      title: "Taller de infografías ilustradas: ",
+      title: "Taller de gigantografías: ",
       actividad:
         "A través está técnica de representación gráfica, se abordarán las formas en las que la pandemia de COVID-19 afectó las nociones de cuidado y los efectos que ha tenido sobre quienes lo ejercen.",
     },
