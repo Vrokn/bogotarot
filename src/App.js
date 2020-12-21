@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  HashRouter,
+} from "react-router-dom";
+
 import Header from "./Components/Header";
 import "./App.css";
 import CardGrid from "./Components/CardGrid";
@@ -34,26 +40,26 @@ export default function App() {
     <Router history={customHistory}>
       <div className="App">
         <Switch>
-          <Route path="/biodiversidad">
+          <HashRouter path="/biodiversidad">
             <Header />
             <Biodiversidad />
             <Footer />
-          </Route>
-          <Route path="/redes">
+          </HashRouter>
+          <HashRouter path="/redes">
             <Header />
             <Redes />
             <Footer />
-          </Route>
-          <Route path="/solidaridad">
+          </HashRouter>
+          <HashRouter path="/solidaridad">
             <Header />
             <Solidaridad />
             <Footer />
-          </Route>
-          <Route path="/simbiosis">
+          </HashRouter>
+          <HashRouter path="/simbiosis">
             <Header />
             <Simbiosis />
             <Footer />
-          </Route>
+          </HashRouter>
           <Route path="/instrucciones">
             <Header />
             <Instructions />

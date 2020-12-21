@@ -91,7 +91,7 @@ new Causa(
         "Cocinar y comer son formas de construir redes de afecto. Esta actividad plantea realizar un plato para compartir con conocidos y extraños.",
     },
   ],
-  "https://forms.gle/xRKPwfnrQ3QJ6joq7"
+  "https://docs.google.com/forms/d/e/1FAIpQLScAdYUf_R2bEnZaVn90XkiFltf0CQmCiF68vRNRtRLRmk4EaQ/viewform"
 );
 new Causa(
   "Simbiosis entre lo rural y lo urbano",
