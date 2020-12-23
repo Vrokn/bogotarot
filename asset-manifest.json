@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6206d8c5.chunk.css",
-    "main.js": "/static/js/main.2d7befc5.chunk.js",
-    "main.js.map": "/static/js/main.2d7befc5.chunk.js.map",
+    "main.js": "/static/js/main.dc241386.chunk.js",
+    "main.js.map": "/static/js/main.dc241386.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6cb3ab8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.6cb3ab8e.js.map",
     "static/css/2.5f1adba5.chunk.css": "/static/css/2.5f1adba5.chunk.css",
-    "static/js/2.cdb47402.chunk.js": "/static/js/2.cdb47402.chunk.js",
-    "static/js/2.cdb47402.chunk.js.map": "/static/js/2.cdb47402.chunk.js.map",
+    "static/js/2.3014be40.chunk.js": "/static/js/2.3014be40.chunk.js",
+    "static/js/2.3014be40.chunk.js.map": "/static/js/2.3014be40.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6fd2dbd247863f2d784d96340b86f913.js": "/precache-manifest.6fd2dbd247863f2d784d96340b86f913.js",
+    "precache-manifest.6511128fdd02e19763b8317888fb5998.js": "/precache-manifest.6511128fdd02e19763b8317888fb5998.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5f1adba5.chunk.css.map": "/static/css/2.5f1adba5.chunk.css.map",
     "static/css/main.6206d8c5.chunk.css.map": "/static/css/main.6206d8c5.chunk.css.map",
-    "static/js/2.cdb47402.chunk.js.LICENSE.txt": "/static/js/2.cdb47402.chunk.js.LICENSE.txt",
+    "static/js/2.3014be40.chunk.js.LICENSE.txt": "/static/js/2.3014be40.chunk.js.LICENSE.txt",
     "static/media/Bogotarot.svg": "/static/media/Bogotarot.39517457.svg",
     "static/media/Close.svg": "/static/media/Close.14d15483.svg",
     "static/media/App.css": "/static/media/Contadorbg.cd2a56eb.svg",
@@ -60,7 +60,6 @@
     "static/media/el-monocultivo.mp4": "/static/media/el-monocultivo.b4b78d2c.mp4",
     "static/media/el-sancocho.mp4": "/static/media/el-sancocho.75e7905e.mp4",
     "static/media/el-sancocho.jpg": "/static/media/el-sancocho.c20434e0.jpg",
-    "static/media/feria_virtual.jpg": "/static/media/feria_virtual.7ea411e4.jpg",
     "static/media/fotografía_documental.jpg": "/static/media/fotografía_documental.ed0616e9.jpg",
     "static/media/incorrecto.svg": "/static/media/incorrecto.858977b2.svg",
     "static/media/infografías-ilustradas-.jpg": "/static/media/infografías-ilustradas-.92a43c47.jpg",
@@ -89,8 +88,8 @@
   "entrypoints": [
     "static/js/runtime-main.6cb3ab8e.js",
     "static/css/2.5f1adba5.chunk.css",
-    "static/js/2.cdb47402.chunk.js",
+    "static/js/2.3014be40.chunk.js",
     "static/css/main.6206d8c5.chunk.css",
-    "static/js/main.2d7befc5.chunk.js"
+    "static/js/main.dc241386.chunk.js"
   ]
 }

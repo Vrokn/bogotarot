@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b7533e179d91c4879988cec6e4420477",
+    "revision": "d6e2f6168a09b0582668d00366b9fb66",
     "url": "/index.html"
   },
   {
-    "revision": "9430cbe02c40fed470ad",
+    "revision": "9c8c6cf88b609eb62cf6",
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "2c072997ad9a64a9f836",
+    "revision": "4553d98a64bfa3b0ffc2",
     "url": "/static/css/main.6206d8c5.chunk.css"
   },
   {
-    "revision": "9430cbe02c40fed470ad",
-    "url": "/static/js/2.cdb47402.chunk.js"
+    "revision": "9c8c6cf88b609eb62cf6",
+    "url": "/static/js/2.3014be40.chunk.js"
   },
   {
     "revision": "af945f101cccf5f437e55a3044282b78",
-    "url": "/static/js/2.cdb47402.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3014be40.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2c072997ad9a64a9f836",
-    "url": "/static/js/main.2d7befc5.chunk.js"
+    "revision": "4553d98a64bfa3b0ffc2",
+    "url": "/static/js/main.dc241386.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -226,10 +226,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c20434e0125457791b453b64507dd83e",
     "url": "/static/media/el-sancocho.c20434e0.jpg"
-  },
-  {
-    "revision": "7ea411e4383f9bb46416971a325a4e61",
-    "url": "/static/media/feria_virtual.7ea411e4.jpg"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
