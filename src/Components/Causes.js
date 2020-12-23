@@ -68,15 +68,15 @@ new Causa(
   [
     {
       image: C2A1,
-      title: "Taller de gigantografías: ",
+      title: "Graficando el cuidado: ",
       actividad:
-        "A través está técnica de representación gráfica, se abordarán las formas en las que la pandemia de COVID-19 afectó las nociones de cuidado y los efectos que ha tenido sobre quienes lo ejercen.",
+        "A través de la gigantografía, se abordarán las formas en las que la pandemia de COVID-19 afectó las nociones de cuidado y los efectos que ha tenido sobre quienes lo ejercen.",
     },
     {
       image: C2A2,
       title: "Conversación sobre saberes tradicionales:",
       actividad:
-        " Se visitará una plaza de mercado de la ciudad en donde se conversará sobre el papel de las plantas como seres de sanación y curación. Se busca plasmar de manera gráfica recetas y experiencias en torno al cuidado y las plantas.",
+        "Se visitará la plaza de mercado Samper Mendoza, en donde se conversará sobre el papel de las plantas como seres de sanación y curación. Se busca plasmar recetas y experiencias en torno al cuidado y las plantas.",
     },
     {
       image: C2A3,
