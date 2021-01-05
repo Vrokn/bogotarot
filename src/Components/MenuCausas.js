@@ -91,7 +91,7 @@ function MenuCausas() {
               onClick={() => setActiveItem("Causas")}
             >
               <HashLink to="/simbiosis">
-                Simbiosis entre lo urbano y lo rural
+                Simbiosis entre lo rural y lo urbano
               </HashLink>
             </Menu.Item>
           </Menu>

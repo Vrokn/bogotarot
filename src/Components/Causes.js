@@ -6,13 +6,12 @@ import C1A1 from '../actividadescausas/causapromover/Reconociendo el entorno.jpg
 import C1A2 from '../actividadescausas/causapromover/Taller de podcast.jpg'
 import C1A3 from '../actividadescausas/causapromover/Retratando a mis vecinos.jpg'
 import C2A1 from '../actividadescausas/causadiversificarelcuidado/infografías-ilustradas-.jpg'
-import C2A2 from '../actividadescausas/causadiversificarelcuidado/saberes tradicionales.jpg'
-import C2A3 from '../actividadescausas/causadiversificarelcuidado/La comida y el cuidado.jpg'
-import C2A4 from '../actividadescausas/causadiversificarelcuidado/¿Quién presta la olla_.jpg'
+import C2A2 from '../actividadescausas/causadiversificarelcuidado/saberes tradicionales.png'
+import C2A3 from '../actividadescausas/causadiversificarelcuidado/La comida y el cuidado.png'
+import C2A4 from '../actividadescausas/causadiversificarelcuidado/¿Quién presta la olla_.png'
 import C3A1 from '../actividadescausas/causasimbiosis/Gota tras gota.jpg'
 import C3A2 from '../actividadescausas/causasimbiosis/Huerteando en la ciudad.jpg'
 import C3A3 from '../actividadescausas/causasimbiosis/ún se puede usar.jpg'
-import C4A1 from '../actividadescausas/causasolidaridad/feria_virtual.jpg'
 import C4A2 from '../actividadescausas/causasolidaridad/recorrido_ciudadbolivar.PNG'
 import C4A3 from '../actividadescausas/causasolidaridad/fotografía_documental.jpg'
 import C4A4 from '../actividadescausas/causasolidaridad/taller_creativo.jpg'
@@ -88,7 +87,7 @@ new Causa(
       image: C2A4,
       title: "¿Quién presta la olla?: ",
       actividad:
-        "Cocinar y comer son formas de construir redes de afecto. Esta actividad plantea realizar un plato para compartir con conocidos y extraños.",
+        "Cocinar y comer son formas de construir redes de afecto. Esta actividad plantea realizar un plato típico para compartir con conocidos y extraños.",
     },
   ],
   "https://docs.google.com/forms/d/e/1FAIpQLScAdYUf_R2bEnZaVn90XkiFltf0CQmCiF68vRNRtRLRmk4EaQ/viewform"
@@ -114,9 +113,9 @@ new Causa(
     },
     {
       image: C3A3,
-      title: "¡Aún se puede usar!: ",
+      title: "Transformando el consumo: ",
       actividad:
-        "Taller de elaboración de objetos a partir de elementos reutilizables, en donde se reflexionará acerca de pautas de consumo y cambios necesarios en torno al impacto de los residuos.",
+        "Recorrido por veredas de Ciudad Bolívar y Usme a través de senderos ecológicos, en donde se reflexionará acerca de pautas de consumo y cambios necesarios en torno al impacto de nuestros residuos.",
     },
   ],
   "https://forms.gle/2h1CUMZTRcf1NMP5A"
@@ -128,12 +127,6 @@ new Causa(
   "Durante las cuarentenas se hicieron visibles múltiples iniciativas de individuos y colectivos que apoyaron a otras personas desconocidas que vieron desaparecer su sustento. Acercarse a personas extrañas permite vencer la estigmatización que en ocasiones condena a grupos poblacionales a identidades cerradas y negativas. Las muestras de altruismo, confianza y reciprocidad frente a las necesidades de otros son más comunes en la ciudad de lo que podemos percibir, y hacerlas visibles puede generar y sostener en el tiempo redes amplias de apoyo mutuo.",
   "2021-02-09",
   [
-    {
-      image: C4A1,
-      title: "Feria solidaria virtual: ",
-      actividad:
-        "Espacio de encuentro con colectivos e iniciativas solidarias que nacieron durante la pandemia para intercambiar experiencias y aprendizajes.",
-    },
     {
       image: C4A2,
       title: "Recorrido por Ciudad Bolívar",

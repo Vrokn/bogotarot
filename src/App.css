@@ -138,9 +138,6 @@ html {
 .imagenactividad {
   align-items: center;
   justify-content: center;
-  min-width: 20%;
-  max-height: 190px;
-  overflow: hidden;
   background-color: #142438;
   border: #da8d24 4px solid;
   padding: 0.5em;
@@ -164,7 +161,7 @@ html {
   line-height: 1em;
 }
 .actividad {
-  max-width: 25%;
+  max-width: 22%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -175,7 +172,6 @@ html {
 }
 .cardactivities h1 {
   text-align: center;
-  margin-top: 80px;
   font-family: rakkas;
   font-size: 3em;
   color: #da8d24;
@@ -631,7 +627,7 @@ html {
 }
 .brand {
   margin: 0% !important;
-  padding: 1em 4em !important;
+  padding: 1.2em 3em !important;
 }
 .causaslink {
   left: 8vw;
@@ -657,7 +653,7 @@ html {
 .MenuCausasLinks a {
   font-weight: normal;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 3vw;
   font-family: Rakkas !important;
   color: #15263d !important;
 }
@@ -1111,7 +1107,7 @@ html {
 
 @media (max-width: 974px) {
   .MenuCausasLinks a {
-    font-size: 2.5rem;
+    font-size: 5.5vw;
   }
   .LogosBlancos {
     max-width: 60% !important;
