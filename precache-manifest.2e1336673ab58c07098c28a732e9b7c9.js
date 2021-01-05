@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6e2f6168a09b0582668d00366b9fb66",
+    "revision": "ec34422d508ba6fa89056e7dcbccb702",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.5f1adba5.chunk.css"
   },
   {
-    "revision": "4553d98a64bfa3b0ffc2",
-    "url": "/static/css/main.6206d8c5.chunk.css"
+    "revision": "0cf55c821111ff057849",
+    "url": "/static/css/main.8e4827a7.chunk.css"
   },
   {
     "revision": "9c8c6cf88b609eb62cf6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3014be40.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4553d98a64bfa3b0ffc2",
-    "url": "/static/js/main.dc241386.chunk.js"
+    "revision": "0cf55c821111ff057849",
+    "url": "/static/js/main.84d69bfa.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Instruccionesmobile.fa33a900.svg"
   },
   {
-    "revision": "d3c792e9cf87b925caf9fc86cd2710e0",
-    "url": "/static/media/La comida y el cuidado.d3c792e9.jpg"
+    "revision": "cd54e59a78affa4f16b2066667baf493",
+    "url": "/static/media/La comida y el cuidado.cd54e59a.png"
   },
   {
     "revision": "fec07c3a2b5611a76acfdfc0e3826f17",
@@ -124,16 +124,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/OrnamentoSI.cda2c54f.svg"
   },
   {
-    "revision": "ee2817ea560bee00f6f5236f586a8f69",
-    "url": "/static/media/Reconociendo el entorno.ee2817ea.jpg"
+    "revision": "a7b22be30ad74793c85a9ed4b729f9ce",
+    "url": "/static/media/Reconociendo el entorno.a7b22be3.jpg"
   },
   {
-    "revision": "52f0b46d062bc937d6a5f7a510296349",
-    "url": "/static/media/Retratando a mis vecinos.52f0b46d.jpg"
+    "revision": "97aa04f844cca6f6a95fb0d75f314892",
+    "url": "/static/media/Retratando a mis vecinos.97aa04f8.jpg"
   },
   {
-    "revision": "305e5890605d888d03e118a08239ac44",
-    "url": "/static/media/Taller de podcast.305e5890.jpg"
+    "revision": "1dc59b0ffc025e291b65431409671427",
+    "url": "/static/media/Taller de podcast.1dc59b0f.jpg"
   },
   {
     "revision": "f48e9262b3761362d4d1c46b8adb8e73",
@@ -260,8 +260,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/incorrecto.858977b2.svg"
   },
   {
-    "revision": "92a43c47c63a6342389a4a8210ef53c7",
-    "url": "/static/media/infografías-ilustradas-.92a43c47.jpg"
+    "revision": "e123279468b4004846e0d1c74f5c1929",
+    "url": "/static/media/infografías-ilustradas-.e1232794.jpg"
   },
   {
     "revision": "caca7eaebef74e6243c3080d1a5b9403",
@@ -344,8 +344,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/redes.b232204a.mp4"
   },
   {
-    "revision": "da8ac0781c57bfd5d672a7a99e73baa1",
-    "url": "/static/media/saberes tradicionales.da8ac078.jpg"
+    "revision": "3236ce7efbf8fe6dc05979622a8a1c79",
+    "url": "/static/media/saberes tradicionales.3236ce7e.png"
   },
   {
     "revision": "4749d17536fe2a64fa6e7aa1118750b4",
@@ -360,8 +360,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/taller_creativo.420f6dde.jpg"
   },
   {
-    "revision": "0a1c0a89f75de72cd6e5c5267bc07925",
-    "url": "/static/media/¿Quién presta la olla_.0a1c0a89.jpg"
+    "revision": "a59cf1615824682c35090733a135e780",
+    "url": "/static/media/¿Quién presta la olla_.a59cf161.png"
   },
   {
     "revision": "1f96c78b9369174dbf9f32897c363d2e",
