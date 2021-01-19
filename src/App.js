@@ -11,7 +11,6 @@ import "./App.css";
 import CardGrid from "./Components/CardGrid";
 import Intro from "./Components/Intro";
 import Instructions from "./Components/Instructions";
-import EyeMenu from "./Components/EyeMenu";
 import MenuCausas from "./Components/MenuCausas";
 import Footer from "./Components/Footer";
 import Cartas from "./Components/Cartas";
@@ -22,6 +21,7 @@ import Redes from "./Components/Redes";
 import Solidaridad from "./Components/Solidaridad";
 import Simbiosis from "./Components/Simbiosis";
 import EyeMenu2 from "./Components/EyeMenu2";
+import Miedos from "./Components/Miedos";
 const customHistory = createBrowserHistory();
 
 export default function App() {
@@ -40,6 +40,11 @@ export default function App() {
     <Router history={customHistory}>
       <div className="App">
         <Switch>
+        <HashRouter path="/miedos">
+            <Header />
+            <Miedos />
+            <Footer />
+          </HashRouter>
           <HashRouter path="/biodiversidad">
             <Header />
             <Biodiversidad />

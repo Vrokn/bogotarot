@@ -111,6 +111,20 @@ function EyeMenu2() {
             >
               Historias
             </Link>
+            <Link
+              className="brand2"
+              to="/miedos"
+              onMouseOver={() => {
+                setBgColor(true);
+                setLogoImage(LogosIdcpNaranja);
+              }}
+              onMouseLeave={() => {
+                setBgColor(false);
+                setLogoImage(Logosidpcmdb);
+              }}
+            >
+              Miedos
+            </Link>
           </div>
         </div>
         <div className={"eyemenuBottom2"}>

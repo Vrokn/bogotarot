@@ -2,19 +2,19 @@ import biodiversidad from "../Videos/biodiversidad.mp4";
 import redes from "../Videos/redes.mp4";
 import simbiosis from "../Videos/simbiosis.mp4";
 import solidaridad from "../Videos/solidaridad.mp4";
-import C1A1 from '../actividadescausas/causapromover/Reconociendo el entorno.jpg'
-import C1A2 from '../actividadescausas/causapromover/Taller de podcast.jpg'
-import C1A3 from '../actividadescausas/causapromover/Retratando a mis vecinos.jpg'
-import C2A1 from '../actividadescausas/causadiversificarelcuidado/infografías-ilustradas-.jpg'
-import C2A2 from '../actividadescausas/causadiversificarelcuidado/saberes tradicionales.png'
-import C2A3 from '../actividadescausas/causadiversificarelcuidado/La comida y el cuidado.png'
-import C2A4 from '../actividadescausas/causadiversificarelcuidado/¿Quién presta la olla_.png'
-import C3A1 from '../actividadescausas/causasimbiosis/Gota tras gota.jpg'
-import C3A2 from '../actividadescausas/causasimbiosis/Huerteando en la ciudad.jpg'
-import C3A3 from '../actividadescausas/causasimbiosis/ún se puede usar.jpg'
-import C4A2 from '../actividadescausas/causasolidaridad/recorrido_ciudadbolivar.PNG'
-import C4A3 from '../actividadescausas/causasolidaridad/fotografía_documental.jpg'
-import C4A4 from '../actividadescausas/causasolidaridad/taller_creativo.jpg'
+import C1A1 from "../actividadescausas/causapromover/Reconociendo el entorno.jpg";
+import C1A2 from "../actividadescausas/causapromover/Taller de podcast.jpg";
+import C1A3 from "../actividadescausas/causapromover/Retratando a mis vecinos.jpg";
+import C2A1 from "../actividadescausas/causadiversificarelcuidado/infografías-ilustradas-.jpg";
+import C2A2 from "../actividadescausas/causadiversificarelcuidado/saberes tradicionales.png";
+import C2A3 from "../actividadescausas/causadiversificarelcuidado/La comida y el cuidado.png";
+import C2A4 from "../actividadescausas/causadiversificarelcuidado/¿Quién presta la olla_.png";
+import C3A1 from "../actividadescausas/causasimbiosis/Gota tras gota.jpg";
+import C3A2 from "../actividadescausas/causasimbiosis/Huerteando en la ciudad.jpg";
+import C3A3 from "../actividadescausas/causasimbiosis/aún se puede usar.jpg";
+import C4A2 from "../actividadescausas/causasolidaridad/recorrido_ciudadbolivar.PNG";
+import C4A3 from "../actividadescausas/causasolidaridad/fotografía_documental.jpg";
+import C4A4 from "../actividadescausas/causasolidaridad/taller_creativo.jpg";
 
 const datos = [];
 
@@ -30,7 +30,7 @@ function Causa(name, video, hashlink, description, fecha, actividades, link) {
   };
   datos.push(cause);
 }
-new Causa(
+Causa(
   "Promover el derecho a la ciudad y proteger la biodiversidad",
   biodiversidad,
   "biodiversidad",
@@ -58,7 +58,7 @@ new Causa(
   ],
   "https://forms.gle/HfDcVKBVqUcrUaFVA"
 );
-new Causa(
+Causa(
   "Diversificar redes de afecto y cuidado",
   redes,
   "redes",
@@ -92,7 +92,7 @@ new Causa(
   ],
   "https://docs.google.com/forms/d/e/1FAIpQLScAdYUf_R2bEnZaVn90XkiFltf0CQmCiF68vRNRtRLRmk4EaQ/viewform"
 );
-new Causa(
+Causa(
   "Simbiosis entre lo rural y lo urbano",
   simbiosis,
   "simbiosis",
@@ -120,7 +120,7 @@ new Causa(
   ],
   "https://forms.gle/2h1CUMZTRcf1NMP5A"
 );
-new Causa(
+Causa(
   "Reconocer la solidaridad y cuestionar prejuicios y estigmas",
   solidaridad,
   "solidaridad",

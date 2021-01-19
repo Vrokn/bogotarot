@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #142438 0%, #15263d 100%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #da8d24;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f8dd74;
+}
+
 body {
   background-color: #fffbef !important;
 }
@@ -6,7 +22,71 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+/* MIEDOS */
 
+.carousel-next:before {
+  position: relative;
+  bottom: 2vw;
+  background-image: url("./Graphics/Next.svg") !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+.carousel-prev:before {
+  position: relative;
+  bottom: 2vw;
+  background-image: url("./Graphics/Prev.svg") !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+.videomiedo {
+  width: 100%;
+  border-radius: 1em;
+  cursor: url("./Graphics/Cursor2.cur"), auto;
+}
+.miedoscontainer {
+  width: 100%;
+}
+.miedoscontainer h4 {
+  display: none;
+  color: #15263d;
+  text-align: center;
+  font-family: Rakkas;
+  position: relative;
+  top: 10px;
+  font-size: 40px;
+  line-height: 1em;
+  letter-spacing: 0.03em;
+  text-shadow: -0.1px -0.1px #da8d24, -0.1px 0.1px #da8d24, 0.1px 0.1px #da8d24,
+    0.1px -0.1px #da8d24;
+}
+.miedo {
+  text-align: center;
+  outline: none;
+  padding-top: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+.miedo h5 {
+  max-width: 80%;
+  position: relative;
+  left: 10%;
+  top: -50px;
+  mix-blend-mode: multiply;
+  color: #ff5500;
+  font-family: Rakkas;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 0.9em;
+}
+.miedo p {
+  font-size: 1.1em;
+  position: relative;
+  top: -40px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.2em;
+}
 /* EYEMENU */
 
 .Bogotarot2 {
@@ -835,6 +915,34 @@ html {
 }
 
 @media (max-width: 767px) {
+  /*MIEDOS*/
+  .carousel-next:before {
+    display: none !important;
+  }
+  .carousel-prev:before {
+    display: none !important;
+  }
+  .miedoscontainer h4 {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .miedo {
+    padding: 1em;
+  }
+  .miedo h5 {
+    max-width: 80%;
+    top: -42px;
+    font-size: 2.5em;
+    left: 10%;
+  }
+  .miedo p {
+    top: -40px;
+  }
+  .miedoscontainer {
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+
   .introdescription p,
   .instrucdescription p {
     padding: 40px !important;
