@@ -1,15 +1,15 @@
-import animales from "../Videos Miedos/Animales.mp4";
-import ansiedad from "../Videos Miedos/Ansiedad Social.mp4";
-import artistas from "../Videos Miedos/Artistas escenicos.mp4";
-import brecha from "../Videos Miedos/Brecha socioe.mp4";
-import desecho from "../Videos Miedos/Desecho.mp4";
-import ejemplos from "../Videos Miedos/Ejemplos Solidaridad.mp4";
-import esperanza from "../Videos Miedos/Esperanza.mp4";
-import lazos from "../Videos Miedos/Lazos.mp4";
-import virtualizacion from "../Videos Miedos/Miedo.mp4";
-import salud from "../Videos Miedos/Salud mental.mp4";
-import sociedad from "../Videos Miedos/Sociedad Temerosa.mp4";
-import xenofobia from "../Videos Miedos/Xenofobia.mp4";
+import animales from "../Videos Miedos/Animales.m4v";
+import ansiedad from "../Videos Miedos/Ansiedad Social.m4v";
+import artistas from "../Videos Miedos/Artistas escenicos.m4v";
+import brecha from "../Videos Miedos/Brecha socioe.m4v";
+import desecho from "../Videos Miedos/Desecho.m4v";
+import ejemplos from "../Videos Miedos/Ejemplos Solidaridad.m4v";
+import esperanza from "../Videos Miedos/Esperanza.m4v";
+import lazos from "../Videos Miedos/Lazos.m4v";
+import virtualizacion from "../Videos Miedos/Miedo.m4v";
+import salud from "../Videos Miedos/Salud mental.m4v";
+import sociedad from "../Videos Miedos/Sociedad Temerosa.m4v";
+import xenofobia from "../Videos Miedos/Xenofobia.m4v";
 
 const fears = [];
 
