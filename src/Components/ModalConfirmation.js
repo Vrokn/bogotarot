@@ -28,6 +28,7 @@ const ModalConfirmation = ({ random }) => {
                     loop
                     autoPlay
                     muted
+                    playsinline
                     ref={video}
                     className="videomodal"
                     id={`video${data[random[0]].hashlink}`}

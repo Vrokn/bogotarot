@@ -36,7 +36,7 @@ function EyeMenu2() {
           <div>
             <Image
               className={"Bogotarot2"}
-              size={window.innerWidth < 767 ? "tiny" : "small"}
+              size={window.innerWidth < 500 ? "mini" : "small"}
               src={Bogotarot}
             />
           </div>

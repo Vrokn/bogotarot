@@ -14,22 +14,25 @@ function Miedos() {
   };
   return (
     <div className="miedoscontainer">
-      <h4>Miedos y<br></br>esperanzas</h4>
+      <h4>
+        Miedos y<br></br>esperanzas
+      </h4>
       <Slider {...settings}>
         {fears.map((item) => (
           <div className="miedo">
-            <video
-              loop
+            <div
               className="videomiedo"
               onMouseOver={(event) => event.target.play()}
               onMouseOut={(event) => event.target.pause()}
               onTap={(event) => {
-                (event.target.paused()) ? event.target.play() : event.target.pause();
+                event.target.paused()? event.target.play(): event.target.pause();
               }}
             >
-              <source src={item.video} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+              <video loop playsinline>
+                <source src={item.video} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
             <h5>{item.name}</h5>
             <p>{item.description}</p>
           </div>
