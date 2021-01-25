@@ -118,7 +118,7 @@ Causa(
         "Recorrido por veredas de Ciudad Bolívar y Usme a través de senderos ecológicos, en donde se reflexionará acerca de pautas de consumo y cambios necesarios en torno al impacto de nuestros residuos.",
     },
   ],
-  "https://forms.gle/2h1CUMZTRcf1NMP5A"
+  "https://forms.gle/veVFPar3iL9mmeR66"
 );
 Causa(
   "Reconocer la solidaridad y cuestionar prejuicios y estigmas",

@@ -53,7 +53,7 @@ const Carta = ({ num }) => {
               loop
               autoPlay
               muted
-              playsinline
+              playsInline
               className="videocarta"
               id={`video${data[num].hashlink}`}
             >

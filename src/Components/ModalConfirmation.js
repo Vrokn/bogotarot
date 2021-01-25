@@ -28,7 +28,7 @@ const ModalConfirmation = ({ random }) => {
                     loop
                     autoPlay
                     muted
-                    playsinline
+                    playsInline
                     ref={video}
                     className="videomodal"
                     id={`video${data[random[0]].hashlink}`}
@@ -40,6 +40,7 @@ const ModalConfirmation = ({ random }) => {
                     loop
                     autoPlay
                     muted
+                    playsInline
                     ref={video1}
                     className="videomodal"
                     id={`video${data[random[1]].hashlink}`}
@@ -51,6 +52,7 @@ const ModalConfirmation = ({ random }) => {
                     loop
                     autoPlay
                     muted
+                    playsInline
                     ref={video2}
                     className="videomodal"
                     id={`video${data[random[2]].hashlink}`}

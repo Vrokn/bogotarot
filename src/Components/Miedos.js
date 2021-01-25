@@ -21,14 +21,15 @@ function Miedos() {
         {fears.map((item) => (
           <div className="miedo">
             <div
-              className="videomiedo"
               onMouseOver={(event) => event.target.play()}
               onMouseOut={(event) => event.target.pause()}
               onTap={(event) => {
-                event.target.paused()? event.target.play(): event.target.pause();
+                event.target.paused()
+                  ? event.target.play()
+                  : event.target.pause();
               }}
             >
-              <video loop playsinline>
+              <video className="videomiedo" loop playsInline>
                 <source src={item.video} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>

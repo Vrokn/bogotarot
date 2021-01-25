@@ -1,4 +1,4 @@
-import animales from "../Videos Miedos/Animales.mp4";
+import animales from "../Videos Miedos/Animales1.mp4";
 import ansiedad from "../Videos Miedos/Ansiedad Social.mp4";
 import artistas from "../Videos Miedos/Artistas escenicos.mp4";
 import brecha from "../Videos Miedos/Brecha socioe.mp4";

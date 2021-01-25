@@ -63,6 +63,7 @@ html {
   text-align: center;
   outline: none;
   padding-top: 10vh;
+  margin-bottom: 2em;
   justify-content: center;
   align-items: center;
 }
@@ -151,7 +152,7 @@ html {
   align-items: center;
   flex: 1;
   position: relative;
-  top: -40px;
+  top: -45px;
 }
 .eyemenuBottom2 {
   display: flex;
@@ -1185,9 +1186,8 @@ html {
   .eyeMenucontainer {
     flex-direction: column;
     justify-content: center;
-    flex: 1;
     position: relative;
-    top: -50px;
+    top: -80px;
   }
   .eyeMenucontainer a {
     justify-content: center;
