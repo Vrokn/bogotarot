@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0d047a3.chunk.css",
-    "main.js": "/static/js/main.ed476c9f.chunk.js",
-    "main.js.map": "/static/js/main.ed476c9f.chunk.js.map",
+    "main.css": "/static/css/main.75e0ebae.chunk.css",
+    "main.js": "/static/js/main.f776178e.chunk.js",
+    "main.js.map": "/static/js/main.f776178e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6cb3ab8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.6cb3ab8e.js.map",
     "static/css/2.5d716dde.chunk.css": "/static/css/2.5d716dde.chunk.css",
     "static/js/2.af68dbb3.chunk.js": "/static/js/2.af68dbb3.chunk.js",
     "static/js/2.af68dbb3.chunk.js.map": "/static/js/2.af68dbb3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2cb7f87bbc923190ec23646d8b766347.js": "/precache-manifest.2cb7f87bbc923190ec23646d8b766347.js",
+    "precache-manifest.911ed84c296db6253c155c5a1cbacdd2.js": "/precache-manifest.911ed84c296db6253c155c5a1cbacdd2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5d716dde.chunk.css.map": "/static/css/2.5d716dde.chunk.css.map",
-    "static/css/main.a0d047a3.chunk.css.map": "/static/css/main.a0d047a3.chunk.css.map",
+    "static/css/main.75e0ebae.chunk.css.map": "/static/css/main.75e0ebae.chunk.css.map",
     "static/js/2.af68dbb3.chunk.js.LICENSE.txt": "/static/js/2.af68dbb3.chunk.js.LICENSE.txt",
     "static/media/Animales1.mp4": "/static/media/Animales1.b6640a57.mp4",
     "static/media/Ansiedad Social.mp4": "/static/media/Ansiedad Social.9763b7f5.mp4",
@@ -101,7 +101,7 @@
     "static/js/runtime-main.6cb3ab8e.js",
     "static/css/2.5d716dde.chunk.css",
     "static/js/2.af68dbb3.chunk.js",
-    "static/css/main.a0d047a3.chunk.css",
-    "static/js/main.ed476c9f.chunk.js"
+    "static/css/main.75e0ebae.chunk.css",
+    "static/js/main.f776178e.chunk.js"
   ]
 }
