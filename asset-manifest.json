@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.75e0ebae.chunk.css",
-    "main.js": "/static/js/main.f776178e.chunk.js",
-    "main.js.map": "/static/js/main.f776178e.chunk.js.map",
+    "main.js": "/static/js/main.d3c8ef55.chunk.js",
+    "main.js.map": "/static/js/main.d3c8ef55.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6cb3ab8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.6cb3ab8e.js.map",
     "static/css/2.5d716dde.chunk.css": "/static/css/2.5d716dde.chunk.css",
     "static/js/2.af68dbb3.chunk.js": "/static/js/2.af68dbb3.chunk.js",
     "static/js/2.af68dbb3.chunk.js.map": "/static/js/2.af68dbb3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.794ae6d9913debe1c25262a960428cab.js": "/precache-manifest.794ae6d9913debe1c25262a960428cab.js",
+    "precache-manifest.65469705da60617c389366dfb203245b.js": "/precache-manifest.65469705da60617c389366dfb203245b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5d716dde.chunk.css.map": "/static/css/2.5d716dde.chunk.css.map",
     "static/css/main.75e0ebae.chunk.css.map": "/static/css/main.75e0ebae.chunk.css.map",
@@ -60,6 +60,9 @@
     "static/media/cartasHorizontalBlanco.gif": "/static/media/cartasHorizontalBlanco.d455f974.gif",
     "static/media/cartasVerticalAzul.gif": "/static/media/cartasVerticalAzul.3cd4b83c.gif",
     "static/media/cartasVerticalBlanco.gif": "/static/media/cartasVerticalBlanco.6b78aa37.gif",
+    "static/media/causa_4.1.jpg": "/static/media/causa_4.1.ffef767f.jpg",
+    "static/media/causa_4.2.jpg": "/static/media/causa_4.2.044040f3.jpg",
+    "static/media/causa_4.3.jpg": "/static/media/causa_4.3.447138dc.jpg",
     "static/media/correcto.svg": "/static/media/correcto.f85d5b92.svg",
     "static/media/el-avaro.mp4": "/static/media/el-avaro.119a668b.mp4",
     "static/media/el-avaro.jpg": "/static/media/el-avaro.432a72e5.jpg",
@@ -73,7 +76,6 @@
     "static/media/el-monocultivo.mp4": "/static/media/el-monocultivo.b4b78d2c.mp4",
     "static/media/el-sancocho.mp4": "/static/media/el-sancocho.75e7905e.mp4",
     "static/media/el-sancocho.jpg": "/static/media/el-sancocho.c20434e0.jpg",
-    "static/media/fotografía_documental.jpg": "/static/media/fotografía_documental.ed0616e9.jpg",
     "static/media/incorrecto.svg": "/static/media/incorrecto.858977b2.svg",
     "static/media/infografías-ilustradas-.jpg": "/static/media/infografías-ilustradas-.e1232794.jpg",
     "static/media/la-agropolis.mp4": "/static/media/la-agropolis.caca7eae.mp4",
@@ -89,12 +91,10 @@
     "static/media/lx-ahogadx.jpg": "/static/media/lx-ahogadx.a11b193d.jpg",
     "static/media/lx-ahogadx.mp4": "/static/media/lx-ahogadx.ae9b682c.mp4",
     "static/media/ojocounter.svg": "/static/media/ojocounter.457d5bf2.svg",
-    "static/media/recorrido_ciudadbolivar.PNG": "/static/media/recorrido_ciudadbolivar.ef251038.PNG",
     "static/media/redes.mp4": "/static/media/redes.b232204a.mp4",
     "static/media/saberes tradicionales.png": "/static/media/saberes tradicionales.3236ce7e.png",
     "static/media/simbiosis.mp4": "/static/media/simbiosis.4749d175.mp4",
     "static/media/solidaridad.mp4": "/static/media/solidaridad.ada0c9c0.mp4",
-    "static/media/taller_creativo.jpg": "/static/media/taller_creativo.420f6dde.jpg",
     "static/media/¿Quién presta la olla_.png": "/static/media/¿Quién presta la olla_.a59cf161.png"
   },
   "entrypoints": [
@@ -102,6 +102,6 @@
     "static/css/2.5d716dde.chunk.css",
     "static/js/2.af68dbb3.chunk.js",
     "static/css/main.75e0ebae.chunk.css",
-    "static/js/main.f776178e.chunk.js"
+    "static/js/main.d3c8ef55.chunk.js"
   ]
 }
