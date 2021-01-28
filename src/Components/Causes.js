@@ -12,9 +12,9 @@ import C2A4 from "../actividadescausas/causadiversificarelcuidado/¿Quién prest
 import C3A1 from "../actividadescausas/causasimbiosis/Gota tras gota.jpg";
 import C3A2 from "../actividadescausas/causasimbiosis/Huerteando en la ciudad.jpg";
 import C3A3 from "../actividadescausas/causasimbiosis/aún se puede usar.jpg";
-import C4A2 from "../actividadescausas/causasolidaridad/recorrido_ciudadbolivar.PNG";
-import C4A3 from "../actividadescausas/causasolidaridad/fotografía_documental.jpg";
-import C4A4 from "../actividadescausas/causasolidaridad/taller_creativo.jpg";
+import C4A2 from "../actividadescausas/causasolidaridad/causa_4.1.jpg";
+import C4A3 from "../actividadescausas/causasolidaridad/causa_4.2.jpg";
+import C4A4 from "../actividadescausas/causasolidaridad/causa_4.3.jpg";
 
 const datos = [];
 
@@ -129,16 +129,17 @@ Causa(
   [
     {
       image: C4A2,
-      title: "Recorrido por Ciudad Bolívar",
-      actividad:
-        "Se conocerán de primera mano las experiencias de las comunidades para afrontar los cambios generados por la pandemia de COVID-19.",
-    },
-    {
-      image: C4A3,
       title: "Taller de fotografía documental:",
       actividad:
         "Se explorará la fotografía documental como forma de cuestionar prejuicios y estigmas, activar redes de cuidado y el rol de las imágenes.",
     },
+    {
+      image: C4A3,
+      title: "Recorrido por Ciudad Bolívar",
+      actividad:
+        "Se conocerán de primera mano las experiencias de las comunidades para afrontar los cambios generados por la pandemia de COVID-19.",
+    },
+
     {
       image: C4A4,
       title: "Taller creativo: ",
