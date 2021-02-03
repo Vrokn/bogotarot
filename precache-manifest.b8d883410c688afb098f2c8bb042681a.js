@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e586c5e882bf323db277af0304c39830",
+    "revision": "7eed50b4833128a3bf4c057e50462be5",
     "url": "/index.html"
   },
   {
-    "revision": "27a5f71ae542158c73c0",
+    "revision": "847dd6b2ee0e54f4e8e2",
     "url": "/static/css/2.5d716dde.chunk.css"
   },
   {
-    "revision": "45026f4c0a62588f6790",
-    "url": "/static/css/main.91bc69de.chunk.css"
+    "revision": "3c2ac2d94c19c135bb3d",
+    "url": "/static/css/main.e2d34ac5.chunk.css"
   },
   {
-    "revision": "27a5f71ae542158c73c0",
-    "url": "/static/js/2.af68dbb3.chunk.js"
+    "revision": "847dd6b2ee0e54f4e8e2",
+    "url": "/static/js/2.5183763f.chunk.js"
   },
   {
     "revision": "3d49407eb028d12acab2acc1468f1980",
-    "url": "/static/js/2.af68dbb3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5183763f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45026f4c0a62588f6790",
-    "url": "/static/js/main.557adac5.chunk.js"
+    "revision": "3c2ac2d94c19c135bb3d",
+    "url": "/static/js/main.7475d8a0.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Desecho.844223b1.mp4"
   },
   {
+    "revision": "05c3c0a6b4dd7e2d25d34305d700164b",
+    "url": "/static/media/Down.05c3c0a6.svg"
+  },
+  {
     "revision": "beccc1fcadd22a8c414fa7c00dd12693",
     "url": "/static/media/Ejemplos Solidaridad.beccc1fc.mp4"
   },
@@ -88,20 +92,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/GroupD.f77b3c45.png"
   },
   {
-    "revision": "a59be02572c3ead2dad54212c271fe2d",
-    "url": "/static/media/Historias.a59be025.svg"
-  },
-  {
     "revision": "c90060efea1de86e80a0e15327c81979",
     "url": "/static/media/HistoriasMobile.c90060ef.svg"
   },
   {
     "revision": "6c5df889b3e24a666545855e1bc141f5",
     "url": "/static/media/Historiasb.6c5df889.svg"
-  },
-  {
-    "revision": "ddeeebbc57ee4a95b844aedfe052d2ad",
-    "url": "/static/media/Historiasmobil.ddeeebbc.svg"
   },
   {
     "revision": "8d9c9924b307679bb9a2f41f6aca9370",
@@ -144,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Next.5eecb940.svg"
   },
   {
+    "revision": "7d4edd774539f1955416b782977693a8",
+    "url": "/static/media/NextCard.7d4edd77.svg"
+  },
+  {
     "revision": "e710b2cef323ef0d9130545914afb687",
     "url": "/static/media/Ojoamarillo.e710b2ce.svg"
   },
@@ -172,6 +172,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Prev.909f93b3.svg"
   },
   {
+    "revision": "11634df65de8870df4119a5586ed373e",
+    "url": "/static/media/PreviousCard.11634df6.svg"
+  },
+  {
     "revision": "a7b22be30ad74793c85a9ed4b729f9ce",
     "url": "/static/media/Reconociendo el entorno.a7b22be3.jpg"
   },
@@ -186,6 +190,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ea0c0847c97cfc893fbe1d9926f639d",
     "url": "/static/media/Sociedad Temerosa.9ea0c084.mp4"
+  },
+  {
+    "revision": "fc6f9f361238ce5d0bbe3463dadd1fd2",
+    "url": "/static/media/SunMoon.fc6f9f36.svg"
   },
   {
     "revision": "1dc59b0ffc025e291b65431409671427",
