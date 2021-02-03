@@ -9,7 +9,7 @@ import {
 import Header from "./Components/Header";
 import "./App.css";
 import CardGrid from "./Components/CardGrid";
-import Intro from "./Components/Intro";
+import Introd from "./Components/Introd";
 import Instructions from "./Components/Instructions";
 import MenuCausas from "./Components/MenuCausas";
 import Footer from "./Components/Footer";
@@ -72,7 +72,7 @@ export default function App() {
           </Route>
           <Route path="/introducción">
             <Header />
-            <Intro />
+            <Introd />
             <Footer />
           </Route>
           <Route path="/cartas">

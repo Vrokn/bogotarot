@@ -107,9 +107,9 @@ Causa(
     },
     {
       image: C3A2,
-      title: "Huerteando en la ciudad: ",
+      title: "Humedales y huertas, volviendo al origen:",
       actividad:
-        "Encuentro con colectivos de huertas urbanas en la ciudad, en dónde haremos un acercamiento a la importancia de reconocer el origen de lo que comemos, así como, la forma en la que disponemos nuestros desechos.",
+        "Encuentro con Somos Uno, colectivo de huertas urbanas en la ciudad, con quienes haremos un acercamiento a la importancia de reconocer el origen de lo que comemos, así como, la forma en la que disponemos nuestros desechos y cómo afecta a los cuerpos de agua de la ciudad en especial los humedales.",
     },
     {
       image: C3A3,
@@ -147,6 +147,6 @@ Causa(
         "Espacio para generar piezas de construcción colectiva en torno a las redes de solidaridad y el futuro de la ciudad.",
     },
   ],
-  "https://forms.gle/4b4S7yZWKgLV6hJv5"
+  "https://forms.gle/S8iWjik9THQjUvTy7"
 );
 export default datos;

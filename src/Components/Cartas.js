@@ -6,7 +6,7 @@ import correcto from "../Graphics/correcto.svg";
 import incorrecto from "../Graphics/incorrecto.svg";
 
 const Carta = ({ num }) => {
-  const [showIntro, setShshowIntro] = useState(true);
+  const [showIntro, setShowIntro] = useState(true);
   const [showQuestion, setShowQuestion] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
   const [popup, setpopup] = useState(false);
@@ -70,11 +70,11 @@ const Carta = ({ num }) => {
       <div className="rightSide">
         <div className={showIntro ? "cardIntro" : "hidden"}>
           <h1>{data[num].name}</h1>
-          <p>{data[num].desctiption}</p>
+          <p>{data[num].description}</p>
           <button
             className="cardbutton"
             onClick={() => {
-              setShshowIntro(false);
+              setShowIntro(false);
               setShowQuestion(true);
             }}
           >
