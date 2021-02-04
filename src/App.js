@@ -5,7 +5,6 @@ import {
   Route,
   HashRouter,
 } from "react-router-dom";
-
 import Header from "./Components/Header";
 import "./App.css";
 import CardGrid from "./Components/CardGrid";

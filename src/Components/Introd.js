@@ -7,6 +7,7 @@ import Ojodescription from "../Graphics/Ojodescription.svg";
 import Down from "../Graphics/Down.svg";
 import SunMoon from "../Graphics/SunMoon.svg";
 import Close from "../Graphics/Close.svg";
+import folleto from "../Cards/folleto_descargable.pdf";
 
 function Intro() {
   let video = useRef();
@@ -42,7 +43,12 @@ function Intro() {
             colectivamente esta pregunta: ¿Cuál es la mejor versión de Bogotá y
             qué necesitamos pensar, soñar y hacer para hacerla realidad?
           </p>
-          <button className={"downloadButton"}>
+          <a
+            href={folleto}
+            className={"downloadButton"}
+            type={"button"}
+            download="Set Bogotarot"
+          >
             Descargar todo el set
             <Image
               src={Down}
@@ -50,7 +56,7 @@ function Intro() {
               size={"mini"}
               floated="right"
             />
-          </button>
+          </a>
           <Image src={SunMoon} className={"SunMoon"} centered />
         </div>
         <div className={"newRight"}>
@@ -60,7 +66,6 @@ function Intro() {
               autoPlay
               muted
               playsInline
-              playsinline
               ref={video}
               poster={carta.image}
               className="videoDownload"
@@ -100,7 +105,6 @@ function Intro() {
                     autoPlay
                     muted
                     playsInline
-                    playsinline
                     poster={carta.image}
                     className="videoDownloadable"
                   >
@@ -111,15 +115,15 @@ function Intro() {
                 <div className={"cardText"}>
                   <h2>{carta.name}</h2>
                   <p>{carta.description}</p>
-                  <button className={"downloadButton"}>
+                  <a
+                    href={carta.image}
+                    className={"downloadButton"}
+                    type={"button"}
+                    download={`${carta.name}`}
+                  >
                     Descargar carta
-                    <Image
-                      src={Down}
-                      className={"Down"}
-                      size={"mini"}
-                      floated="right"
-                    />
-                  </button>
+                    <Image src={Down} className={"Down"} size={"mini"} />
+                  </a>
                 </div>
               </div>
               <div>

@@ -53,18 +53,25 @@ html {
   max-width: 70px !important;
   margin: 1em 0;
 }
-.downloadButton {
+a.downloadButton {
+  display: flex;
   align-self: flex-start;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
   font-family: Rakkas;
   font-size: 28px;
   letter-spacing: 0.06em;
   color: #15263d;
   background: linear-gradient(89.9deg, #da8d24 1.3%, #fed002 99.91%);
   border-radius: 12px;
-  border: none;
   padding: 0.25em 1em;
+}
+.cardText .downloadButton {
+  max-width: 320px;
+}
+.downloadButton:hover {
+  background: linear-gradient(89.9deg, #fed002 1.3%, #da8d24 99.91%);
+  color: #142438;
 }
 .newRight {
   background: radial-gradient(circle, #fed002c9 0%, rgba(255, 255, 255, 0) 40%);
@@ -1065,8 +1072,8 @@ html {
   .newLeft {
     width: 100%;
   }
-  .newLeft{
-padding: 3em;
+  .newLeft {
+    padding: 3em;
   }
   .newLeft h1 {
     font-size: 3em !important;
@@ -1114,7 +1121,7 @@ padding: 3em;
     position: relative;
     bottom: 2em;
   }
-  .downlodable .Bogotarot2{
+  .downlodable .Bogotarot2 {
     max-width: 60px !important;
   }
   /*MIEDOS*/
