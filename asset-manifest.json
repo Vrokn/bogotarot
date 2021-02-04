@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2d34ac5.chunk.css",
-    "main.js": "/static/js/main.7475d8a0.chunk.js",
-    "main.js.map": "/static/js/main.7475d8a0.chunk.js.map",
+    "main.css": "/static/css/main.d6704f97.chunk.css",
+    "main.js": "/static/js/main.b704c071.chunk.js",
+    "main.js.map": "/static/js/main.b704c071.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6cb3ab8e.js",
     "runtime-main.js.map": "/static/js/runtime-main.6cb3ab8e.js.map",
     "static/css/2.5d716dde.chunk.css": "/static/css/2.5d716dde.chunk.css",
-    "static/js/2.5183763f.chunk.js": "/static/js/2.5183763f.chunk.js",
-    "static/js/2.5183763f.chunk.js.map": "/static/js/2.5183763f.chunk.js.map",
+    "static/js/2.2d42abad.chunk.js": "/static/js/2.2d42abad.chunk.js",
+    "static/js/2.2d42abad.chunk.js.map": "/static/js/2.2d42abad.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8d883410c688afb098f2c8bb042681a.js": "/precache-manifest.b8d883410c688afb098f2c8bb042681a.js",
+    "precache-manifest.c85c1de4d2ea0a63d5c9522ca9ce8d2f.js": "/precache-manifest.c85c1de4d2ea0a63d5c9522ca9ce8d2f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.5d716dde.chunk.css.map": "/static/css/2.5d716dde.chunk.css.map",
-    "static/css/main.e2d34ac5.chunk.css.map": "/static/css/main.e2d34ac5.chunk.css.map",
-    "static/js/2.5183763f.chunk.js.LICENSE.txt": "/static/js/2.5183763f.chunk.js.LICENSE.txt",
+    "static/css/main.d6704f97.chunk.css.map": "/static/css/main.d6704f97.chunk.css.map",
+    "static/js/2.2d42abad.chunk.js.LICENSE.txt": "/static/js/2.2d42abad.chunk.js.LICENSE.txt",
     "static/media/Animales1.mp4": "/static/media/Animales1.b6640a57.mp4",
     "static/media/Ansiedad Social.mp4": "/static/media/Ansiedad Social.9763b7f5.mp4",
     "static/media/Artistas escenicos.mp4": "/static/media/Artistas escenicos.32e67970.mp4",
@@ -76,6 +76,7 @@
     "static/media/el-monocultivo.mp4": "/static/media/el-monocultivo.b4b78d2c.mp4",
     "static/media/el-sancocho.mp4": "/static/media/el-sancocho.75e7905e.mp4",
     "static/media/el-sancocho.jpg": "/static/media/el-sancocho.c20434e0.jpg",
+    "static/media/folleto_descargable.pdf": "/static/media/folleto_descargable.cb52145f.pdf",
     "static/media/incorrecto.svg": "/static/media/incorrecto.858977b2.svg",
     "static/media/infografías-ilustradas-.jpg": "/static/media/infografías-ilustradas-.e1232794.jpg",
     "static/media/la-agropolis.mp4": "/static/media/la-agropolis.caca7eae.mp4",
@@ -100,8 +101,8 @@
   "entrypoints": [
     "static/js/runtime-main.6cb3ab8e.js",
     "static/css/2.5d716dde.chunk.css",
-    "static/js/2.5183763f.chunk.js",
-    "static/css/main.e2d34ac5.chunk.css",
-    "static/js/main.7475d8a0.chunk.js"
+    "static/js/2.2d42abad.chunk.js",
+    "static/css/main.d6704f97.chunk.css",
+    "static/js/main.b704c071.chunk.js"
   ]
 }
