@@ -47,7 +47,7 @@ function Intro() {
             href={set}
             className={"downloadButton"}
             type={"button"}
-            download="Set Bogotarot"
+            download="Set Bogotarot.zip"
           >
             Descargar todo el set
             <Image
@@ -119,7 +119,7 @@ function Intro() {
                     href={carta.download}
                     className={"downloadButton"}
                     type={"button"}
-                    download={`${carta.name}`}
+                    download={`${carta.name}.zip`}
                   >
                     Descargar carta
                     <Image src={Down} className={"Down"} size={"mini"} />
