@@ -7,7 +7,7 @@ import Ojodescription from "../Graphics/Ojodescription.svg";
 import Down from "../Graphics/Down.svg";
 import SunMoon from "../Graphics/SunMoon.svg";
 import Close from "../Graphics/Close.svg";
-import folleto from "../Cards/folleto_descargable.pdf";
+import set from "../Downloadables/Cards.zip";
 
 function Intro() {
   let video = useRef();
@@ -44,7 +44,7 @@ function Intro() {
             qué necesitamos pensar, soñar y hacer para hacerla realidad?
           </p>
           <a
-            href={folleto}
+            href={set}
             className={"downloadButton"}
             type={"button"}
             download="Set Bogotarot"
@@ -116,7 +116,7 @@ function Intro() {
                   <h2>{carta.name}</h2>
                   <p>{carta.description}</p>
                   <a
-                    href={carta.image}
+                    href={carta.download}
                     className={"downloadButton"}
                     type={"button"}
                     download={`${carta.name}`}
