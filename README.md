@@ -1,4 +1,4 @@
-Versión 1.0 Noviembre 2020
+Versión 1.4 Febrero 2020
 Los cambios se pueden explorar en https://github.com/Vrokn/bogotarot/commits/master
 
 # Tecnologías usadas
@@ -19,8 +19,9 @@ Para realizar cambios del proyecto debe realizar los siguientes pasos:
 
 1. Haga un fork de este repositorio.
 2. Clone una copia en su dispositivo.
-3. Ejecute yarn para instalar las dependencias necesarias para la modificación del programa. (las dependencias necesarias se encuentran listadas en el package.json)
+3. Ejecute yarn o npm para instalar las dependencias necesarias para la modificación del programa. (las dependencias necesarias se encuentran listadas en el package.json)
 * los componentes editables se encuentran en la carpeta Components dentro de la carpeta src, son archivos .js
+4. Ya tendra una copia donde pueda ejecutar cambios en los componentes y modulos, el despliegue en servidores deberá hacerse nuevamente y de ser diferente a github-pages debera configurarse el dominio y el DNS a la ruta bogotarot nuevamente.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
