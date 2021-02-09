@@ -39,19 +39,19 @@ Causa(
   [
     {
       image: C1A1,
-      title: "Reconociendo el entorno: ",
+      title: "Reconociendo el entorno",
       actividad:
-        "    Recorrido guiado por uno de los ecosistemas de la ciudad, en el que los participantes identificarán y plasmarán de manera gráfica qué tanto conocen su entorno y las relaciones entre las especies.",
+        "Recorrido guiado por uno de los ecosistemas de la ciudad, en el que los participantes identificarán y plasmarán de manera gráfica qué tanto conocen su entorno y las relaciones entre las especies.",
     },
     {
       image: C1A2,
-      title: "¿Cómo cambió nuestro entorno durante la pandemia?: ",
+      title: "¿Cómo cambió nuestro entorno durante la pandemia?",
       actividad:
         "Taller de podcast, en el que se indagará sobre los cambios que se vivieron y observaron en la ciudad durante los primeros 6 meses de la pandemia por COVID-19.",
     },
     {
       image: C1A3,
-      title: "Retratando a mis vecinos: ",
+      title: "Retratando a mis vecinos",
       actividad:
         "Taller de animación, en el que se cuestionará y reflexionará sobre la forma en la que vemos y compartimos nuestro entorno con vecinos humanos y no humanos.",
     },
@@ -67,25 +67,25 @@ Causa(
   [
     {
       image: C2A1,
-      title: "Graficando el cuidado: ",
+      title: "Graficando el cuidado",
       actividad:
         "A través de la gigantografía, se abordarán las formas en las que la pandemia de COVID-19 afectó las nociones de cuidado y los efectos que ha tenido sobre quienes lo ejercen.",
     },
     {
       image: C2A2,
-      title: "Conversación sobre saberes tradicionales:",
+      title: "Conversación sobre saberes tradicionales",
       actividad:
         "Se visitará la plaza de mercado Samper Mendoza, en donde se conversará sobre el papel de las plantas como seres de sanación y curación. Se busca plasmar recetas y experiencias en torno al cuidado y las plantas.",
     },
     {
       image: C2A3,
-      title: "La comida y el cuidado: ",
+      title: "La comida y el cuidado",
       actividad:
         "De manera virtual cocinaremos y conversaremos sobre el papel de la comida en el cuidado, y como las prácticas alimentarias se transformaron durante la pandemia de COVID-19.",
     },
     {
       image: C2A4,
-      title: "¿Quién presta la olla?: ",
+      title: "¿Quién presta la olla?",
       actividad:
         "Cocinar y comer son formas de construir redes de afecto. Esta actividad plantea realizar un plato típico para compartir con conocidos y extraños.",
     },
@@ -101,19 +101,19 @@ Causa(
   [
     {
       image: C3A1,
-      title: "Gota tras gota: ",
+      title: "Gota tras gota",
       actividad:
         "Recorrido por el nacimiento de uno de los cuerpos de agua de la ciudad, abordando el papel del agua en la relación entre lo rural y lo urbano.",
     },
     {
       image: C3A2,
-      title: "Humedales y huertas, volviendo al origen:",
+      title: "Humedales y huertas, volviendo al origen",
       actividad:
         "Encuentro con Somos Uno, colectivo de huertas urbanas en la ciudad, con quienes haremos un acercamiento a la importancia de reconocer el origen de lo que comemos, así como, la forma en la que disponemos nuestros desechos y cómo afecta a los cuerpos de agua de la ciudad en especial los humedales.",
     },
     {
       image: C3A3,
-      title: "Transformando el consumo: ",
+      title: "Transformando el consumo",
       actividad:
         "Recorrido por veredas de Ciudad Bolívar y Usme a través de senderos ecológicos, en donde se reflexionará acerca de pautas de consumo y cambios necesarios en torno al impacto de nuestros residuos.",
     },
@@ -129,7 +129,7 @@ Causa(
   [
     {
       image: C4A2,
-      title: "Taller de fotografía documental:",
+      title: "Taller de fotografía documental",
       actividad:
         "Se explorará la fotografía documental como forma de cuestionar prejuicios y estigmas, activar redes de cuidado y el rol de las imágenes.",
     },
@@ -142,7 +142,7 @@ Causa(
 
     {
       image: C4A4,
-      title: "Taller creativo: ",
+      title: "Dejando huellas",
       actividad:
         "Espacio para generar piezas de construcción colectiva en torno a las redes de solidaridad y el futuro de la ciudad.",
     },
