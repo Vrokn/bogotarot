@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "infinite-react-carousel";
 import fears from "./Fears";
-function Miedos() {
+function Voces() {
   let pad = window.innerWidth < 767 ? 50 : 500;
   let shift = window.innerWidth < 767 ? 0 : 150;
 
@@ -43,4 +43,4 @@ function Miedos() {
   );
 }
 
-export default Miedos;
+export default Voces;

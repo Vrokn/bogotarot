@@ -113,7 +113,7 @@ function EyeMenu2() {
             </Link>
             <Link
               className="brand2"
-              to="/miedos"
+              to="/voces"
               onMouseOver={() => {
                 setBgColor(true);
                 setLogoImage(LogosIdcpNaranja);
@@ -123,7 +123,7 @@ function EyeMenu2() {
                 setLogoImage(Logosidpcmdb);
               }}
             >
-              Miedos
+              Voces
             </Link>
           </div>
         </div>

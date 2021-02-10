@@ -20,7 +20,7 @@ import Redes from "./Components/Redes";
 import Solidaridad from "./Components/Solidaridad";
 import Simbiosis from "./Components/Simbiosis";
 import EyeMenu2 from "./Components/EyeMenu2";
-import Miedos from "./Components/Miedos";
+import Voces from "./Components/Voces";
 const customHistory = createBrowserHistory();
 
 export default function App() {
@@ -39,9 +39,9 @@ export default function App() {
     <Router history={customHistory}>
       <div className="App">
         <Switch>
-        <HashRouter path="/miedos">
+        <HashRouter path="/voces">
             <Header />
-            <Miedos />
+            <Voces />
             <Footer />
           </HashRouter>
           <HashRouter path="/biodiversidad">
