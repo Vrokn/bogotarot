@@ -19,7 +19,127 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+/*NEW STORIES*/
+.newStories {
+  display: flex;
+}
+.storiesLeft {
+  padding: 3vh 6vw;
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.storiesLeft h1 {
+  align-self: flex-start;
+  font-family: Rakkas;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 60px;
+  color: #da8d24;
+  margin: 0;
+}
+.storiesLeft p {
+  font-family: Oxygen;
+  font-size: 18px;
+  line-height: 32px;
+}
+a.storiesButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Rakkas;
+  font-size: 26px;
+  letter-spacing: 0.05em;
+  color: #15263d;
+  background: linear-gradient(89.9deg, #da8d24 1.3%, #fed002 99.91%);
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+.storiesButton:hover ,.frontContainer .storiesButton:hover{
+  background: linear-gradient(89.9deg, #fed002 1.3%, #da8d24 99.91%);
+  color: #142438;
+}
+.storiesRight {
+  background: radial-gradient(circle, #ff550025 0%, rgba(255, 255, 255, 0) 40%);
+  display: flex;
+  width: 35%;
+  padding: 1em;
+  overflow: auto;
+  max-height: 140vh;
+  flex-direction: column;
+  align-items: center;
+}
+.storie {
+  width: 30vw;
+  margin: 1.5em;
+  cursor: url("./Graphics/Cursor2.cur"), auto;
+}
+.storiePhoto {
+  width: 100%;
+  border-radius: 1em;
+}
+.c {
+  will-change: transform, opacity;
+}
+.c.back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.c.front {
+  width: 100%;
+  height: 30vw;
+  border-radius: 1em;
+  background-color: #15263d;
+  padding: 2em;
+}
+.frontContainer {
+  border-radius: 1em;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border: #da8d24 4px solid;
+  font-family: Oxygen;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
 
+}
+.frontContainer h1 {
+  align-self: center;
+  font-family: Rakkas;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4vw;
+  line-height: 28px;
+  color: #da8d24;
+  margin: 0;
+}
+.frontContainer .storiesButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Rakkas;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #15263d;
+  background: linear-gradient(89.9deg, #da8d24 1.3%, #fed002 99.91%);
+  border-radius: 12px;
+  padding: 0.4em 1em;
+}
+.c.front .SunMoon {
+  position: relative;
+  top: -2em;
+  background-color: #15263d !important;
+  padding: 0.4em 1em;
+}
 /*NEW INTRO*/
 .newIntro {
   display: flex;
@@ -860,13 +980,13 @@ a.downloadButton {
 }
 .causaslink {
   left: 8vw;
-  top: 6vh;
+  top: 8vh;
   display: flex !important ;
   align-self: center !important;
   position: relative !important;
 }
 .causaslink h1 {
-  font-size: 4rem;
+  font-size: 3vw;
   font-weight: normal;
   font-family: Rakkas !important;
   margin: 32px !important;
@@ -882,7 +1002,7 @@ a.downloadButton {
 .MenuCausasLinks a {
   font-weight: normal;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 2.6vw;
   font-family: Rakkas !important;
   color: #15263d !important;
 }
@@ -1064,6 +1184,48 @@ a.downloadButton {
 }
 
 @media (max-width: 767px) {
+  /*NEW STORIES*/
+  .newStories {
+    flex-direction: column;
+  }
+  .storiesLeft,
+  .storiesRight {
+    width: 100%;
+  }
+  .storie {
+    width: 80vw;
+  }
+  .storiesLeft p {
+    font-family: Oxygen;
+    font-size: 16px;
+    line-height: 30px;
+    width: 80%;
+  }
+  .storiesLeft h1 {
+    font-size: 2.5rem;
+    margin: 0 1em;
+  }
+  .c.front {
+    height: 80vw;
+    padding: 1em;
+  }
+  .frontContainer {
+    padding: 2em;
+    border: #da8d24 2px solid;
+  }
+  .frontContainer .storiesButton {
+    font-size: 16px;
+    padding: 0.3em 0.8em;
+  }
+  .c.front .SunMoon {
+    position: relative;
+    top: -3em;
+    background-color: #15263d !important;
+    padding: 0.4em 1em;
+  }
+  .frontContainer h1 {
+    font-size: 1.5em;
+  }
   /*NEW INTRO*/
   .newIntro {
     flex-direction: column;

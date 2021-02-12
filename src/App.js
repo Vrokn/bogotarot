@@ -13,7 +13,7 @@ import Instructions from "./Components/Instructions";
 import MenuCausas from "./Components/MenuCausas";
 import Footer from "./Components/Footer";
 import Cartas from "./Components/Cartas";
-import Historias from "./Components/Historias";
+import Historias from "./Components/Historias2";
 import { createBrowserHistory } from "history";
 import Biodiversidad from "./Components/Biodiversidad";
 import Redes from "./Components/Redes";
