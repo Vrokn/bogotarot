@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import Slider from "infinite-react-carousel";
 import Bogotarot from "../Graphics/Bogotarot.svg";
 import { Image } from "semantic-ui-react";
-import Cards from "../Components/Cards";
+import Cards from "./Cards";
 import Ojodescription from "../Graphics/Ojodescription.svg";
 import Down from "../Graphics/Down.svg";
 import SunMoon from "../Graphics/SunMoon.svg";
