@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c94fac27e39d1c887061619ce815376",
+    "revision": "aba3a6bac9d9437a74383a18d8dd1487",
     "url": "/index.html"
   },
   {
-    "revision": "00c63cc12b71d66572d2",
+    "revision": "c416ae6b7859371e9043",
     "url": "/static/css/2.5d716dde.chunk.css"
   },
   {
-    "revision": "74a8f567da3fc5422cc8",
-    "url": "/static/css/main.f58a4d6f.chunk.css"
+    "revision": "ca191482381f5ea6fa27",
+    "url": "/static/css/main.6721c167.chunk.css"
   },
   {
-    "revision": "00c63cc12b71d66572d2",
-    "url": "/static/js/2.f25db9ff.chunk.js"
+    "revision": "c416ae6b7859371e9043",
+    "url": "/static/js/2.bdfa8639.chunk.js"
   },
   {
     "revision": "3d49407eb028d12acab2acc1468f1980",
-    "url": "/static/js/2.f25db9ff.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.bdfa8639.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74a8f567da3fc5422cc8",
-    "url": "/static/js/main.07a7dc64.chunk.js"
+    "revision": "ca191482381f5ea6fa27",
+    "url": "/static/js/main.2ec01f49.chunk.js"
   },
   {
     "revision": "37bfa0012035dc860504",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Artistas escenicos.32e67970.mp4"
   },
   {
-    "revision": "39517457253e61044a6558874b8147e1",
-    "url": "/static/media/Bogotarot.39517457.svg"
+    "revision": "5dce1e7bd04eb995cfc866f93e99cae1",
+    "url": "/static/media/Bogotarot.5dce1e7b.svg"
   },
   {
     "revision": "2a0347edfa3cb09d4e26e8f1dc148428",
@@ -52,12 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Cards.8eb59bca.zip"
   },
   {
-    "revision": "14d15483d57b7a7308e8112e23b2ba8c",
-    "url": "/static/media/Close.14d15483.svg"
+    "revision": "aad8eb883229c4b0e90bb635c39a9c1e",
+    "url": "/static/media/Close.aad8eb88.svg"
   },
   {
-    "revision": "cd2a56ebd4677562a17494f7877d7641",
-    "url": "/static/media/Contadorbg.cd2a56eb.svg"
+    "revision": "5cccdb15a9c0cffd542431e6b30bb9f7",
+    "url": "/static/media/Contadorbg.5cccdb15.svg"
+  },
+  {
+    "revision": "c1e67456a340c0a3047cce58a14613b0",
+    "url": "/static/media/Correcto.c1e67456.svg"
   },
   {
     "revision": "7249a4f024b4ddc80379ce64a7732ec8",
@@ -68,8 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Desecho.844223b1.mp4"
   },
   {
-    "revision": "05c3c0a6b4dd7e2d25d34305d700164b",
-    "url": "/static/media/Down.05c3c0a6.svg"
+    "revision": "997541cbe66085e94b31caa830b481f1",
+    "url": "/static/media/Down.997541cb.svg"
+  },
+  {
+    "revision": "2d05255b110973b61a4161589c865356",
+    "url": "/static/media/EL-GUETTO.2d05255b.jpg"
+  },
+  {
+    "revision": "1a6a39f29d96503ed4708e6118aabd7f",
+    "url": "/static/media/EL-MONOCULTIVO.1a6a39f2.jpg"
   },
   {
     "revision": "beccc1fcadd22a8c414fa7c00dd12693",
@@ -100,12 +112,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Huerteando en la ciudad.8d9c9924.jpg"
   },
   {
-    "revision": "fa0b5bdf9f7bbd4a16e24cad24d01868",
-    "url": "/static/media/Instrucciones.fa0b5bdf.svg"
+    "revision": "15f5cd5fefeef6e3fe3f20e9e47b7319",
+    "url": "/static/media/Incorrecto.15f5cd5f.svg"
   },
   {
-    "revision": "fa33a900262828ce995c293cbe50e5dd",
-    "url": "/static/media/Instruccionesmobile.fa33a900.svg"
+    "revision": "30a59c82f5773e4fe208000b268a33a9",
+    "url": "/static/media/Instrucciones.30a59c82.svg"
+  },
+  {
+    "revision": "77f412be215a67dd33e16915eddb34e6",
+    "url": "/static/media/Instruccionesmobile.77f412be.svg"
   },
   {
     "revision": "cd54e59a78affa4f16b2066667baf493",
@@ -116,60 +132,60 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Lazos.56c5009e.mp4"
   },
   {
-    "revision": "fec07c3a2b5611a76acfdfc0e3826f17",
-    "url": "/static/media/LogosBlancos.fec07c3a.svg"
+    "revision": "96d32ebdd4328117481d10b127c9f79b",
+    "url": "/static/media/LogosBlancos.96d32ebd.svg"
   },
   {
-    "revision": "839fd739cc85da05f8c71603c3ca3abd",
-    "url": "/static/media/LogosIdcpNaranja.839fd739.svg"
+    "revision": "2b01f04b41aafb17d7f84467ea3ce09d",
+    "url": "/static/media/LogosIdcpNaranja.2b01f04b.svg"
   },
   {
-    "revision": "0142c6e7a1394274136772a66a310c38",
-    "url": "/static/media/Logosidpcmdb.0142c6e7.svg"
+    "revision": "48a99ef13e79b7ce1fe64da503932767",
+    "url": "/static/media/Logosidpcmdb.48a99ef1.svg"
   },
   {
     "revision": "14a9a189fe278e777e6f9fc6b5e8612d",
     "url": "/static/media/Miedo.14a9a189.mp4"
   },
   {
-    "revision": "5eecb94007f6205757133944a4416866",
-    "url": "/static/media/Next.5eecb940.svg"
+    "revision": "18be5f398302f960e6a5b3a3fcb06805",
+    "url": "/static/media/Next.18be5f39.svg"
   },
   {
-    "revision": "7d4edd774539f1955416b782977693a8",
-    "url": "/static/media/NextCard.7d4edd77.svg"
+    "revision": "eac4a320cebbd41cca4f5561cce48ac1",
+    "url": "/static/media/NextCard.eac4a320.svg"
   },
   {
-    "revision": "e710b2cef323ef0d9130545914afb687",
-    "url": "/static/media/Ojoamarillo.e710b2ce.svg"
+    "revision": "f0970adcfa2a2888cfa3a6eb849cb3d8",
+    "url": "/static/media/Ojoamarillo.f0970adc.svg"
   },
   {
-    "revision": "e17ca21d2c3bfcd2c49c6e405c208b3c",
-    "url": "/static/media/Ojodescription.e17ca21d.svg"
+    "revision": "d752d416ff71a79c97628735cb9854f4",
+    "url": "/static/media/Ojodescription.d752d416.svg"
   },
   {
-    "revision": "923369af360baf65ecb33d5e089f7462",
-    "url": "/static/media/OrnamentoID.923369af.svg"
+    "revision": "9120ca352acc954080f90450dccf0bd8",
+    "url": "/static/media/OrnamentoID.9120ca35.svg"
   },
   {
-    "revision": "c4cade57eb2dcafe9edb2dcf9be6abf8",
-    "url": "/static/media/OrnamentoII.c4cade57.svg"
+    "revision": "475f0de73d3a1957af820393c3d41c23",
+    "url": "/static/media/OrnamentoII.475f0de7.svg"
   },
   {
-    "revision": "441a6d8db2e7ae493bfdace6e8772a0f",
-    "url": "/static/media/OrnamentoSD.441a6d8d.svg"
+    "revision": "573c3f500d5f3918b8eaa583dd774005",
+    "url": "/static/media/OrnamentoSD.573c3f50.svg"
   },
   {
-    "revision": "cda2c54fe6c78fa7f176a170230c06a3",
-    "url": "/static/media/OrnamentoSI.cda2c54f.svg"
+    "revision": "ff5bbf9fe30a2a6ea357bb0b83e56d2b",
+    "url": "/static/media/OrnamentoSI.ff5bbf9f.svg"
   },
   {
-    "revision": "909f93b3ba38d85e7db6dd6ee38a1d17",
-    "url": "/static/media/Prev.909f93b3.svg"
+    "revision": "6d69e4b46da3801aa818b3c1e6193250",
+    "url": "/static/media/Prev.6d69e4b4.svg"
   },
   {
-    "revision": "11634df65de8870df4119a5586ed373e",
-    "url": "/static/media/PreviousCard.11634df6.svg"
+    "revision": "68cd10f2981fcacc34994ae53d599d13",
+    "url": "/static/media/PreviousCard.68cd10f2.svg"
   },
   {
     "revision": "a7b22be30ad74793c85a9ed4b729f9ce",
@@ -188,8 +204,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Sociedad Temerosa.9ea0c084.mp4"
   },
   {
-    "revision": "fc6f9f361238ce5d0bbe3463dadd1fd2",
-    "url": "/static/media/SunMoon.fc6f9f36.svg"
+    "revision": "e8170a51133a45aa99a9f356065a6876",
+    "url": "/static/media/SunMoon.e8170a51.svg"
   },
   {
     "revision": "1dc59b0ffc025e291b65431409671427",
@@ -256,10 +272,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/causa_4.3.447138dc.jpg"
   },
   {
-    "revision": "f85d5b92202853d77ba3b6fa511ebac5",
-    "url": "/static/media/correcto.f85d5b92.svg"
-  },
-  {
     "revision": "119a668bef4724d570cc08e0e6034f62",
     "url": "/static/media/el-avaro.119a668b.mp4"
   },
@@ -300,16 +312,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/el-guetto.09b06f29.zip"
   },
   {
-    "revision": "2d05255b110973b61a4161589c865356",
-    "url": "/static/media/el-guetto.2d05255b.jpg"
-  },
-  {
     "revision": "d496fb7b623ecdfd67a8cebe26adc259",
     "url": "/static/media/el-guetto.d496fb7b.mp4"
-  },
-  {
-    "revision": "1a6a39f29d96503ed4708e6118aabd7f",
-    "url": "/static/media/el-monocultivo.1a6a39f2.jpg"
   },
   {
     "revision": "b4b78d2c1dc8d8173d4b414e746efb47",
@@ -428,10 +432,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icons.faff9214.woff"
   },
   {
-    "revision": "858977b2bf78c0bbed3d176520b515f9",
-    "url": "/static/media/incorrecto.858977b2.svg"
-  },
-  {
     "revision": "e123279468b4004846e0d1c74f5c1929",
     "url": "/static/media/infografías-ilustradas-.e1232794.jpg"
   },
@@ -508,8 +508,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/lx-ahogadx.ae9b682c.mp4"
   },
   {
-    "revision": "457d5bf2c16e8d46ef57d6057072ce0d",
-    "url": "/static/media/ojocounter.457d5bf2.svg"
+    "revision": "122b7cf7cd0c4059033d59862b4f97e5",
+    "url": "/static/media/ojocounter.122b7cf7.svg"
   },
   {
     "revision": "701ae6abd4719e9c2ada3535a497b341",
