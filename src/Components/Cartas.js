@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Image, Modal } from "semantic-ui-react";
 import data from "./Cards";
 import { HashLink } from "react-router-hash-link";
-import correcto from "../Graphics/correcto.svg";
-import incorrecto from "../Graphics/incorrecto.svg";
+import correcto from "../Graphics/Correcto.svg";
+import incorrecto from "../Graphics/Incorrecto.svg";
 
 const Carta = ({ num }) => {
   const [showIntro, setShowIntro] = useState(true);
